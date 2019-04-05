@@ -72,3 +72,8 @@
 .pt-image{
     width: 128px;
 }
+
+.aviso{
+    padding: 0.1rem 1.25rem;
+    margin: 1% 0 1% 0;
+}

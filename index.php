@@ -7,7 +7,7 @@
     criar_cabecalho("Fecitec | $pagina[0]", null);
     criar_menu();
 
-    echo file_get_contents("componentes/paginas/$pagina[1]");
+    //echo file_get_contents("componentes/paginas/$pagina[1]");
+    imprimir_pagina($pagina[1]);
 
     criar_rodape(null);
-?>
