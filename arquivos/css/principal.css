@@ -18,18 +18,29 @@
 
 .assuntos{
     filter: grayscale(0%);
+    max-width: 150px;
 }
 
 .assuntos:hover{
-    filter: grayscale(0%);
+    filter: grayscale(30%);
 }
 
-.rodape{
+.rodapeC{
     padding-top: 6vh;
+
+    background: url("../imagens/banner-1.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: #fff;
+    padding-bottom: 1vh;
+}
+
+.rodapeR{
+    padding-top: 3vh;
     background: #1b1d22;
     color: #fff;
     padding-bottom: 1vh;
-    margin-top: 6vh;
 }
 
 .icone{
@@ -39,4 +50,25 @@
 
 .icone:hover{
     color: #a81d49;
+}
+
+.footerText{
+    color: rgb(202, 202, 202);
+}
+
+#patrocinadores{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#materias{
+    background: #a81d49;
+    color: #fff;
+
+    padding-top: 10vh;
+    padding-bottom: 6vh;
+}
+
+.pt-image{
+    width: 128px;
 }

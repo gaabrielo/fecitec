@@ -9,7 +9,7 @@
                         <span class='navbar-toggler-icon'></span>
                     </button>
                     <div class='collapse navbar-collapse' id='navbarNav'>
-                        <ul class='navbar-nav navbar-right'>";
+                        <ul class='navbar-nav'>";
         }
 
         public function fechar(){
