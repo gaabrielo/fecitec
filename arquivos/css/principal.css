@@ -1,0 +1,42 @@
+.banner{
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 20vh;
+      
+    align-items: center;
+    justify-content: center;
+  
+    background: url("../imagens/banner-1.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cartaz{
+    height: 100%;
+    width: 100%;
+}
+
+.assuntos{
+    filter: grayscale(0%);
+}
+
+.assuntos:hover{
+    filter: grayscale(0%);
+}
+
+.rodape{
+    padding-top: 6vh;
+    background: #1b1d22;
+    color: #fff;
+    padding-bottom: 1vh;
+    margin-top: 6vh;
+}
+
+.icone{
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+
+.icone:hover{
+    color: #a81d49;
+}

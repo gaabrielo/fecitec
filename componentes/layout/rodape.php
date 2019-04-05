@@ -1,0 +1,35 @@
+<?php
+
+    function criar_rodape($extra){
+        echo "  <div class='rodape'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-sm-3'>
+                                <h6><strong>Endereço</strong></h6>
+                                <p>
+                                    Rua Pioneiro, 2153<br>
+                                    Jardim Dallas<br>
+                                    Palotina-PR<br>
+                                </p>
+                            </div>
+                            <div class='col-sm-9'>
+                                <h6><strong>FECITEC</strong></h6>
+                                <p style='text-align:justify'>É uma feira de ciência e tecnologia com enfoque em inovação. Ela acontece anualmente desde 2011 na cidade de Palotina-PR. O evento é organizado por professores da Universidade Federal do Paraná.</p>
+                            </div>
+                        </div>
+                        <div style='text-align: center'>
+                            <i class='fab fa-facebook-f icone'></i>
+                            <h6><strong>FECITEC</strong> © 2019</h6>
+                        </div>
+                        
+                    </div>
+                </div>
+        
+        
+                <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
+                <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+                $extra
+            </body>
+        </html>";
+    }
