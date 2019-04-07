@@ -76,4 +76,10 @@
 .aviso{
     padding: 0.1rem 1.25rem;
     margin: 1% 0 1% 0;
+    width: 100%;
+}
+
+.sessao{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }

@@ -51,12 +51,12 @@
             echo "</select></div>";
         }
 
-        public function abrir_sessao($titulo){
-            echo "<div class='card'>
+        public function abrir_sessao($titulo, $id){
+            echo "<div class='card sessao'>
                     <div class='card-header'>
                         $titulo
                     </div>
-                    <div class='card-body row'>";
+                    <div class='card-body row' id='$id'>";
         }
 
         public function fechar_sessao(){
@@ -68,9 +68,20 @@
         }
 
         private function criar_alerta($tipo, $id, $mensagem){
-            return "<div id='$id-H' class='alert alert-$tipo text-muted aviso' role='alert'>
-                        <small>$mensagem</small>
-                    </div>";
+            return "<div id='$id-H' class='alert alert-$tipo text-muted aviso' role='alert'><small>$mensagem</small></div>";
+        }
+
+        public function criar_check($id, $mensagem, $extra){
+            echo "<div class='checkbox'>
+                    <label for='$id'>
+                        <input type='checkbox' id='$id' value='1' $extra>
+                        $mensagem
+                    </label>
+                  </div>";
+        }
+
+        public function criar_botao_enviar($texto){
+            echo "<div style='text-align: center'><button type='submit' class='btn btn-lg btn-primary'>$texto</button></div>";
         }
 
         public function fechar(){
