@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
   
-    background: url("../imagens/banner-1.jpg") no-repeat center center;
+    background: url("../imagens/teste2.png") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -28,7 +28,7 @@
 .rodapeC{
     padding-top: 6vh;
 
-    background: url("../imagens/banner-1.jpg") no-repeat center center;
+    background: url("../imagens/teste5.png") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 
