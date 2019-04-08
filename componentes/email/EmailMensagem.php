@@ -1,7 +1,7 @@
 <?php
 
-    define(CABECALHO_FECITEC, "<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
-    define(FOOTER_FECITEC, "<a>9ª <strong>FECITEC</strong></a>");
+    /*define(CABECALHO_FECITEC, "<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
+    define(FOOTER_FECITEC, "<a>9ª <strong>FECITEC</strong></a>");*/
 
     class EmailMensagem{
         private $mensagem = "";

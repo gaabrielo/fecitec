@@ -1,5 +1,9 @@
 <?php 
 
+ini_set('display_errors',1);
+ini_set('display_startup_erros',1);
+error_reporting(E_ALL);
+
     require_once("../email/Email.php");
     require_once("../email/EmailMensagem.php");
 
@@ -74,7 +78,7 @@
         $comp_alunos = ["ALUNOS E CAMISETAS", $mensagem];
     }
 
-    $mensagem = new EmailMensagem(CABECALHO_FECITEC);
+    $mensagem = new EmailMensagem("<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
     $mensagem->corpo([
         $comp_projeto, 
         $comp_recursos,
@@ -86,16 +90,14 @@
         $comp_observacoes,
         $comp_declaracao
         ]);
-    $mensagem->final(FOOTER_FECITEC);
+    $mensagem->final("<a>9ª <strong>FECITEC</strong></a>");
     
-    echo $mensagem->montar();
-    /*
     $email = new Email;
 
-    if($email->enviar_teste("INSCRIÇÃO: $titulo", $mensagem->montar(), $professor_email)){
+    if($email->enviar("INSCRIÇÃO: $titulo", $mensagem->montar(), $professor_email)){
         echo "ENVIADO!";
     } else {
         echo "ALGO DEU ERRADO =(";
-    }*/
+    }
 
     //echo $mensagem;

@@ -1,16 +1,27 @@
 <?php
+    function xurl($nome){
+        return "?pagina=".sha1($nome);
+    }
 
     function tratar_get($get){
         $inicio = ["Início", "inicio.html"];
-        $formulario = ["Formulário", "formulario.php"];
+        $projeto = ["Formulário", "formulario.php"];
+        $apresentacao = ["Apresentação", "apresentacao.html"];
+        $orientacoes = ["Orientações", "orientacoes.html"];
 
         if(empty($get)){
             return $inicio;
         }
 
         switch($get){
-            case 1:
-                return $formulario;
+            case sha1("projeto"):
+                return $projeto;
+
+            case sha1("apresentacao"):
+                return $apresentacao;
+            
+            case sha1("orientacoes"):
+                return $orientacoes;
 
             default:
                 return $inicio;

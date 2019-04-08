@@ -84,11 +84,16 @@
             $form->campo_selecionar("projeto_c_tamanho$i", null, "col-3", $camiseta_tamanhos, null, null);
         }
         
-        $form->criar_aviso(null, "<strong>ATENÇÃO:</strong> 3 alunos deverão permanecer no estande no período da manhã e 3 no período da tarde.");
+        $form->criar_aviso(null, "<strong>ATENÇÃO:</strong> Apenas os ensinos infatil e fundamental contarão com 6 alunos, os quais deverão revezar em equipes de três expositores em cada turno. <a href='#'>Modelos e medidas das camisetas</a>.");
     }
 
 
 ?>
+<div class="container" style="margin-top: 5%; margin-bottom: 5%">
+    <center>
+        <img src="arquivos/imagens/logo-corpadrao.svg" class="img-fluid">
+    </center>
+</div>
 
 <div class="container" style="margin-bottom: 5%">
     <?php
@@ -146,7 +151,6 @@
 
 <script>
     function ConfigBy_NivelEscolar(){
-        console.log("atualizou!");
         var x = $("#projeto_instituicaonivel").val();   
 
         if(x == "Ensino Médio / Técnico"){

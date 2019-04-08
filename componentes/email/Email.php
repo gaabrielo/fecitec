@@ -14,7 +14,7 @@
             $this->mail->Username = '#';         // SMTP username
             $this->mail->Password = '#';                // SMTP password
             $this->mail->SMTPSecure = '#';              // Enable TLS encryption, `ssl` also accepted
-            $this->mail->Port = '#';
+            $this->mail->Port = 0;
         }
 
         public function enviar($titulo, $mensagem, $professor){
@@ -22,13 +22,16 @@
             $this->mail->addAddress('fecitec.ufpr@gmail.com');
             $this->mail->addAddress($professor);
             $this->mail->addBCC('xfelipesobral@gmail.com');
-            $this->mail->addReplyTo($professor);
 
             $this->mail->isHTML(true); 
 
-            $this->mail->Subject = "INSCRIÇÃO: $titulo";
-            $this->mail->Body = $mensagem;
-            $this->mail->AltBody = $mensagem;
+            $this->mail->Subject = utf8_decode("INSCRIÇÃO: $titulo");
+            $this->mail->Body = utf8_decode($mensagem);
+            $this->mail->AltBody = utf8_decode($mensagem);
+
+            if($this->mail->send()){
+                return true;
+            }
         }
 
         public function enviar_teste($titulo, $mensagem, $professor){
