@@ -84,7 +84,7 @@
             $form->campo_selecionar("projeto_c_tamanho$i", null, "col-3", $camiseta_tamanhos, null, null);
         }
         
-        $form->criar_aviso(null, "<strong>ATENÇÃO:</strong> Apenas os ensinos infatil e fundamental contarão com 6 alunos, os quais deverão revezar em equipes de três expositores em cada turno. <a href='#'>Modelos e medidas das camisetas</a>.");
+        $form->criar_aviso(null, "<strong>ATENÇÃO:</strong> Apenas os ensinos infantil e fundamental I contarão com 6 alunos, os quais deverão revezar em equipes de três expositores em cada turno. <a href='#'>Modelos e medidas das camisetas</a>.");
     }
 
 
@@ -100,7 +100,7 @@
         $form = New Formulario("projeto");
             $form->abrir_sessao("Informações do Projeto", "sessao_informacoesprojeto");
                 $form->campo_texto_area("projeto_titulo", "Título", "col-12", "placeholder='Atenção: Depois de enviado o título não poderá ser alterado' maxlength='200' autofocus required", "No resumo, muita atenção para erros ortográficos, abreviações e os limites mínimo e máximo de palavras (de 150 a 400 palavras).");
-                $form->campo_texto_area("projeto_resumo", "Resumo", "col-12", "placeholder='De 150 a no máximo 400 palavras' style='height:170px;' required", "Não serão aceitos projetos que utilizam fogo ou qualquer equipamento que possa colocar em risco os participantes da Feira, bem como produtos que possam gerar vapores poluentes ou com odor forte e desagradável.&nbsp;Confira as regras no <a class='text-primary alert-link' href='orientacao.html' target='_blank'>Manual</a>.");
+                $form->campo_texto_area("projeto_resumo", "Resumo", "col-12", "placeholder='De 150 a no máximo 400 palavras' style='height:170px;' required", "Não serão aceitos projetos que utilizam fogo ou qualquer equipamento que possa colocar em risco os participantes da Feira, bem como produtos que possam gerar vapores poluentes ou com odor forte e desagradável.&nbsp;Confira as regras no <a class='text-primary alert-link' href='".xurl("orientacoes")."' target='_blank'>Manual</a>.");
             $form->fechar_sessao();
 
             $form->abrir_sessao("Recursos", "sessao_recursos");
@@ -158,11 +158,11 @@
             $("#projeto_instituicaoano").prop('required', true);
         } else {
             $("#projeto_instituicaoano").prop('disabled', true);
-            $("#projeto_instituicaoano").val("#");
             $("#projeto_instituicaoano").prop('required', false);
+            $("#projeto_instituicaoano").val("#");
         }
 
-        if(x == "Ensino Fundamental II" || x == "Ensino Médio / Técnico"){
+        if(x == "Ensino Fundamental I" || x == "Ensino Infantil"){
             $("#sessao_camisetas").html("<?php imprimir_alunos(6, $form);?>");
         } else {
             $("#sessao_camisetas").html("<?php imprimir_alunos(3, $form);?>");

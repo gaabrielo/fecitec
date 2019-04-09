@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div style='text-align: center'>
-                            <i class='fab fa-facebook-f icone'></i>
+                            <a href='https://www.facebook.com/Fecitec-600812453274934/' target='_BLANK'><i class='fab fa-facebook-f icone'></i></a>
                         </div>
                         
                     </div>
@@ -38,9 +38,6 @@
                             </div>
                             <div class='col'>
                                 <img src='arquivos/imagens/patrocinadores/logo_upfr_palotina.png' class='pt-image'/>
-                            </div>
-                            <div class='col'>
-                                <img src='arquivos/imagens/patrocinadores/prati.jpg' class='pt-image'/>
                             </div>
                             <div class='col'>
                                 <img src='arquivos/imagens/patrocinadores/prefeitura.png' class='pt-image' style='width: 80px'/>

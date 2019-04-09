@@ -18,13 +18,13 @@
 
         public function item($texto, $link){
             echo "<li class='nav-item'>
-                    <a class='nav-link' href='$link'>$texto</a>
+                    <a class='nav-link' href='$link' role='button'>$texto</a>
                   </li>";
         }
 
         public function dropdown($nome, $itens){
             echo "<li class='nav-item dropdown'>
-                   <a class='nav-link dropdown-toggle' id='$nome' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                   <a class='nav-link dropdown-toggle' id='$nome' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' role='button' style='cursor: pointer'>
                     $nome
                    </a>
                    <div class='dropdown-menu' aria-labelledby='$nome'>";

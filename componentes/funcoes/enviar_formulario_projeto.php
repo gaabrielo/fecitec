@@ -1,16 +1,11 @@
 <?php 
-
-ini_set('display_errors',1);
-ini_set('display_startup_erros',1);
-error_reporting(E_ALL);
-
     require_once("../email/Email.php");
     require_once("../email/EmailMensagem.php");
 
-    /*if(!isset($_POST) || empty($_POST)){
+    if(!isset($_POST) || empty($_POST)){
         echo "INVÁLIDO";
         exit;
-    }*/
+    }
     function mensagem_componente($titulo, $texto){
         return "<p><strong>$titulo: </strong>$texto</p>";
     }
@@ -78,7 +73,7 @@ error_reporting(E_ALL);
         $comp_alunos = ["ALUNOS E CAMISETAS", $mensagem];
     }
 
-    $mensagem = new EmailMensagem("<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
+    $mensagem = new EmailMensagem("<img src='http://www.fecitec.ufpr.br/arquivos/imagens/logo-branco.svg' width='100%'><h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
     $mensagem->corpo([
         $comp_projeto, 
         $comp_recursos,
@@ -90,7 +85,7 @@ error_reporting(E_ALL);
         $comp_observacoes,
         $comp_declaracao
         ]);
-    $mensagem->final("<a>9ª <strong>FECITEC</strong></a>");
+    $mensagem->final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
     
     $email = new Email;
 
@@ -100,4 +95,4 @@ error_reporting(E_ALL);
         echo "ALGO DEU ERRADO =(";
     }
 
-    //echo $mensagem;
+    //echo $mensagem->montar();
