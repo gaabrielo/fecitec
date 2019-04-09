@@ -73,7 +73,7 @@
         $comp_alunos = ["ALUNOS E CAMISETAS", $mensagem];
     }
 
-    $mensagem = new EmailMensagem("<img src='http://www.fecitec.ufpr.br/arquivos/imagens/logo-branco.svg' width='100%'><h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
+    $mensagem = new EmailMensagem("<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
     $mensagem->corpo([
         $comp_projeto, 
         $comp_recursos,
@@ -90,9 +90,12 @@
     $email = new Email;
 
     if($email->enviar("INSCRIÇÃO: $titulo", $mensagem->montar(), $professor_email)){
-        echo "ENVIADO!";
+        echo "#true#";
     } else {
-        echo "ALGO DEU ERRADO =(";
+        echo "#false#";
     }
+
+    //header("Location: ?pagina=".sha1("mensagem")."&".sha1("msg")."=".sha1("email-false")); 
+    
 
     //echo $mensagem->montar();

@@ -18,7 +18,7 @@
         private function componente($titulo, $mensagem){
             return              "<div style='background: #dbdbdb; margin: 3px;'>
                                     <h3 style='background: #a71647; color: #fff; padding: 10px 3px'>$titulo</h3>
-                                    <div style='text-align: justify; margin: 5%'>
+                                    <div style='text-align: justify; color: #000; margin: 5%'>
                                         $mensagem
                                     </div>
                                     <br>

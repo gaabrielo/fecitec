@@ -13,8 +13,8 @@
             $this->mail->SMTPAuth = true;                      // Enable SMTP authentication
             $this->mail->Username = '#';         // SMTP username
             $this->mail->Password = '#';                // SMTP password
-            $this->mail->SMTPSecure = '#';              // Enable TLS encryption, `ssl` also accepted
-            $this->mail->Port = 0;
+            $this->mail->SMTPSecure = 'STARTTLS';              // Enable TLS encryption, `ssl` also accepted
+            $this->mail->Port = '#';
         }
 
         public function enviar($titulo, $mensagem, $professor){

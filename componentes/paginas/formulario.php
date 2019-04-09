@@ -87,6 +87,11 @@
         $form->criar_aviso(null, "<strong>ATENÇÃO:</strong> Apenas os ensinos infantil e fundamental I contarão com 6 alunos, os quais deverão revezar em equipes de três expositores em cada turno. <a href='#'>Modelos e medidas das camisetas</a>.");
     }
 
+    $msg = sha1("msg");
+    $pg = sha1("mensagem");
+    $conteudo_success = sha1("email-success");
+    $conteudo_false = sha1("email-false");
+
 
 ?>
 <div class="container" style="margin-top: 5%; margin-bottom: 5%">
@@ -234,7 +239,9 @@
             projeto_declaracao1: projeto_declaracao1,
             projeto_declaracao2: projeto_declaracao2
         }, function(retorno){
-            alert(retorno);
+            <?php 
+                echo "if(retorno == '#true#'){window.location.assign('?pagina=$pg&$msg=$conteudo_success'); return;}window.location.assign('?pagina=$pg&$msg=$conteudo_false');";  
+            ?>
         });
 
         
