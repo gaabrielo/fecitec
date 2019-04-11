@@ -214,8 +214,7 @@
             projeto_deficientes: $("#projeto_deficientes").val(),
             projeto_observacoes: $("#projeto_observacoes").val(),
             projeto_declaracao1: $("#projeto_declaracao1").val(),
-            projeto_declaracao2: $("#projeto_declaracao2").val(),
-            forma:forma
+            projeto_declaracao2: $("#projeto_declaracao2").val()
         }, function(retorno){
             console.log("entrou aqui!11");
             if(retorno == "#true#"){

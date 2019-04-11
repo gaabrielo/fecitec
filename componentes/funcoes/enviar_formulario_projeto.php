@@ -28,7 +28,6 @@
     $observacoes = $_POST["projeto_observacoes"];
     $declaracao1 = $_POST["projeto_declaracao1"];
     $declaracao2 = $_POST["projeto_declaracao2"];
-    $forma = $_POST["forma"];
 
     //OBRIGATÓRIOS
     if(empty($titulo) || empty($resumo) || empty($local) || empty($justifique) || empty($instituicao) || empty($instituicao) ||
@@ -90,7 +89,7 @@
         ]);
     $mensagem->e_final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
     
-    $email = new Email($forma);
+    $email = new Email();
 
     if($email->enviar("INSCRIÇÃO: $titulo", $mensagem->montar(), $professor_email)){
         echo "#true#";
