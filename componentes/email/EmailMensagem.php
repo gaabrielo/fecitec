@@ -1,8 +1,5 @@
 <?php
 
-    /*define(CABECALHO_FECITEC, "<h1>SUCESSO!</h1><h3>Inscrição realizada para a 9ª Fecitec.</h3>");
-    define(FOOTER_FECITEC, "<a>9ª <strong>FECITEC</strong></a>");*/
-
     class EmailMensagem{
         private $mensagem = "";
         
@@ -38,7 +35,7 @@
                                 </tr>";
         }
 
-        public function final($mensagem){
+        public function e_final($mensagem){
             $this->mensagem .= "<tr>
                                     <td style='background: #262626; color: #fff; padding: 2%;'>
                                         $mensagem

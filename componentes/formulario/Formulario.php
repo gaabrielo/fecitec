@@ -1,7 +1,10 @@
 <?php
 
     class Formulario{
+        private $id;
+
         public function __construct($id){
+            $this->id = $id;
             echo "<form id='$id'>";
         }
 
@@ -81,7 +84,8 @@
         }
 
         public function criar_botao_enviar($texto){
-            echo "<div style='text-align: center'><button type='submit' class='btn btn-lg btn-primary'>$texto</button></div>";
+            $id = $this->id;
+            echo "<div style='text-align: center'><button id='$id-botao' type='submit' class='btn btn-lg btn-primary'>$texto</button></div>";
         }
 
         public function fechar(){

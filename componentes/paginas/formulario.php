@@ -178,72 +178,71 @@
         ConfigBy_NivelEscolar();
     });
 
-    $("#projeto").submit(function(){
-        /*$.post("xxx",{@parans},function(retorno){
+    function pagina_erro(){
+        window.location.assign("http://www.fecitec.ufpr.br/?pagina=d3d357c16c68e1ed1b1b3ea80cf91cb613c6bf55&19f34ee1e406ea84ca83c835a3301b5d9014a788=77b5be1e44683fe73622fb11554129e0cd90cf14");
+    }
+    
+    function pagina_sucesso(){
+        window.location.assign("http://www.fecitec.ufpr.br/?pagina=d3d357c16c68e1ed1b1b3ea80cf91cb613c6bf55&19f34ee1e406ea84ca83c835a3301b5d9014a788=4d833f8ffe092e06a7a92b1ecee88702a5342c2e");
+    }
 
-        });*/
-        var projeto_titulo = $("#projeto_titulo").val();
-        var projeto_resumo = $("#projeto_resumo").val();
-        var projeto_local = $("#projeto_localespecifico").val();
-        var projeto_justifique = $("#projeto_justifique").val();
-        var projeto_instituicao = $("#projeto_instituicao").val();
-        var projeto_instituicaonivel = $("#projeto_instituicaonivel").val();
-        var projeto_instituicaoano = $("#projeto_instituicaoano").val();
-        var projeto_professornome = $("#projeto_professornome").val();
-        var projeto_professoremail = $("#projeto_professoremail").val();
-        var projeto_professortelefone = $("#projeto_professortelefone").val();
-        var projeto_monitoresufpr = $("#projeto_monitoresufpr").val();
-        var projeto_c_aluno1 = $("#projeto_c_aluno1").val();
-        var projeto_c_tipo1 = $("#projeto_c_tipo1").val();
-        var projeto_c_tamanho1 = $("#projeto_c_tamanho1").val();
-        var projeto_c_aluno2 = $("#projeto_c_aluno2").val();
-        var projeto_c_tipo2 = $("#projeto_c_tipo2").val();
-        var projeto_c_tamanho2 = $("#projeto_c_tamanho2").val();
-        var projeto_c_aluno3 = $("#projeto_c_aluno3").val();
-        var projeto_c_tipo3 = $("#projeto_c_tipo3").val();
-        var projeto_c_tamanho3 = $("#projeto_c_tamanho3").val();
-        var projeto_c_aluno4 = $("#projeto_c_aluno4").val();
-        var projeto_c_tipo4 = $("#projeto_c_tipo4").val();
-        var projeto_c_tamanho4 = $("#projeto_c_tamanho4").val();
-        var projeto_c_aluno5 = $("#projeto_c_aluno5").val();
-        var projeto_c_tipo5 = $("#projeto_c_tipo5").val();
-        var projeto_c_tamanho5 = $("#projeto_c_tamanho5").val();
-        var projeto_c_aluno6 = $("#projeto_c_aluno6").val();
-        var projeto_c_tipo6 = $("#projeto_c_tipo6").val();
-        var projeto_c_tamanho6 = $("#projeto_c_tamanho6").val();
-        var projeto_deficientes = $("#projeto_deficientes").val();
-        var projeto_observacoes = $("#projeto_observacoes").val();
-        var projeto_declaracao1 = $("#projeto_declaracao1").val();
-        var projeto_declaracao2 = $("#projeto_declaracao2").val();
+    function enviar_formulario(forma){
+        var url = "/componentes/funcoes/enviar_formulario_projeto.php";
 
-        $.post("http://localhost/fecitec/componentes/funcoes/enviar_formulario_projeto.php", {
-            projeto_titulo:projeto_titulo,
-            projeto_resumo:projeto_resumo,
-            projeto_local:projeto_local,
-            projeto_justifique:projeto_justifique,
-            projeto_instituicao:projeto_instituicao,
-            projeto_instituicaonivel:projeto_instituicaonivel,
-            projeto_instituicaoano:projeto_instituicaoano,
-            projeto_professornome:projeto_professornome,
-            projeto_professoremail:projeto_professoremail,
-            projeto_professortelefone:projeto_professortelefone,
-            projeto_monitoresufpr:projeto_monitoresufpr,
-            alunos: [[projeto_c_aluno1, projeto_c_tipo1, projeto_c_tamanho1],
-                     [projeto_c_aluno2, projeto_c_tipo2, projeto_c_tamanho2],
-                     [projeto_c_aluno3, projeto_c_tipo3, projeto_c_tamanho3],
-                     [projeto_c_aluno4, projeto_c_tipo4, projeto_c_tamanho4],
-                     [projeto_c_aluno5, projeto_c_tipo5, projeto_c_tamanho5],
-                     [projeto_c_aluno6, projeto_c_tipo6, projeto_c_tamanho6]],
-            projeto_deficientes: projeto_deficientes,
-            projeto_observacoes: projeto_observacoes,
-            projeto_declaracao1: projeto_declaracao1,
-            projeto_declaracao2: projeto_declaracao2
+        if(forma == 2){
+            url = "http://localhost/fecitec/componentes/funcoes/enviar_formulario_projeto.php";
+        }
+
+        $.post(url, {
+            projeto_titulo:$("#projeto_titulo").val(),
+            projeto_resumo:$("#projeto_resumo").val(),
+            projeto_local:$("#projeto_localespecifico").val(),
+            projeto_justifique:$("#projeto_justifique").val(),
+            projeto_instituicao:$("#projeto_instituicao").val(),
+            projeto_instituicaonivel:$("#projeto_instituicaonivel").val(),
+            projeto_instituicaoano:$("#projeto_instituicaoano").val(),
+            projeto_professornome:$("#projeto_professornome").val(),
+            projeto_professoremail:$("#projeto_professoremail").val(),
+            projeto_professortelefone:$("#projeto_professortelefone").val(),
+            projeto_monitoresufpr:$("#projeto_monitoresufpr").val(),
+            alunos: [[$("#projeto_c_aluno1").val(), $("#projeto_c_tipo1").val(), $("#projeto_c_tamanho1").val()],
+                     [$("#projeto_c_aluno2").val(), $("#projeto_c_tipo2").val(), $("#projeto_c_tamanho2").val()],
+                     [$("#projeto_c_aluno3").val(), $("#projeto_c_tipo3").val(), $("#projeto_c_tamanho3").val()],
+                     [$("#projeto_c_aluno4").val(), $("#projeto_c_tipo4").val(), $("#projeto_c_tamanho4").val()],
+                     [$("#projeto_c_aluno5").val(), $("#projeto_c_tipo5").val(), $("#projeto_c_tamanho5").val()],
+                     [$("#projeto_c_aluno6").val(), $("#projeto_c_tipo6").val(), $("#projeto_c_tamanho6").val()]],
+            projeto_deficientes: $("#projeto_deficientes").val(),
+            projeto_observacoes: $("#projeto_observacoes").val(),
+            projeto_declaracao1: $("#projeto_declaracao1").val(),
+            projeto_declaracao2: $("#projeto_declaracao2").val(),
+            forma:forma
         }, function(retorno){
-            <?php 
-                echo "if(retorno == '#true#'){window.location.assign('?pagina=$pg&$msg=$conteudo_success'); return;}window.location.assign('?pagina=$pg&$msg=$conteudo_false');";  
-            ?>
-        });
+            console.log("entrou aqui!11");
+            if(retorno == "#true#"){
+                console.log("entrou aqui!12");
+                pagina_sucesso();
+                return;
+            }
+            pagina_erro();
 
+        }).fail(function(){
+            console.log("entrou aqui!");
+            
+            if(forma == 1){
+                enviar_formulario(2);
+            }
+
+        });
+        
+        return;
+    }
+
+    $("#projeto").submit(function(){
+        $("#projeto-botao").prop("disabled", true);
+        $("#projeto-botao").html("<div class='spinner-border' role='status'><span class='sr-only'>Enviando</span></div>");
+
+        // problema nesta função
+        enviar_formulario(1);
         
         return false;
     });

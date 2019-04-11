@@ -1,4 +1,5 @@
-<?php 
+<?php     
+
     require_once("../email/Email.php");
     require_once("../email/EmailMensagem.php");
 
@@ -27,12 +28,14 @@
     $observacoes = $_POST["projeto_observacoes"];
     $declaracao1 = $_POST["projeto_declaracao1"];
     $declaracao2 = $_POST["projeto_declaracao2"];
+    $forma = $_POST["forma"];
 
     //OBRIGATÓRIOS
     if(empty($titulo) || empty($resumo) || empty($local) || empty($justifique) || empty($instituicao) || empty($instituicao) ||
        empty($instituicao_nivel) || empty($professor_nome) || empty($professor_email) || empty($professor_telefone) ||
        empty($monitores) || empty($declaracao1) || empty($declaracao2)){
         echo "VALORES INCOMPATÍVEIS";
+        exit;
     }else{
         $comp_projeto = ["PROJETO", mensagem_componente("Título", $titulo).mensagem_componente("Resumo", $resumo)];
         $comp_recursos = ["RECURSOS", mensagem_componente("Local específico", $local).mensagem_componente("Justificativa", $justifique)];
@@ -85,15 +88,16 @@
         $comp_observacoes,
         $comp_declaracao
         ]);
-    $mensagem->final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
+    $mensagem->e_final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
     
-    $email = new Email;
+    $email = new Email($forma);
 
     if($email->enviar("INSCRIÇÃO: $titulo", $mensagem->montar(), $professor_email)){
         echo "#true#";
     } else {
         echo "#false#";
     }
+
 
     //header("Location: ?pagina=".sha1("mensagem")."&".sha1("msg")."=".sha1("email-false")); 
     
