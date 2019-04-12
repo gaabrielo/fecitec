@@ -6,7 +6,21 @@
     align-items: center;
     justify-content: center;
   
-    background: url("../imagens/teste2.png") no-repeat center center;
+    background: url("../imagens/banner.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-s{
+    text-align: center;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    margin-bottom: 3%;
+      
+    align-items: center;
+    justify-content: center;
+  
+    background: url("../imagens/banner.jpg") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }

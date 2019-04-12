@@ -10,6 +10,7 @@
         $orientacoes = ["Orientações", "orientacoes.html"];
         $participantes = ["Participantes", "participantes.html"];
         $mensagem = ["Aviso", "mensagem.php"];
+        $contato = ["Contato", "contato.php"];
 
         if(empty($get)){
             return $inicio;
@@ -30,6 +31,9 @@
             
             case sha1("mensagem");
                 return $mensagem;
+
+            case sha1("contato");
+                return $contato;
 
             default:
                 return $inicio;

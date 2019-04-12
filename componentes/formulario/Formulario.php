@@ -62,6 +62,10 @@
                     <div class='card-body row' id='$id'>";
         }
 
+        public function espacador(){
+            echo "<hr style='width: 60%'>";
+        }
+
         public function fechar_sessao(){
             echo "</div></div>";
         }
@@ -85,7 +89,7 @@
 
         public function criar_botao_enviar($texto){
             $id = $this->id;
-            echo "<div style='text-align: center'><button id='$id-botao' type='submit' class='btn btn-lg btn-primary'>$texto</button></div>";
+            echo "<div class='col-12' style='text-align: center'><button id='$id-botao' type='submit' class='btn btn-lg btn-primary'>$texto</button></div>";
         }
 
         public function fechar(){

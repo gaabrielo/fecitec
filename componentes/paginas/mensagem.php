@@ -28,9 +28,9 @@
 
         echo "
             <div class='container' style='margin-top: 5%; margin-bottom: 5%'>
-                <center>
-                    <img src='arquivos/imagens/logo-corpadrao.svg' class='img-fluid'>
-                </center>
+                <div class='container-fluid banner-s'>
+                    <img src='arquivos/imagens/logo-branco.svg' class='img-fluid'>
+                </div>
             </div>
         
             <div class='container' style='margin-top: 5%; margin-bottom: 5%'>

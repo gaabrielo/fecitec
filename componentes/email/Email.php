@@ -1,6 +1,8 @@
 <?php
     use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
 
+    require 'PHPMailer/src/Exception.php';
     require 'PHPMailer/src/PHPMailer.php';
     require 'PHPMailer/src/SMTP.php';
 
@@ -18,36 +20,28 @@
             $this->mail->Port = 587;  
         }
 
-        public function enviar($titulo, $mensagem, $professor){
-            $this->mail->setFrom('fecitec@ufpr.br', 'FECITEC');
-            $this->mail->addAddress('fecitec.ufpr@gmail.com');
-            $this->mail->addAddress($professor);
-            $this->mail->addBCC('xfelipesobral@gmail.com');
+        public function enviar($titulo, $mensagem, $destinatario){
 
-            $this->mail->isHTML(true); 
-            $this->mail->Subject = utf8_decode("INSCRIÇÃO: $titulo");
-            $this->mail->Body = utf8_decode($mensagem);
-            $this->mail->AltBody = utf8_decode($mensagem);
+            try {
+                $this->mail->setFrom('fecitec@ufpr.br', 'FECITEC');
+                $this->mail->addAddress('fecitec.ufpr@gmail.com');
+                $this->mail->addAddress($destinatario);
+                $this->mail->addAddress('xfelipesobral@gmail.com');
 
-            if($this->mail->send()){
-                return true;
+                $this->mail->isHTML(true); 
+                $this->mail->Subject = utf8_decode($titulo);
+                $this->mail->Body = utf8_decode($mensagem);
+                $this->mail->AltBody = utf8_decode($mensagem);
+
+                $this->mail->send();
+                
+                echo "#true#";
+            } catch (Exception $e){
+                //echo "Message could not be sent. Mailer Error: {$this->mail->ErrorInfo}";
+                echo "#false#";
+
             }
-        }
-
-        public function enviar_teste($titulo, $mensagem, $professor){
-            $this->mail->setFrom('fecitec@ufpr.br');
-            $this->mail->addAddress($professor);
-            $this->mail->addBCC('xfelipesobral@gmail.com');
-
-            $this->mail->isHTML(true); 
-
-            $this->mail->Subject = utf8_decode("INSCRIÇÃO: $titulo");
-            $this->mail->Body = utf8_decode($mensagem);
-            $this->mail->AltBody = utf8_decode($mensagem);
-
-            if($this->mail->send()){
-                return true;
-            }
+            
         }
 
     }

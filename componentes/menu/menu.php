@@ -13,7 +13,7 @@
         //$menu->item("Galeria", "#");
         //$menu->item("Notícias", "#");
         //$menu->item("Apoiadores", "#");
-        //$menu->item("Contato", "#");
+        $menu->item("Contato", xurl("contato"));
         $menu->fechar();
     }
 

@@ -94,10 +94,8 @@
 
 
 ?>
-<div class="container" style="margin-top: 5%; margin-bottom: 5%">
-    <center>
-        <img src="arquivos/imagens/logo-corpadrao.svg" class="img-fluid">
-    </center>
+<div class="container-fluid banner-s">
+    <img src="arquivos/imagens/logo-branco.svg" class="img-fluid">
 </div>
 
 <div class="container" style="margin-bottom: 5%">
@@ -186,12 +184,8 @@
         window.location.assign("http://www.fecitec.ufpr.br/?pagina=d3d357c16c68e1ed1b1b3ea80cf91cb613c6bf55&19f34ee1e406ea84ca83c835a3301b5d9014a788=4d833f8ffe092e06a7a92b1ecee88702a5342c2e");
     }
 
-    function enviar_formulario(forma){
+    function enviar_formulario(){
         var url = "/componentes/funcoes/enviar_formulario_projeto.php";
-
-        if(forma == 2){
-            url = "http://localhost/fecitec/componentes/funcoes/enviar_formulario_projeto.php";
-        }
 
         $.post(url, {
             projeto_titulo:$("#projeto_titulo").val(),
@@ -216,20 +210,17 @@
             projeto_declaracao1: $("#projeto_declaracao1").val(),
             projeto_declaracao2: $("#projeto_declaracao2").val()
         }, function(retorno){
-            console.log("entrou aqui!11");
+
             if(retorno == "#true#"){
-                console.log("entrou aqui!12");
                 pagina_sucesso();
                 return;
             }
+
             pagina_erro();
 
         }).fail(function(){
-            console.log("entrou aqui!");
-            
-            if(forma == 1){
-                enviar_formulario(2);
-            }
+
+            pagina_erro();
 
         });
         
@@ -240,8 +231,7 @@
         $("#projeto-botao").prop("disabled", true);
         $("#projeto-botao").html("<div class='spinner-border' role='status'><span class='sr-only'>Enviando</span></div>");
 
-        // problema nesta função
-        enviar_formulario(1);
+        enviar_formulario();
         
         return false;
     });

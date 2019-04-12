@@ -30,7 +30,7 @@
         
         $mail->isHTML(true);
         $mail->Subject = "TESTE";
-        $mail->Body = "teste...";
+        $mail->Body = "teste00000000000002";
         $mail->AltBody = "teste2";
 
         $mail->send();

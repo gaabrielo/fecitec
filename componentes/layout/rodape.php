@@ -19,6 +19,7 @@
                         </div>
                         <div style='text-align: center'>
                             <a href='https://www.facebook.com/Fecitec-600812453274934/' target='_BLANK'><i class='fab fa-facebook-f icone'></i></a>
+                            <!--<a href='#'><i class='fab fa-github icone'></i></a>-->
                         </div>
                         
                     </div>
