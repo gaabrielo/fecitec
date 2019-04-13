@@ -52,7 +52,7 @@
                 
                 <div class='rodapeR'>
                     <div class='container'>
-                        <h6 style='text-align: center;'><strong>FECITEC</strong> © 2019</i></h6>
+                        <h6 style='text-align: center;'><strong>FECITEC</strong> © 2019</h6>
                     </div>
                 </div>
         
