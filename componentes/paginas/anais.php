@@ -7,10 +7,16 @@
         $caminho = "arquivos/documentos/anais/$ano.pdf";
 
         echo "
+        <div class='container' style='text-align: center'>
+            <hr style='width: 50%'>
+            <h1 class='display-4' style='font-weight: 100'>$ano</h1>
+            <a style='font-weight: 300'>FECITEC</a>
+            <hr style='width: 50%'>
+        </div>
         <div class='container' style='margin-bottom: 10%'>
             <div class='card'>
                 <div class='card-header'>
-                    Anual <strong>$ano</strong>
+                    Anual - PDF
                 </div>
                 <div class='card-body'>
                     <object data='$caminho' type='application/pdf' style='width: 100%; height: 800px'>
@@ -39,10 +45,16 @@
 
     function imprime_menu(){
         echo "
+        <div class='container' style='text-align: center'>
+            <hr style='width: 50%'>
+            <h1 class='display-4' style='font-weight: 100'>ANAIS</h1>
+            <a style='font-weight: 300'>2018 - 2011</a>
+            <hr style='width: 50%'>
+        </div>
         <div class='container' style='margin-bottom: 10%'>
             <div class='card'>
                 <div class='card-header'>
-                    <strong>Anais</strong>
+                    Anais disponíveis
                 </div>
                 <div class='card-body'>
                     

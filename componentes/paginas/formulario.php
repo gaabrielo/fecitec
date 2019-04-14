@@ -98,6 +98,13 @@
     <img src="arquivos/imagens/logo-branco.svg" class="img-fluid">
 </div>
 
+<div class='container' style='text-align: center'>
+    <hr style='width: 50%'>
+    <h1 class='display-4' style='font-weight: 100'>INSCRIÇÃO</h1>
+    <a style='font-weight: 300'>Inscrições abertas até <strong>03/06/2019</strong></a>
+    <hr style='width: 50%'>
+</div>
+
 <div class="container" style="margin-bottom: 5%">
     <?php
         $form = New Formulario("projeto");

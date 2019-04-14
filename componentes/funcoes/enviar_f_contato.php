@@ -16,14 +16,15 @@
     $email_d = $_POST["email"];
     $titulo = $_POST["titulo"];
     $mensagem_d = $_POST["mensagem"];
+    $telefone = $_POST["telefone"];
 
-    if(empty($nome) || empty($email_d) || empty($titulo) || empty($mensagem_d)){
+    if(empty($nome) || empty($email_d) || empty($titulo) || empty($mensagem_d) || empty($telefone)){
         echo "VALORES INCOMPATÍVEIS";
         exit;
     }
 
     $mensagem = new EmailMensagem("<h1>CONTATO!</h1>");
-    $mensagem->corpo([["REMETENTE", "<p><strong>Nome</strong>: $nome</p><p><strong>E-Mail</strong>: $email_d</p>"],
+    $mensagem->corpo([["REMETENTE", "<p><strong>Nome</strong>: $nome</p><p><strong>E-Mail</strong>: $email_d</p><p><strong>Telefone</strong>: $telefone</p>"],
                      ["MENSAGEM", "<p><strong>Título</strong>: $titulo</p><p><strong>Mensagem</strong>: $mensagem_d</p>"]]);
     $mensagem->e_final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
 
