@@ -1,3 +1,7 @@
+body{ 
+    font-family: 'Roboto', sans-serif;
+}
+
 .banner{
     text-align: center;
     padding-bottom: 20vh;
@@ -98,11 +102,4 @@
 .sessao{
     margin-top: 2%;
     margin-bottom: 2%;
-}
-
-.corpo{
-
-
-    /*margin-top:5%;
-    margin-bottom: 5%;*/
 }

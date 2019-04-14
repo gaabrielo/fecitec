@@ -12,6 +12,7 @@
         $mensagem = ["Aviso", "mensagem.php"];
         $contato = ["Contato", "contato.php"];
         $anais = ["Anais", "anais.php"];
+        $galeria = ["Galeria", "galeria.html"];
 
         if(empty($get)){
             return $inicio;
@@ -38,6 +39,9 @@
 
             case sha1("anais");
                 return $anais;
+
+            case sha1("galeria");
+                return $galeria;
 
             default:
                 return $inicio;
