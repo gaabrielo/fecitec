@@ -12,12 +12,12 @@
         public function __construct(){
             $this->mail = New PHPMailer(true);
             $this->mail->isSMTP();
-            $this->mail->Host = 'smtp3.ufpr.br';  
-            $this->mail->SMTPAuth = true;                  
+            $this->mail->Host = '#';  
+            $this->mail->SMTPAuth = '#';                  
             $this->mail->Username = '#';  
             $this->mail->Password = '#';             
-            $this->mail->SMTPSecure = 'STATTLS';              
-            $this->mail->Port = 587;  
+            $this->mail->SMTPSecure = '#';              
+            $this->mail->Port = '#';  
         }
 
         public function enviar($titulo, $mensagem, $destinatario){
@@ -35,10 +35,10 @@
 
                 $this->mail->send();
                 
-                echo "#true#";
+                return true;
             } catch (Exception $e){
                 //echo "Message could not be sent. Mailer Error: {$this->mail->ErrorInfo}";
-                echo "#false#";
+                return false;
 
             }
             

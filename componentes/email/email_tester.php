@@ -17,12 +17,12 @@
         
         $mail->SMTPDebug = 2;
         $mail->isSMTP();
-        $mail->Host = "smtp3.ufpr.br";
-        $mail->SMTPAuth = true;
+        $mail->Host = '#';
+        $mail->SMTPAuth = '#';
         $mail->Username = '#';        
         $mail->Password = '#';             
-        $mail->SMTPSecure = 'STATTLS';
-        $mail->Port = 587;
+        $mail->SMTPSecure = '#';
+        $mail->Port = '#';
 
         //Recipients
         $mail->setFrom('fecitec@ufpr.br', 'FECITEC');

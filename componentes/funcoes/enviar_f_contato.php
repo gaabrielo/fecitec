@@ -29,7 +29,12 @@
     $mensagem->e_final("<a style='color: #fff'>9ª <strong>FECITEC</strong></a>");
 
     $email = new Email();
-    $email->enviar("CONTATO: $titulo", $mensagem->montar(), $email_d);
+    
+    if($email->enviar("CONTATO: $titulo", $mensagem->montar(), $email_d)){
+        echo "#true#";
+    } else {
+        echo "#false#";
+    }
 
     //echo $mensagem->montar();
 

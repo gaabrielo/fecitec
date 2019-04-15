@@ -38,9 +38,13 @@
         $("#contato-botao").prop("disabled", true);
         $("#contato-botao").html("<div class='spinner-border' role='status'><span class='sr-only'>Enviando</span></div>");
 
-        var url = "componentes/funcoes/enviar_f_contato.php"
+        var url = "componentes/funcoes/enviar_f_contato.php";
 
-        $.post(url, {nome: $("#contato-nome").val(), email: $("#contato-email").val(), titulo: $("#contato-titulo").val(), mensagem: $("#contato-mensagem").val(), telefone: $("#contato-telefone")}, function(retorno){
+        $.post(url, {nome: $("#contato-nome").val(),
+                     email: $("#contato-email").val(),
+                     titulo: $("#contato-titulo").val(),
+                     mensagem: $("#contato-mensagem").val(),
+                     telefone: $("#contato-telefone").val()}, function(retorno){
 
             if(retorno == "#true#"){
                 alert("Mensagem enviada. Confira seu e-mail!");
@@ -49,9 +53,10 @@
                 $("#contato-email").val("");
                 $("#contato-titulo").val("");
                 $("#contato-mensagem").val("");
+                $("#contato-telefone").val("");
+
             }
 
-            alert("Ops! Algum dado está incorreto =(");
             $("#contato-botao").prop("disabled", false);
             $("#contato-botao").html("Enviar");
         }).fail(function(){
