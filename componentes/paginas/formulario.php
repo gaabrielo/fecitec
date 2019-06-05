@@ -1,5 +1,7 @@
 <?php
     
+    exit; // REMOVER PARA LIBERAR AS INSCRIÇÕES
+
     include_once "componentes/formulario/Formulario.php";
 
     $instituicoes = [

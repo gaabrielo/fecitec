@@ -1,9 +1,11 @@
 <div class="container-fluid banner">
     <img src="arquivos/imagens/logo-branco.svg" class="img-fluid">
     <!--<h1 style="color: #a81d49; font-size: 60px"><strong><span style="font-weight: 100">9ª</span> FECITEC</strong></h1>-->
-    <h3 id="banner-frase" style="color: #fff; margin-top: 30px; font-weight: 100;"><strong>PARTICIPE E INSCREVA SEU PROJETO!</strong></h3>
-    <br>
-    <a id="banner-botao" class="btn btn-lg btn-success progress-bar-striped progress-bar-animated" role="button" href="?pagina=cf5f9f0a3e9e7a70022b0e8f6343de9f23d804e9"><strong>INSCREVA-SE</strong></a>
+    <div id="banner-principal">
+        <h3 id="banner-frase" style="color: #fff; margin-top: 30px; font-weight: 100;"><strong>PARTICIPE E INSCREVA SEU PROJETO!</strong></h3>
+        <br>
+        <a id="banner-botao" class="btn btn-lg btn-success progress-bar-striped progress-bar-animated" role="button" href="?pagina=cf5f9f0a3e9e7a70022b0e8f6343de9f23d804e9"><strong>INSCREVA-SE</strong></a>
+    </div>
 </div>
 
 <div id="banner2-conteudo" class="container-fluid top2" style="text-align: center">
@@ -78,7 +80,14 @@
         $("#banner-botao").removeClass("btn-success")
         $("#banner-botao").addClass("disabled");
         $("#banner-botao").addClass("btn-danger");  
-        $("#banner2-conteudo").html("{?}"); // ALTERAR AQUI
+        $("#banner2-conteudo").html("<h3>Resultados: <strong>16/06/2019</strong></h3>");
+        
+        programacao();
+    }
+
+    function programacao(){
+        $("#banner-frase").html("<strong>Programação em breve!</strong>");
+        $("#banner-botao").html("Programação");
     }
 
     function calcular_dias(){
