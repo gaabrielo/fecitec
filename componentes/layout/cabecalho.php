@@ -6,7 +6,6 @@
         <html lang='pt-br'>
             <head>
                 <meta charset='utf-8'>
-                <base href='http://www.fecitec.ufpr.br/'/>
                 <meta name='keywords' content='fecitec, feira, palotina, feira de ciências, ufpr'>
                 <meta property='og:site_name' content='9ª FECITEC'/>
                 <meta name='author' content='Felipe V. Sobral - www.github.com/felipe-sobral'/>
@@ -22,7 +21,6 @@
 
                 <title>$nome_pagina</title>
 
-                <meta property='og:url' content='http://www.fecitec.ufpr.br/' >
                 <meta property='og:title' content='9ª FECITEC' >
                 <meta property='og:description' content='9ª FECITEC - PALOTINA PR'>
             </head>

@@ -5,7 +5,7 @@
 
     function tratar_get($get){
         $inicio = ["Início", "inicio.html"];
-        $projeto = ["Formulário", "formulario.php"];
+        //$projeto = ["Formulário", "formulario.php"];
         $apresentacao = ["Apresentação", "apresentacao.html"];
         $orientacoes = ["Orientações", "orientacoes.html"];
         $participantes = ["Participantes", "participantes.html"];
@@ -19,8 +19,8 @@
         }
 
         switch($get){
-            case sha1("projeto"):
-                return $projeto;
+            /*case sha1("projeto"):
+                return $projeto;*/
 
             case sha1("apresentacao"):
                 return $apresentacao;

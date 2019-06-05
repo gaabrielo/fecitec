@@ -41,10 +41,16 @@
                                 <img src='arquivos/imagens/patrocinadores/logo_upfr_palotina.png' class='pt-image'/>
                             </div>
                             <div class='col'>
+                                <img src='arquivos/imagens/patrocinadores/ufpr.jpg' class='pt-image'/>
+                            </div>
+                            <div class='col'>
                                 <img src='arquivos/imagens/patrocinadores/prefeitura.png' class='pt-image' style='width: 80px'/>
                             </div>
                             <div class='col'>
                                 <img src='arquivos/imagens/patrocinadores/cvale.jpg' class='pt-image'/>
+                            </div>
+                            <div class='col'>
+                                <img src='arquivos/imagens/patrocinadores/proec.png' class='pt-image'/>
                             </div>
                         </div>
                     </div>
