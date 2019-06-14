@@ -3,22 +3,7 @@
     require_once("componentes/chamadas_padrao.php");
 
     function imprimir_pagina($pagina){
-        $extensao = explode(".", $pagina);
-
-        switch($extensao[1]){
-            case "html":
-                echo file_get_contents("componentes/paginas/$pagina");
-                break;
-
-            case "php":
-                include_once "componentes/paginas/$pagina";
-                break;
-
-            default:
-                echo "Método inválido";
-                break;
-
-        }
+        include_once "componentes/paginas/$pagina";
     }
 
     $pagina = tratar_get($_GET["pagina"]);

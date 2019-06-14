@@ -6,6 +6,7 @@
     function tratar_get($get){
         $inicio = ["Início", "inicio.html"];
         //$projeto = ["Formulário", "formulario.php"];
+        $trabalhos_aprovados = ["Trabalhos aprovados", "trabalhos_aprovados.html"];
         $apresentacao = ["Apresentação", "apresentacao.html"];
         $orientacoes = ["Orientações", "orientacoes.html"];
         $participantes = ["Participantes", "participantes.html"];
@@ -28,20 +29,23 @@
             case sha1("orientacoes"):
                 return $orientacoes;
 
-            case sha1("participantes");
+            case sha1("participantes"):
                 return $participantes;
             
-            case sha1("mensagem");
+            case sha1("mensagem"):
                 return $mensagem;
 
-            case sha1("contato");
+            case sha1("contato"):
                 return $contato;
 
-            case sha1("anais");
+            case sha1("anais"):
                 return $anais;
 
-            case sha1("galeria");
+            case sha1("galeria"):
                 return $galeria;
+
+            case sha1("trabalhos_aprovados"):
+                return $trabalhos_aprovados;
 
             default:
                 return $inicio;

@@ -4,6 +4,7 @@
 
     function criar_menu(){
         $menu = new Menu("9ª <strong>FECITEC</strong>");
+        $menu->item("Trabalhos aprovados", xurl("trabalhos_aprovados"));
         //$menu->item("teste", "#");
         //$menu->item("Inscrição", xurl("projeto"));
         //$menu->dropdown("Inscrição",[[xurl("projeto"), "Projeto"], ["#", "Mini-curso"], ["#", "Oficina"], ["#", "Visita"]]);

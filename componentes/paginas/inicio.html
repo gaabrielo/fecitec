@@ -80,9 +80,17 @@
         $("#banner-botao").removeClass("btn-success")
         $("#banner-botao").addClass("disabled");
         $("#banner-botao").addClass("btn-danger");  
-        $("#banner2-conteudo").html("<h3>Resultados: <strong>16/06/2019</strong></h3>");
-        
+        resultados();
         programacao();
+    }
+
+    function resultados(){
+        $("#banner2-conteudo").html(`
+            <i class="fas fa-trophy fa-3x" style="color: #f6ff5e"></i>
+            <h3 style="margin-top: 1%">Trabalhos Aprovados</h3>
+            <a class="btn btn-success" href="?pagina=50370892026757a960badb8d591e18786de72466">RESULTADOS</a>
+        
+        `);
     }
 
     function programacao(){
