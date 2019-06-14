@@ -1,1 +1,5 @@
 componentes/email/PHPMailer
+biblioteca/*.css
+biblioteca/*.js
+biblioteca/fontawesome
+
