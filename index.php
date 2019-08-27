@@ -6,7 +6,9 @@
         include_once "componentes/paginas/$pagina";
     }
 
-    $pagina = tratar_get($_GET["pagina"]);
+    $pg = empty($_GET["pagina"]) ? "null" : $_GET["pagina"];
+
+    $pagina = tratar_get($pg);
 
     criar_cabecalho("Fecitec | $pagina[0]", null);
     criar_menu();

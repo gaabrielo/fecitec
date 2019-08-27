@@ -58,7 +58,7 @@
                 
                 <div class='rodapeR'>
                     <div class='container'>
-                        <h6 style='text-align: center;'><strong>FECITEC</strong> © 2019 - <a href='https://github.com/felipe-sobral' target='_BLANK' style='color: #fff'>Felipe V. Sobral</a></h6> 
+                        <h6 style='text-align: center;'><strong>FECITEC</strong> © 2019 - <a href='https://github.com/xfelipesobral' target='_BLANK' style='color: #fff'>Felipe V. Sobral</a></h6> 
                     </div>
                 </div>
         
