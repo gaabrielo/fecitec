@@ -36,7 +36,7 @@
     function imprimir_lista(){
         $lista = "";
 
-        for($i = 2018; $i > 2011-1; $i--){
+        for($i = 2019; $i > 2011-1; $i--){
             $lista .= "<li><a href='".xurl("anais")."&ano=$i'>$i</a></li>";
         }
 
@@ -48,7 +48,7 @@
         <div class='container' style='text-align: center'>
             <hr style='width: 50%'>
             <h1 class='display-4' style='font-weight: 100'>ANAIS</h1>
-            <a style='font-weight: 300'>2018 - 2011</a>
+            <a style='font-weight: 300'>2019 - 2011</a>
             <hr style='width: 50%'>
         </div>
         <div class='container' style='margin-bottom: 10%'>
@@ -78,7 +78,7 @@
 
     $ano = $_GET["ano"];
 
-    if(empty($ano) || $ano > 2018 || $ano < 2011){
+    if(empty($ano) || $ano > 2019 || $ano < 2011){
         imprime_menu();
     } else {
         imprime_pdf($ano);
