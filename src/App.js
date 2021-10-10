@@ -3,6 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 
 import Routes from './routes'
 import Cabecalho from './components/cabecalho'
+import Banner from './components/banner'
 import Rodape from './components/rodape'
 
 import './css/master.css'
@@ -23,6 +24,7 @@ function App() {
 		<div className='App'>
 			<ThemeProvider theme={theme}>
 				<Cabecalho />
+				<Banner />
 				<Routes />
 				<Rodape />
 			</ThemeProvider>

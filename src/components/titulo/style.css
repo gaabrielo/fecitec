@@ -1,0 +1,15 @@
+#titulo {
+    max-width: 1000px;
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#titulo h1 {
+    margin: 15px;
+    font-weight: 300;
+}
+
+#titulo p {
+    margin: 15px;
+}

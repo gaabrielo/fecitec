@@ -23,7 +23,11 @@ function Cabecalho() {
 
     const navegarAnais = (objeto) => {
         toggleAnais()
-        console.log(objeto)
+        navegar('anais/'+objeto.ano)
+    }
+
+    const navegar = (link) => {
+        window.location.href = '/'+link
     }
 
     return (
@@ -39,11 +43,11 @@ function Cabecalho() {
                         </IconButton>
                     </div>
                     <div className='menu'>
-                        <Button color='primary'>Início</Button>
-                        <Button color='success'>Trabalhos Aprovados</Button>
+                        <Button color='primary' onClick={() => navegar('')}>Início</Button>
+                        <Button color='success' onClick={() => navegar('aprovados')}>Trabalhos Aprovados</Button>
                         
-                        <Button color='primary'>Galeria</Button>
-                        <Button color='primary'>Manual</Button>
+                        <Button color='primary' onClick={() => navegar('galeria')}>Galeria</Button>
+                        <Button color='primary' onClick={() => navegar('manual')}>Manual</Button>
 
                         <Button 
                             id='submenu-anais'
@@ -56,7 +60,7 @@ function Cabecalho() {
                             Anais
                         </Button>
 
-                        <Button color='primary'>Contato</Button>
+                        <Button color='primary' onClick={() => navegar('contato')}>Contato</Button>
 
                         <Menu
                             id='submenu-anais'

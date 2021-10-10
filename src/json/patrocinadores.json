@@ -1,42 +1,42 @@
 [
     {
         "nome": "Acipa",
-        "imagem": "imagens/patrocinadores/acipa.png"
+        "imagem": "/imagens/patrocinadores/acipa.png"
     },
     {
         "nome": "Biopark",
-        "imagem": "imagens/patrocinadores/biopark.jpg"
+        "imagem": "/imagens/patrocinadores/biopark.jpg"
     },
     {
         "nome": "CNPq",
-        "imagem": "imagens/patrocinadores/cnpq.jpg"
+        "imagem": "/imagens/patrocinadores/cnpq.jpg"
     }, 
     {
         "nome": "UFPR Palotina",
-        "imagem": "imagens/patrocinadores/ufprpalotina.png"
+        "imagem": "/imagens/patrocinadores/ufprpalotina.png"
     }, 
     {
         "nome": "Abric",
-        "imagem": "imagens/patrocinadores/abric.png"
+        "imagem": "/imagens/patrocinadores/abric.png"
     }, 
     {
         "nome": "UFPR",
-        "imagem": "imagens/patrocinadores/ufpr.jpg"
+        "imagem": "/imagens/patrocinadores/ufpr.jpg"
     }, 
     {
         "nome": "CVale",
-        "imagem": "imagens/patrocinadores/cvale.jpg"
+        "imagem": "/imagens/patrocinadores/cvale.jpg"
     }, 
     {
         "nome": "PROEC",
-        "imagem": "imagens/patrocinadores/proec.png"
+        "imagem": "/imagens/patrocinadores/proec.png"
     }, 
     {
         "nome": "Sicredi",
-        "imagem": "imagens/patrocinadores/sicredi.png"
+        "imagem": "/imagens/patrocinadores/sicredi.png"
     }, 
     {
         "nome": "Palotina",
-        "imagem": "imagens/patrocinadores/prefeitura.png"
+        "imagem": "/imagens/patrocinadores/prefeitura.png"
     }
 ]

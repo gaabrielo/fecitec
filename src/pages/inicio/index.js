@@ -4,7 +4,6 @@ import Chip from '@mui/material/Chip'
 
 import './style.css'
 
-import logo from '../../assets/imagens/fecitec/logo_branco.svg'
 import cartaz from '../../assets/imagens/cartaz/2021.svg'
 
 import imgBiologia from '../../assets/imagens/areas/dna.svg'
@@ -25,10 +24,6 @@ function Inicio() {
 
     return (
         <div id='inicio'>
-            <div className='banner'>
-                <img src={logo} alt='logo' />
-            </div>
-
             <div className='descricao'>
                 <h1>FEIRA VIRTUAL de 18 a 22 de outubro</h1>
                 <a href='/' className='btnBranco'>TRABALHOS APROVADOS!</a>
