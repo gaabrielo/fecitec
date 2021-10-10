@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+html, body, #App {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.btnBranco {
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btnBranco:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.linha {
+    background-color: #00000010;
+    height: 1px;
+    width: 100%;
+}
