@@ -1,0 +1,36 @@
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#contato .formulario {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#contato .formulario .basico {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contato .formulario .dado {
+    margin: 10px;
+    flex-grow: 1;
+}
+
+#contato .mensagem {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato .botao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 0;
+}

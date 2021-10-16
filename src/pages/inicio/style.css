@@ -21,14 +21,21 @@
 
 #inicio .apresentacao {
     display: flex;
-    padding: 50px 10px;
+    padding: 0 10px;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #inicio .apresentacao .conteudo {
-    display: flex;
     max-width: 1000px;
+}
+
+#inicio .apresentacao .conteudo .info {
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
 }
 
 #inicio .apresentacao .cartaz {
@@ -116,6 +123,20 @@
 
     #inicio .apresentacao .cartaz img {
         width: 100%;
+        min-width: 400px;
         max-width: 600px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    #inicio .apresentacao .cartaz img {
+        width: 100%;
+        min-width: 350px;
+        margin: 0;
+    }
+
+    #inicio .apresentacao .conteudo .info {
+        flex-direction: column;
     }
 }

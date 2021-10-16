@@ -26,40 +26,39 @@ function Inicio() {
         <div id='inicio'>
             <div className='descricao'>
                 <h1>FEIRA VIRTUAL de 18 a 22 de outubro</h1>
-                <a href='/' className='btnBranco'>TRABALHOS APROVADOS!</a>
+                <a href='/aprovados' className='btnBranco'>TRABALHOS APROVADOS!</a>
             </div>
 
             <div className='apresentacao'>
                 <div className='conteudo'>
-                    <div className='cartaz'>
-                        <img src={cartaz} alt='Cartaz de apresentação Fecitec' />
+                    <div className='info'>
+                        <div className='cartaz'>
+                            <img src={cartaz} alt='Cartaz de apresentação Fecitec' />
+                        </div>
+                        <div className='texto'>
+                            <h2>Apresentação</h2>
+                            <p>
+                                A Feira de Ciência e Tecnologia de Palotina (FECITEC) é um evento que busca incentivar a
+                                produção científica nas escolas através da apresentação de projetos e experimentos.É um projeto
+                                de extensão proposto pela Universidade Federal do Paraná (UFPR) Setor Palotina, financiado pelo
+                                Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e tem como principais
+                                parceiros: Secretaria Municipal de Educação e Cultura de Palotina, C.Vale - Cooperativa
+                                Agroindustrial, Jornal Folha de Palotina, Jornal Folha da Terra, Pró-Reitoria de Extensão e
+                                Cultura da UFPR (PROEC), Feira Brasileira de Ciências e Engenharia (FEBRACE) e Associação
+                                Comercial de Palotina (ACIPA). O objetivo da Feira é incentivar o trabalho dos alunos a fim de
+                                colocar as suas ideias criativas ou inovadoras em prática, proporcionando a participação aos
+                                vencedores em outras Feiras nacionais ou internacionais ou despertando um interesse maior pela
+                                pesquisa científica através das bolsas de Iniciação Científica Júnior para os alunos destaques.
+                            </p>
+                        </div>
                     </div>
 
-                    <div className='texto'>
-                        <h2>Apresentação</h2>
-                        <p>
-                            A Feira de Ciência e Tecnologia de Palotina (FECITEC) é um evento que busca incentivar a
-                            produção científica nas escolas através da apresentação de projetos e experimentos.É um projeto
-                            de extensão proposto pela Universidade Federal do Paraná (UFPR) Setor Palotina, financiado pelo
-                            Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e tem como principais
-                            parceiros: Secretaria Municipal de Educação e Cultura de Palotina, C.Vale - Cooperativa
-                            Agroindustrial, Jornal Folha de Palotina, Jornal Folha da Terra, Pró-Reitoria de Extensão e
-                            Cultura da UFPR (PROEC), Feira Brasileira de Ciências e Engenharia (FEBRACE) e Associação
-                            Comercial de Palotina (ACIPA). O objetivo da Feira é incentivar o trabalho dos alunos a fim de
-                            colocar as suas ideias criativas ou inovadoras em prática, proporcionando a participação aos
-                            vencedores em outras Feiras nacionais ou internacionais ou despertando um interesse maior pela
-                            pesquisa científica através das bolsas de Iniciação Científica Júnior para os alunos destaques.
-                        </p>
-
-                        <div className='linha' />
-
-                        <div>
-                            <div class="g-ytsubscribe" data-channelid="UCedhLDlFf5lJ4aRUu_4fKGw" data-layout="full"
-                                data-count="hidden"></div>
-                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/7gBo-4pvlWg" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen title='Canal do YouTube'></iframe>
-                        </div>
+                    <div>
+                        <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
+                            data-count='hidden'></div>
+                        <iframe width='100%' height='400px' src='https://www.youtube.com/embed/7gBo-4pvlWg' frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowFullScreen title='Canal do YouTube'></iframe>
                     </div>
                 </div>
             </div>
