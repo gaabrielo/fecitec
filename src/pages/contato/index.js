@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import TextField from '@mui/material/TextField'
-import Button from '@mui/material/Button'
 import SendIcon from '@mui/icons-material/Send'
+import LoadingButton from '@mui/lab/LoadingButton'
+import Alert from '@mui/material/Alert'
+import Grow from '@mui/material/Grow'
 
 import Titulo from '../../components/titulo'
 
@@ -13,6 +15,43 @@ function Contato() {
     const [telefone, setTelefone] = useState('')
     const [tituloMensagem, setTituloMensagem] = useState('')
     const [mensagem, setMensagem] = useState('')
+    const [carregando, setCarregando] = useState(false)
+    const [alerta, setAlerta] = useState()
+
+    const enviarEmail = async () => {
+        const post = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                nome,
+                email,
+                telefone,
+                titulo: tituloMensagem,
+                mensagem
+            })
+        }
+
+        setCarregando(true)
+
+        setAlerta()
+        await fetch('https://fecitec.herokuapp.com/api/contato', post)
+            .then(async resposta => {
+                try {
+                    const retorno = await resposta.json()
+
+                    if (retorno?.erro) {
+                        setAlerta({ tipo: 'error', mensagem: retorno.erro })
+                    }
+                } catch {
+                    setAlerta({ tipo: 'success', mensagem: 'Mensagem encaminhada com sucesso!' })
+                }
+            })
+            .catch(erro => {
+                setAlerta({ tipo: 'error', mensagem: 'Ocorreu um erro, tente novamente mais tarde.' })
+            })
+
+        setCarregando(false)
+    }
 
     return (
         <div id='contato'>
@@ -67,11 +106,27 @@ function Contato() {
                     />
                 </div>
 
+                <Grow in={!!alerta}>
+                    <Alert variant='filled' severity={alerta?.tipo} className='alerta'>
+                        {alerta?.mensagem}
+                    </Alert>
+                </Grow>
+                
                 <div className='botao'>
-                    <Button variant='contained' color='primary' startIcon={<SendIcon />} size='large' style={{boxShadow: 'none'}}>
+                    <LoadingButton
+                        onClick={enviarEmail}
+                        loading={carregando}
+                        loadingPosition='start'
+                        variant='contained'
+                        color='primary'
+                        startIcon={<SendIcon />}
+                        size='large'
+                        style={{ boxShadow: 'none' }}
+                    >
                         Enviar mensagem
-                    </Button>
+                    </LoadingButton>
                 </div>
+
             </div>
         </div>
     )

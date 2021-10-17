@@ -69,7 +69,7 @@ function Cabecalho() {
     const MenuItem = ({ id, descricao, link, submenu }) => {
         if (submenu) {
             return (
-                <Submenu navegar={navegar} lista={submenu} info={{ id, descricao }} />
+                <Submenu key={descricao} navegar={navegar} lista={submenu} info={{ id, descricao }} />
             )
         }
 

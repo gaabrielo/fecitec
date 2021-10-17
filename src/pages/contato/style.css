@@ -32,5 +32,11 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
+}
+
+#contato .alerta {
+    width: 95%;
+    max-width: 1000px;
+    margin-left: 10px;
 }
