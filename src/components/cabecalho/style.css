@@ -1,3 +1,33 @@
+#cabecalho .menu {
+    display: flex;
+}
+
+.cabecalhoDrawer {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalhoDrawer .botao {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 1.1rem;
+}
+
+.cabecalhoDrawer img {
+    height: 48px;
+    padding: 25px 0;
+}
+
+.cabecalhoDrawer .divisor {
+    width: 90%;
+    margin-bottom: 25px;
+}
+
 #cabecalho .corpo {
     display: flex;
     align-items: center;
@@ -18,19 +48,47 @@
     height: 60px;
 }
 
-#cabecalho .titulo h1 {
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.3rem;
-    font-weight: normal;
-    font-size: 1.8rem;
+#cabecalho .titulo img {
+    height: 42px;
 }
 
-#cabecalho .barra {
-    background-color: #fff;
+#cabecalho .barra, #cabecalho .barraEscura {
+    background-color: #ffffff00;
     box-shadow: none;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+#cabecalho .barraEscura {
+    background-color: #ffff;
     color: #000;
     border-bottom: 1px solid #00000015;
+}
+
+#cabecalho .menu .botao {
+    text-transform: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s all;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cabecalhoSubmenu {
+    width: 150px;
+    background-color: #000;
+}
+
+#cabecalho .barraEscura .menu .botao {
+    color: #000;
+}
+
+#cabecalho .menu .botao:hover {
+    color: rgb(216, 216, 216);
+}
+
+#cabecalho .barraEscura .menu .botao:hover {
+    color: rgba(0, 0, 0, 70%)
 }
 
 @media (max-width:  1600px) {
@@ -67,9 +125,6 @@
 
 @media (max-width:  600px) {
     #cabecalho .titulo {
-        justify-content: flex-end;
-        right: 20px;
-        font-size: 1rem;
-        height: 50px;
+        height: 55px;
     }
 }

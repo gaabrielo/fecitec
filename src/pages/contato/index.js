@@ -14,7 +14,6 @@ function Contato() {
     const [tituloMensagem, setTituloMensagem] = useState('')
     const [mensagem, setMensagem] = useState('')
 
-
     return (
         <div id='contato'>
             <Titulo descricao='Entre em contato conosco!' texto='Contato' />
@@ -69,7 +68,7 @@ function Contato() {
                 </div>
 
                 <div className='botao'>
-                    <Button variant='contained' color='primary' startIcon={<SendIcon />} size='large'>
+                    <Button variant='contained' color='primary' startIcon={<SendIcon />} size='large' style={{boxShadow: 'none'}}>
                         Enviar mensagem
                     </Button>
                 </div>

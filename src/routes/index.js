@@ -8,6 +8,10 @@ import Contato from '../pages/contato'
 import Anais from '../pages/anais'
 import Aprovados from '../pages/trabalhosAprovados'
 
+import config from '../json/config.json'
+
+document.title = config.titulo
+
 function Routes() {
 
     return(

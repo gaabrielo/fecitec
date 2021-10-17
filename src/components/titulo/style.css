@@ -7,9 +7,11 @@
 
 #titulo h1 {
     margin: 15px;
-    font-weight: 300;
+    margin-bottom: 0;
+    font-weight: 400;
 }
 
 #titulo p {
     margin: 15px;
+    margin-top: 0;
 }
