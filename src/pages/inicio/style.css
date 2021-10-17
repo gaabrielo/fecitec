@@ -22,7 +22,7 @@
 #inicio .apresentacao {
     display: flex;
     padding: 0 10px;
-    padding-bottom: 50px;
+    padding-top: 50px;
     align-items: center;
     justify-content: center;
     flex-direction: column;

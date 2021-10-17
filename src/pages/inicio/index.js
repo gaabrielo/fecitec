@@ -31,6 +31,14 @@ function Inicio() {
 
             <div className='apresentacao'>
                 <div className='conteudo'>
+                    <div>
+                        <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
+                            data-count='hidden'></div>
+                        <iframe width='100%' height='600px' src='https://www.youtube.com/embed/Q-0GgW0P9_A' frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowFullScreen title='Canal do YouTube'></iframe>
+                    </div>
+
                     <div className='info'>
                         <div className='cartaz'>
                             <img src={cartaz} alt='Cartaz de apresentação Fecitec' />
@@ -51,14 +59,6 @@ function Inicio() {
                                 pesquisa científica através das bolsas de Iniciação Científica Júnior para os alunos destaques.
                             </p>
                         </div>
-                    </div>
-
-                    <div>
-                        <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
-                            data-count='hidden'></div>
-                        <iframe width='100%' height='400px' src='https://www.youtube.com/embed/7gBo-4pvlWg' frameBorder='0'
-                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                            allowFullScreen title='Canal do YouTube'></iframe>
                     </div>
                 </div>
             </div>

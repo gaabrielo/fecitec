@@ -3,9 +3,12 @@ import Accordion from '@mui/material/Accordion'
 import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import Button from '@mui/material/Button'
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload'
 
 import Titulo from '../../components/titulo'
 import projetos from '../../json/trabalhos.json'
+import config from '../../json/config.json'
 
 import './style.css'
 
@@ -67,6 +70,12 @@ function TrabalhosAprovados() {
                     projetos.map(Modulo)
                 }
             </div>
+
+            <a href={config.aprovados} download='FECITEC-APROVADOS' style={{ marginBottom: '20px' }}>
+                <Button variant='contained' color='success' startIcon={<CloudDownloadIcon />} size='large'>
+                    Baixar documento
+                </Button>
+            </a>
         </div>
     )
 }
