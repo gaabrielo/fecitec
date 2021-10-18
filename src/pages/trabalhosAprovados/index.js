@@ -63,7 +63,9 @@ function TrabalhosAprovados() {
 
     return (
         <div id='trabalhosAprovados'>
-            <Titulo texto='Trabalhos Aprovados' descricao='Projetos aprovados para a Fecitec' />
+            {/* <Titulo texto='🎵 Atrações Culturais' descricao='Projetos aprovados para a Fecitec' /> */}
+
+            <Titulo texto='👩🏼‍🔬👨🏾‍🔬 Trabalhos Aprovados' descricao='Projetos aprovados para a Fecitec' />
 
             <div className='conteudo'>
                 {
