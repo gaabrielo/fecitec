@@ -1,4 +1,8 @@
-[
+[   
+    { 
+        "ano": "2021",
+        "link": "/docs/anais/2021.pdf"
+    },
     {
         "ano": "2020",
         "link": "/docs/anais/2020.pdf"
