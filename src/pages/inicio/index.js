@@ -26,7 +26,7 @@ function Inicio() {
         <div id='inicio'>
             <div className='descricao'>
                 <h1>FEIRA VIRTUAL de 18 a 22 de outubro</h1>
-                <a href='/aprovados' className='btnBranco'>TRABALHOS APROVADOS!</a>
+                <a href='/anais/2021' className='btnBranco'>ANUAL 2021 DISPONÍVEL!</a>
             </div>
 
             <div className='apresentacao'>
@@ -34,7 +34,7 @@ function Inicio() {
                     <div>
                         <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
                             data-count='hidden'></div>
-                        <iframe width='100%' height='600px' src='https://www.youtube.com/embed/Q-0GgW0P9_A' frameBorder='0'
+                        <iframe width='100%' height='600px' src='https://www.youtube.com/embed/u5CNOD34DvY' frameBorder='0'
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                             allowFullScreen title='Canal do YouTube'></iframe>
                     </div>
