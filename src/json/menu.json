@@ -4,10 +4,6 @@
         "link": "/"
     },
     {
-        "descricao": "Trabalhos Aprovados",
-        "link": "/aprovados"
-    },
-    {
         "descricao": "Galeria",
         "link": "/galeria"
     },
@@ -19,9 +15,5 @@
         "descricao": "Anais",
         "submenu": "{anais}",
         "id": "anais"
-    },
-    {
-        "descricao": "Contato",
-        "link": "/contato"
     }
 ]

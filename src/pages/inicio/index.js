@@ -4,7 +4,7 @@ import Chip from '@mui/material/Chip'
 
 import './style.css'
 
-import cartaz from '../../assets/imagens/cartaz/2021.svg'
+import cartaz from '../../assets/imagens/cartaz/2022.svg'
 
 import imgBiologia from '../../assets/imagens/areas/dna.svg'
 import imgFisica from '../../assets/imagens/areas/physics.svg'
@@ -25,19 +25,19 @@ function Inicio() {
     return (
         <div id='inicio'>
             <div className='descricao'>
-                <h1>FEIRA VIRTUAL de 18 a 22 de outubro</h1>
-                <a href='/anais/2021' className='btnBranco'>ANUAL 2021 DISPONÍVEL!</a>
+                <h1>17 a 24 de outubro</h1>
+                <a href='/' className='btnBranco'>INSCRIÇÕES EM BREVE</a>
             </div>
 
             <div className='apresentacao'>
                 <div className='conteudo'>
-                    <div>
+                    {/* <div>
                         <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
                             data-count='hidden'></div>
                         <iframe width='100%' height='600px' src='https://www.youtube.com/embed/u5CNOD34DvY' frameBorder='0'
                             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                             allowFullScreen title='Canal do YouTube'></iframe>
-                    </div>
+                    </div> */}
 
                     <div className='info'>
                         <div className='cartaz'>
