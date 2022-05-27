@@ -25,8 +25,9 @@ function Inicio() {
     return (
         <div id='inicio'>
             <div className='descricao'>
-                <h1>17 a 24 de outubro</h1>
-                <a href='/' className='btnBranco'>INSCRIÇÕES EM BREVE</a>
+                <h2>17 a 23 de outubro - Virtual</h2>
+                <h2>24 de outubro - Presencial</h2>
+                <a href='/' className='btnBranco'>INSCRIÇÕES DE 01/07 À 28/08</a>
             </div>
 
             <div className='apresentacao'>
