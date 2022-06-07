@@ -2,6 +2,7 @@ import React from 'react'
 
 import FacebookIcon from '@mui/icons-material/Facebook'
 import YouTubeIcon from '@mui/icons-material/YouTube'
+import InstagramIcon from '@mui/icons-material/Instagram'
 
 import patrocinadores from '../../json/patrocinadores.json'
 
@@ -42,6 +43,9 @@ function Rodape() {
                     </a>
                     <a href='https://www.youtube.com/channel/UCedhLDlFf5lJ4aRUu_4fKGw' target='_blank' rel='noreferrer'>
                         <YouTubeIcon className='social' sx={{ marginLeft: '15px' }} />
+                    </a>
+                    <a href='https://www.instagram.com/fecitec.palotina/' target='_blank' rel='noreferrer'>
+                        <InstagramIcon className='social' sx={{ marginLeft: '15px' }} />
                     </a>
                 </div>
             </div>

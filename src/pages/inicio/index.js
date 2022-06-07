@@ -12,6 +12,7 @@ import imgQuimica from '../../assets/imagens/areas/chemistry.svg'
 import imgMatematica from '../../assets/imagens/areas/geometry.svg'
 import imgEmpreendedorismo from '../../assets/imagens/areas/target.svg'
 import imgCienciasHumanas from '../../assets/imagens/areas/think.svg'
+import imgInovacao from '../../assets/imagens/areas/rocket.png'
 
 const Conteudo = ({ imagem, descricao }) => (
     <div className='materiasItem'>
@@ -25,7 +26,7 @@ function Inicio() {
     return (
         <div id='inicio'>
             <div className='descricao'>
-                <h2>17 a 23 de outubro - Virtual</h2>
+                <h2>17 a 24 de outubro - Virtual</h2>
                 <h2>24 de outubro - Presencial</h2>
                 <a href='/' className='btnBranco'>INSCRIÇÕES DE 01/07 À 28/08</a>
             </div>
@@ -77,6 +78,7 @@ function Inicio() {
                     <Conteudo descricao='Matemática' imagem={imgMatematica} />
                     <Conteudo descricao='Empreendedorismo' imagem={imgEmpreendedorismo} />
                     <Conteudo descricao='Ciências humanas' imagem={imgCienciasHumanas} />
+                    <Conteudo descricao='Inovação' imagem={imgInovacao} />
                 </div>
             </div>
         </div>
