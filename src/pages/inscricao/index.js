@@ -15,6 +15,15 @@ import listaCamisetas from './json/camisetas.json'
 function Inscricao() {
     const [qtdAlunos, setQtdAlunos] = useState([1])
     const [tipoInscricao, setTipoInscricao] = useState('1')
+    const [instituicaoNivel, setInstituicaoNivel] = useState('')
+
+    const incrementar = () => {
+        const i = qtdAlunos.length + 1
+
+        if ((instituicaoNivel === 'Ensino Infantil' && i <= 6) || (i <= 3)) {
+            return setQtdAlunos([...qtdAlunos, i])
+        }
+    }
 
     const informacoesDoProjeto = () => (
         <div className='formularioInformacoesProjeto'>
@@ -53,6 +62,8 @@ function Inscricao() {
                 required
                 helperText='De 150 a no máximo 400 palavras. Confira as regras no Manual'
             />
+
+            <Alert severity='warning' sx={{ mt: 2 }}>Recomendamos salvar o resumo em um arquivo separado.</Alert>
         </div>
     )
 
@@ -71,6 +82,8 @@ function Inscricao() {
                     <TextField
                         id='inscricaoInstituicaoNivel'
                         label='Nível'
+                        value={instituicaoNivel}
+                        onChange={e => setInstituicaoNivel(e.target.value)}
                         required
                         sx={{ flexGrow: 1, marginRight: 1 }}
                         select
@@ -120,7 +133,6 @@ function Inscricao() {
                     <TextField
                         id='inscricaoProfessorTelefone'
                         label='Telefone'
-                        required
                         sx={{ flexGrow: 1, marginRight: 1 }}
                     />
 
@@ -133,20 +145,19 @@ function Inscricao() {
                 </FormControl>
             </FormControl>
 
-            <Alert severity='warning'>Esteja atento ao e-mail informado. Uma cópia da inscrição será enviada para ele.</Alert>
+            <Alert severity='warning'>Esteja atento ao e-mail informado, uma cópia da inscrição será enviada para ele. Se não receber a cópia da inscrição no seu e-mail, favor entrar em contato com a comissão pelo e-mail <a href='mailto:fecitec.ufpr@gmail.com'>fecitec.ufpr@gmail.com</a> para confirmar a sua inscrição do projeto.</Alert>
         </div>
     )
 
     const monitores = () => (
         <div className='formularioMonitores'>
-            <h2>Monitores da UFPR</h2>
+            <h2>Monitores da UFPR (Se houver)</h2>
 
             <FormControl fullWidth sx={{ marginTop: 1 }}>
                 <TextField
                     id='inscricaoMonitorNome'
                     label='Nome dos monitores'
                     helperText='Caso tenha mais de um monitor, digite os nomes separados com vírgula'
-                    required
                 />
             </FormControl>
         </div>
@@ -155,18 +166,19 @@ function Inscricao() {
     const alunos = () => (
         <div className='formularioAlunos'>
             <h2>Alunos do Projeto e Suas Camisetas</h2>
+            <p>As equipes serão compostas por no máximo 3 alunos, com exceção do ensino infantil que poderão ser compostas por até 6 alunos</p>
 
             {
                 qtdAlunos.map(item => (
                     <FormControl fullWidth sx={{ marginTop: 2, flexDirection: 'row' }}>
                         <TextField
-                            id={'inscricaoAlunoNome'+item}
-                            label={'Nome do aluno '+item}
+                            id={'inscricaoAlunoNome' + item}
+                            label={'Nome do aluno ' + item}
                             sx={{ flexGrow: 1, marginRight: 1 }}
                         />
 
                         <TextField
-                            id={'inscricaoAlunoTipo'+item}
+                            id={'inscricaoAlunoTipo' + item}
                             label='Tipo'
                             sx={{ flexGrow: 1 }}
                             select
@@ -181,7 +193,7 @@ function Inscricao() {
                         </TextField>
 
                         <TextField
-                            id={'inscricaoAlunoTamanho'+item}
+                            id={'inscricaoAlunoTamanho' + item}
                             label='Tamanho'
                             sx={{ flexGrow: 1, marginLeft: 1 }}
                             select
@@ -202,7 +214,7 @@ function Inscricao() {
                 startIcon={<AddIcon />}
                 variant='text'
                 sx={{ marginTop: 3, alignSelf: 'center' }}
-                onClick={() => setQtdAlunos([...qtdAlunos, qtdAlunos.length + 1])}
+                onClick={incrementar}
             >
                 Adicionar Aluno
             </Button>
@@ -224,10 +236,10 @@ function Inscricao() {
 
     const observacoes = () => (
         <div className='formularioObservacoes'>
-            <h2>Oservações</h2>
+            <h2>Observações</h2>
             <p>Se o projeto não for de Palotina, escrever aqui o nome da sua cidade, estado e da escola/colégio. Escrever outras observações que achar necessário.</p>
 
-            <FormControl fullWidth>
+            <FormControl fullWidth sx={{ mt: 2 }}>
                 <TextField
                     id='inscricaoObservacoes'
                     label='Observações'

@@ -1,4 +1,5 @@
 #inscricao {
+    padding: 10px;
     align-items: center;
 }
 
@@ -16,4 +17,13 @@
 
 #inscricao .formulario h2 {
     margin: 0;
+}
+
+#inscricao .formulario p {
+    margin: 0;
+}
+
+#inscricao .formularioProfessor a {
+    text-decoration: none;
+    color: #c6701b;
 }
