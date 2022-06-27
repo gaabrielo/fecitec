@@ -1,0 +1,19 @@
+#inscricao {
+    align-items: center;
+}
+
+#inscricao, .formulario > div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+#inscricao .formulario {
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px;
+}
+
+#inscricao .formulario h2 {
+    margin: 0;
+}

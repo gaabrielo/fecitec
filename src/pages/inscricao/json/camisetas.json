@@ -1,0 +1,15 @@
+{
+    "tipos": [
+        "Normal",
+        "Baby Look"
+    ],
+    "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG",
+        "EG",
+        "EGG"
+    ]
+}

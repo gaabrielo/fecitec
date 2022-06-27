@@ -7,6 +7,7 @@ import Galeria from '../pages/galeria'
 import Contato from '../pages/contato'
 import Anais from '../pages/anais'
 import Aprovados from '../pages/trabalhosAprovados'
+import Inscricao from '../pages/inscricao'
 
 import config from '../json/config.json'
 
@@ -23,6 +24,7 @@ function Routes() {
                 <Route path='/galeria'  component={Galeria} />
                 <Route path='/aprovados'  component={Aprovados} />
                 <Route path='/anais/:ano'  component={Anais} />
+                <Route path='/inscricao' component={Inscricao} />
             </Switch>
         </BrowserRouter>
     )
