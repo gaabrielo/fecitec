@@ -1,0 +1,86 @@
+[
+    {
+        "nome": "Acipa",
+        "imagem": "/imagens/patrocinadores/acipa.png"
+    },
+    {
+        "nome": "Biopark",
+        "imagem": "/imagens/patrocinadores/biopark.jpg"
+    },
+    {
+        "nome": "CNPq",
+        "imagem": "/imagens/patrocinadores/cnpq.jpg"
+    }, 
+    {
+        "nome": "UFPR Palotina",
+        "imagem": "/imagens/patrocinadores/ufprpalotina.png"
+    }, 
+    {
+        "nome": "Abric",
+        "imagem": "/imagens/patrocinadores/abric.png"
+    }, 
+    {
+        "nome": "UFPR",
+        "imagem": "/imagens/patrocinadores/ufpr.jpg"
+    }, 
+    {
+        "nome": "CVale",
+        "imagem": "/imagens/patrocinadores/cvale.jpg"
+    }, 
+    {
+        "nome": "PROEC",
+        "imagem": "/imagens/patrocinadores/proec.png"
+    }, 
+    {
+        "nome": "Sicredi",
+        "imagem": "/imagens/patrocinadores/sicredi.png"
+    }, 
+    {
+        "nome": "Aderfa",
+        "imagem": "/imagens/patrocinadores/ardefa.png"
+    }, 
+    {
+        "nome": "Cora Carolina",
+        "imagem": "/imagens/patrocinadores/coracarolina.jpg"
+    },
+    {
+        "nome": "Imprevale",
+        "imagem": "/imagens/patrocinadores/imprevale.jpg"
+    },
+    {
+        "nome": "Inviolável",
+        "imagem": "/imagens/patrocinadores/inviolavel.jpg"
+    },
+    {
+        "nome": "MrRobot",
+        "imagem": "/imagens/patrocinadores/mrrobot.png"
+    },
+    {
+        "nome": "Pibid",
+        "imagem": "/imagens/patrocinadores/pibid.jpeg"
+    },
+    {
+        "nome": "Plantas Medicinais",
+        "imagem": "/imagens/patrocinadores/plantasmedicinais.png"
+    },
+    {
+        "nome": "Rocket Girls",
+        "imagem": "/imagens/patrocinadores/rocketgirls.jpg"
+    },
+    {
+        "nome": "SEMEC",
+        "imagem": "/imagens/patrocinadores/semec.jpg"
+    },
+    {
+        "nome": "Terra",
+        "imagem": "/imagens/patrocinadores/terra.png"
+    },
+    {
+        "nome": "Trevisan",
+        "imagem": "/imagens/patrocinadores/trevisan.png"
+    },
+    {
+        "nome": "Palotina",
+        "imagem": "/imagens/patrocinadores/prefeitura.png"
+    }
+]

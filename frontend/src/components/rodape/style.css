@@ -1,0 +1,75 @@
+#rodape .informacoes {
+    padding: 50px 100px;
+    background: url(../../assets/imagens/fecitec/rodape.png) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#rodape .informacoes .fecitec {
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+#rodape .informacoes .lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#rodape .informacoes .sociais {
+    margin-top: 20px;
+}
+
+#rodape .informacoes .social {
+    font-size: 3rem;
+    color: #fff;
+    transition: 1s all;
+}
+
+#rodape .informacoes .social:hover {
+    color: #01b0e6;
+}
+
+#rodape .patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+#rodape .patrocinadores img {
+    max-width: 92px;
+    margin: 15px
+}
+
+#rodape .creditos {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#rodape .creditos a {
+    color: #fff;
+}
+
+@media (max-width:  1000px) {
+    #rodape .informacoes {
+        padding: 50px 25px;
+    }
+}
+
+@media (max-width:  850px) {
+    #rodape .lista.site {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #rodape .informacoes .fecitec {
+        margin: 0;
+    }
+}

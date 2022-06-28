@@ -1,0 +1,50 @@
+#galeria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#galeria .swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+}
+
+#galeria .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+#galeria .slide {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 10px;
+}
+
+#galeria .slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#galeria ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeria ul a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    transition: 0.5s all;
+}
+
+#galeria ul a:hover {
+    background-color: #000;
+    color: #fff;
+}

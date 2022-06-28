@@ -1,0 +1,19 @@
+[
+    {
+        "descricao": "Início",
+        "link": "/"
+    },
+    {
+        "descricao": "Fotos",
+        "link": "/galeria"
+    },
+    {
+        "descricao": "Manual",
+        "link": "/manual "
+    },
+    {
+        "descricao": "Anais",
+        "submenu": "{anais}",
+        "id": "anais"
+    }
+]
