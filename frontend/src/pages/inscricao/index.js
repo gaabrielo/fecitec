@@ -56,7 +56,7 @@ function Inscricao() {
                 >
                     {
                         listaModos.map(({ label, value }) => (
-                            <MenuItem key={value} value={value}>
+                            <MenuItem key={'modos'+value} value={value}>
                                 {label}
                             </MenuItem>
                         ))
@@ -99,7 +99,7 @@ function Inscricao() {
                     >
                         {
                             listaNiveis.map(item => (
-                                <MenuItem key={item} value={item}>
+                                <MenuItem key={'niveis'+item} value={item}>
                                     {item}
                                 </MenuItem>
                             ))
@@ -194,7 +194,7 @@ function Inscricao() {
                         >
                             {
                                 listaCamisetas.tipos.map(item => (
-                                    <MenuItem key={item} value={item}>
+                                    <MenuItem key={'tipos'+i+item} value={item}>
                                         {item}
                                     </MenuItem>
                                 ))
@@ -209,7 +209,7 @@ function Inscricao() {
                         >
                             {
                                 listaCamisetas.tamanhos.map(item => (
-                                    <MenuItem key={item} value={item}>
+                                    <MenuItem key={'tamanhos'+i+item} value={item}>
                                         {item}
                                     </MenuItem>
                                 ))

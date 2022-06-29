@@ -69,7 +69,7 @@ function Cabecalho() {
     const MenuItem = ({ id, descricao, link, submenu }) => {
         if (submenu) {
             return (
-                <Submenu key={descricao} navegar={navegar} lista={submenu} info={{ id, descricao }} />
+                <Submenu key={id+descricao} navegar={navegar} lista={submenu} info={{ id, descricao }} />
             )
         }
 
@@ -79,7 +79,7 @@ function Cabecalho() {
                     color='primary'
                     className='botao'
                     onClick={() => navegar(link)}
-                    key={descricao}
+                    key={id+descricao}
                 >
                     {descricao}
                 </Button>

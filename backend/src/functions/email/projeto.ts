@@ -97,16 +97,6 @@ function construirEmail(projeto: IProjeto) {
         ]
     })
 
-    Email.artigo({
-        titulo: 'Orientação do Projeto',
-        item: [
-            { chave: 'Nome', valor: projeto.professorNome },
-            { chave: 'E-Mail', valor: projeto.professorEmail },
-            { chave: 'Telefone', valor: projeto.professorTelefone || 'Telefone não informado' },
-            { chave: 'Celular', valor: projeto.professorCelular },
-        ]
-    })
-
     if (projeto.monitores) {
         Email.artigo({
             titulo: 'Monitores da UFPR',
