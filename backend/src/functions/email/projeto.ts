@@ -187,7 +187,7 @@ async function projeto(request: Request, response: Response) {
     if (retorno) {
         // Retorna sucesso
         return response.status(200).send({
-            mensagem: 'Sua inscrição foi enviada com cópia ao seu e-mail. Favor verificar se foi realizada com sucesso.'
+            sucesso: 'Sua inscrição foi enviada com cópia ao seu e-mail. Favor verificar se foi realizada com sucesso.'
         })
     } 
 

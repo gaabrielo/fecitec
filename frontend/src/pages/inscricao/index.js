@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
-
-import { TextField, MenuItem, Autocomplete, Switch, FormControl, FormGroup, FormControlLabel, Alert, Button } from '@mui/material'
+import { TextField, MenuItem, Autocomplete, Switch, FormControl, FormGroup, FormControlLabel, Alert, Button, Dialog } from '@mui/material'
+import { LoadingButton } from '@mui/lab'
 import { Add as AddIcon, Send as SendIcon } from '@mui/icons-material'
+import Lottie from 'react-lottie'
+
+import api from '../../function/api'
 
 import Titulo from '../../components/titulo'
 
@@ -12,10 +15,16 @@ import listaInstituicoes from './json/instituicoes.json'
 import listaNiveis from './json/niveis.json'
 import listaCamisetas from './json/camisetas.json'
 
+import lottieErro from '../../assets/lottie/82559-error.json'
+import lottieSucesso from '../../assets/lottie/96237-success.json'
+
+const popupBase = { visivel: false, sucesso: false, mensagem: '' }
 function Inscricao() {
     const [qtdAlunos, setQtdAlunos] = useState([1])
     const [tipoInscricao, setTipoInscricao] = useState('1')
     const [instituicaoNivel, setInstituicaoNivel] = useState('')
+    const [enviando, setEnviando] = useState(false)
+    const [popup, setPopup] = useState(popupBase)
 
     const incrementar = () => {
         const i = qtdAlunos.length + 1
@@ -75,7 +84,7 @@ function Inscricao() {
                 <Autocomplete
                     id='inscricaoInstituicao'
                     options={listaInstituicoes}
-                    renderInput={params => <TextField {...params} required label='Instituição' />}
+                    renderInput={params => <TextField {...params} id='' required label='Instituição' />}
                 />
 
                 <FormControl fullWidth sx={{ marginTop: 2, flexDirection: 'row' }}>
@@ -169,8 +178,8 @@ function Inscricao() {
             <p>As equipes serão compostas por no máximo 3 alunos, com exceção do ensino infantil que poderão ser compostas por até 6 alunos</p>
 
             {
-                qtdAlunos.map(item => (
-                    <FormControl fullWidth sx={{ marginTop: 2, flexDirection: 'row' }}>
+                qtdAlunos.map((item, i) => (
+                    <FormControl key={`aluno${i}`} fullWidth sx={{ marginTop: 2, flexDirection: 'row' }}>
                         <TextField
                             id={'inscricaoAlunoNome' + item}
                             label={'Nome do aluno ' + item}
@@ -256,11 +265,11 @@ function Inscricao() {
             <FormControl sx={{ marginTop: 2, marginBottom: 2 }}>
                 <FormGroup>
                     <FormControlLabel
-                        control={<Switch required color='warning' />}
+                        control={<Switch id='inscricaoInformacoesVeridicas' required color='warning' />}
                         label='Declaro serem verídicas as informações acima mencionadas, bem como assumo total responsabilidade civil e autoral sobre o tema abordado.'
                     />
                     <FormControlLabel
-                        control={<Switch required color='warning' />}
+                        control={<Switch id='inscricaoConcordo' required color='warning' />}
                         label='Autores concordam com as informações do manual de orientações.'
                     />
                 </FormGroup>
@@ -287,8 +296,89 @@ function Inscricao() {
         </div>
     )
 
+    const retorno = () => (
+        <Dialog
+            open={popup.visivel}
+            onClose={() => {
+                setPopup({ ...popupBase, sucesso: popup.sucesso })
+            }}
+        >
+            <div className='inscricaoRetorno'>
+                <Lottie
+                    options={{
+                        loop: !popup.sucesso,
+                        autoplay: true,
+                        animationData: popup.sucesso ? lottieSucesso : lottieErro,
+                        rendererSettings: {
+                            preserveAspectRatio: 'xMidYMid slice'
+                        }
+                    }}
+                    width='100%'
+                />
+                <p>{popup.mensagem}</p>
+            </div>
+        </Dialog>
+    )
+
+    const enviar = async () => {
+        setEnviando(true)
+        const valorId = (id) => (document.getElementById(id).value)
+        const dropId = (id) => (document.getElementById(id).innerHTML)
+        const checkId = (id) => (document.getElementById(id).checked)
+
+        const projeto = {
+            titulo: valorId('inscricaoTitulo'),
+            resumo: valorId('inscricaoResumo'),
+            modo: listaModos.find(i => i.value === tipoInscricao).label,
+            instituicaoNome: valorId('inscricaoInstituicao'),
+            instituicaoNivel: dropId('inscricaoInstituicaoNivel'),
+            instituicaoAno: valorId('inscricaoInstituicaoAno'),
+            professorNome: valorId('inscricaoProfessorNome'),
+            professorEmail: valorId('inscricaoProfessorEmail'),
+            professorTelefone: valorId('inscricaoProfessorTelefone'),
+            professorCelular: valorId('inscricaoProfessorCelular'),
+            monitores: valorId('inscricaoMonitorNome'),
+            alunos: [],
+            deficientes: valorId('inscricaoDeficientes'),
+            observacoes: valorId('inscricaoObservacoes'),
+            localEspecifico: valorId('inscricaoLocalEspecifico'),
+            localJustifique: valorId('inscricaoLocalJustifique'),
+            concordaComTermos: checkId('inscricaoConcordo'),
+            declaraInformacoesVeridicas: checkId('inscricaoInformacoesVeridicas')
+        }
+
+        qtdAlunos.forEach(i => {
+            const nome = valorId('inscricaoAlunoNome' + i)
+            const camisaTipo = dropId('inscricaoAlunoTipo' + i)
+            const camisaTamanho = dropId('inscricaoAlunoTamanho' + 1)
+
+            if (nome) {
+                projeto.alunos.push({ nome, camisaTipo, camisaTamanho })
+            }
+        })
+        
+        const retorno = await api('email/projeto', projeto)
+        setEnviando(false)
+
+        if (retorno?.sucesso) {
+            setPopup({ 
+                visivel: true, 
+                sucesso: true, 
+                mensagem: retorno.sucesso
+            })
+        } else {
+            setPopup({ 
+                visivel: true, 
+                sucesso: false, 
+                mensagem: retorno?.erro || 'Não foi possível enviar sua inscrição via e-mail, favor entrar em contato com a comissão pelo e-mail fecitec.ufpr@gmail.com!' 
+            })
+        }
+    }
+
     return (
         <div id='inscricao'>
+            {retorno()}
+
             <Titulo descricao='Preencha todos campos atentamente e envie seu projeto' texto='Formulário de Inscrição' />
 
             <div className='formulario'>
@@ -302,9 +392,18 @@ function Inscricao() {
                 {observacoes()}
                 {termos()}
             </div>
-            <Button variant='contained' size='large' color='success' startIcon={<SendIcon />} sx={{ marginBottom: 5 }}>
+            <LoadingButton
+                loading={enviando && !popup.sucesso}
+                variant='contained'
+                disabled={popup.sucesso}
+                size='large'
+                color='success'
+                startIcon={<SendIcon />}
+                sx={{ marginBottom: 5 }}
+                onClick={enviar}
+            >
                 Enviar Projeto
-            </Button>
+            </LoadingButton>
         </div>
     )
 }
