@@ -121,7 +121,7 @@ function construirEmail(projeto: IProjeto) {
         }
         projeto.alunos.forEach((aluno, i) => {
             artigoAluno.item.push({
-                chave: `Aluno ${i+1}`,
+                chave: `Aluno ${i + 1}`,
                 valor: `${aluno.nome} - ${aluno.camisaTipo} - ${aluno.camisaTamanho}`
             })
         })
@@ -178,15 +178,21 @@ async function projeto(request: Request, response: Response) {
 
     // return response.send(html)
 
-    await enviaEmail({
+    const retorno = await enviaEmail({
         destinatario: projeto.professorEmail,
-        titulo: 'Projeto: '+projeto.titulo,
+        titulo: 'Projeto: ' + projeto.titulo,
         html
     })
 
-    // Retorna sucesso
-    return response.status(200).send({
-        mensagem: 'Sua inscrição foi enviada com cópia ao seu e-mail. Favor verificar se foi realizada com sucesso.'
+    if (retorno) {
+        // Retorna sucesso
+        return response.status(200).send({
+            mensagem: 'Sua inscrição foi enviada com cópia ao seu e-mail. Favor verificar se foi realizada com sucesso.'
+        })
+    } 
+
+    return response.status(500).send({
+        erro: 'Não foi possível enviar sua inscrição via e-mail, favor entrar em contato com a comissão pelo e-mail fecitec.ufpr@gmail.com!'
     })
 }
 

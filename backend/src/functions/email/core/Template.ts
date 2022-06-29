@@ -18,7 +18,7 @@ class Template {
         this.html += `
         <!doctype html>
         <html>
-    
+
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -28,87 +28,119 @@ class Template {
                     background-color: #e7e7e7;
                     font-family: sans-serif;
                     margin: 0;
-                    padding: 20px 30px;
+                    padding: 20px 0;
                     line-height: 1rem;
                 }
-        
+
                 .fecitecEmailCorpo * {
                     margin: 0;
                     padding: 0;
                 }
-        
+
                 .fecitecEmail {
                     background-color: #fff;
                     max-width: 680px;
                     width: 100%;
                     padding: 1rem;
+                    margin: auto;
                     border-radius: 5px;
                 }
-        
+
                 .fecitecEmail article {
+                    margin: 50px 0;
+                }
+
+                .fecitecEmail article h2 {
+                    font-size: 1.3rem;
+                    font-weight: bold;
                     margin: 15px 0;
                 }
-        
-                .fecitecEmail article h2 {
-                    font-size: 1.2rem;
-                    font-weight: bold;
-                    margin: 10px 0;
-                }
-        
+
                 .fecitecEmail article p {
                     font-size: 1rem;
                     margin: 5px 0;
                 }
-        
+
                 .fecitecEmail article ul {
                     margin: 5px 0;
-                    line-height: 1.4rem;
+                    line-height: 1.2rem;
                 }
-        
+
                 .fecitecEmail article li {
                     list-style: none;
+                    margin: 5px 0;
+                    text-align: justify;
                 }
-        
+
                 .fecitecEmail article li span {
                     font-weight: bold;
                 }
-        
-                .fecitecEmailLogo {
+
+                .fecitecEmailCabecalho {
+                    width: 100%;
+                }
+
+                .fecitecEmailCabecalho td {
+                    text-align: center;
+                }
+
+                .fecitecEmailCabecalho img {
                     width: 200px;
                     text-align: center;
                     margin: 15px 0;
                 }
-        
+
                 .fecitecEmailRodape {
                     text-align: center;
                     font-size: 0.8rem;
-                    margin-top: 5px;
-                    color: #888888;
-                    max-width: 500px;
+                    color: #464646;
+                    width: 100%;
                 }
-        
+
+                .fecitecEmailRodape td {
+                    background-color: #f6f6f6;
+                    padding: 15px;
+                    border-radius: 5px;
+                }
+
                 .fecitecEmailRodape p {
                     margin: 5px 0;
                 }
             </style>
         </head>
-    
+
         <body class="fecitecEmailCorpo">
             <div class="fecitecEmail">
-                <img class="fecitecEmailLogo" src="https://i.imgur.com/Con3bPa.png" alt="FECITEC - Feira de Ciência e Tecnologia" />
+                <table class="fecitecEmailCabecalho">
+                    <tr>
+                        <td>
+                            <img alt="FECITEC - Feira de Ciência e Tecnologia" src="https://i.imgur.com/Con3bPa.png">
+                        </td>
+                    </tr>
+                </table>
+
+                <table>
         `
     }
 
     rodape() {
         this.html += `
-            </div>
-            <div class="fecitecEmailRodape">
-                <p>Feira de ciência e tecnologia com enfoque em inovação. Acontece anualmente desde 2011 na cidade de Palotina-PR. O evento é organizado por professores da Universidade Federal do Paraná.</p>
-                <p>Rua Pioneiro, 2153. Jardim Dallas, Palotina-PR</p>
-                <p>www.fecitec.ufpr.br</p>
+                </table>
+
+                <table class="fecitecEmailRodape">
+                    <tr>
+                        <td>
+                            <p>Feira de ciência e tecnologia com enfoque em inovação. Acontece anualmente desde 2011 na cidade
+                                de
+                                Palotina-PR. O evento é organizado por professores da Universidade Federal do Paraná.</p>
+                            <p>Rua Pioneiro, 2153. Jardim Dallas, Palotina-PR</p>
+                            <p>www.fecitec.ufpr.br</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </body>
-    
+
         </html>
         `
     }

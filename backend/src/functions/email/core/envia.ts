@@ -10,8 +10,8 @@ function conta() {
     return nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: '',
-            pass: ''
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS,
         }
     })
 }
@@ -19,14 +19,18 @@ function conta() {
 async function enviaEmail({ destinatario, titulo, html }: IEnviaEmail) {
     const transporter = conta()
 
-    const retorno = await transporter.sendMail({
-        from: '"Fecitec" <fecitec@ufpr.br>',
-        to: 'xfelipesobral@gmail.com, ' + destinatario, // fecitec.ufpr@gmail.com
-        subject: titulo,
-        html
-    })
+    try {
+        const retorno = await transporter.sendMail({
+            from: '"Fecitec" <fecitec@ufpr.br>',
+            to: 'xfelipesobral@gmail.com, ' + destinatario, // fecitec.ufpr@gmail.com
+            subject: titulo,
+            html
+        })
 
-    console.log('Email enviado: '+retorno.messageId)
+        return true
+    } catch (e) {
+        return false
+    }
 }
 
 export { IEnviaEmail, enviaEmail }
