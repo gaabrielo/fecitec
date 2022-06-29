@@ -22,7 +22,7 @@ async function enviaEmail({ destinatario, titulo, html }: IEnviaEmail) {
     try {
         const retorno = await transporter.sendMail({
             from: '"Fecitec" <fecitec@ufpr.br>',
-            to: 'xfelipesobral@gmail.com, ' + destinatario, // fecitec.ufpr@gmail.com
+            to: 'fecitec.ufpr@gmail.com, ' + destinatario,
             subject: titulo,
             html
         })

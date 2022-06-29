@@ -176,8 +176,6 @@ async function projeto(request: Request, response: Response) {
     // Enviar email
     const html = construirEmail(projeto)
 
-    // return response.send(html)
-
     const retorno = await enviaEmail({
         destinatario: projeto.professorEmail,
         titulo: 'Projeto: ' + projeto.titulo,
