@@ -27,16 +27,3 @@
     text-decoration: none;
     color: #c6701b;
 }
-
-.inscricaoRetorno {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.inscricaoRetorno p {
-    margin: 10px;
-    max-width: 300px;
-}

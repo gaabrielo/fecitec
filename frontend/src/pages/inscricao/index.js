@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import { TextField, MenuItem, Autocomplete, Switch, FormControl, FormGroup, FormControlLabel, Alert, Button, Dialog } from '@mui/material'
+import { TextField, MenuItem, Autocomplete, Switch, FormControl, FormGroup, FormControlLabel, Alert, Button } from '@mui/material'
 import { LoadingButton } from '@mui/lab'
 import { Add as AddIcon, Send as SendIcon } from '@mui/icons-material'
-import Lottie from 'react-lottie'
 
 import api from '../../function/api'
 
 import Titulo from '../../components/titulo'
+import { Retorno, popupBase } from '../../components/retorno'
 
 import './style.css'
 
@@ -15,10 +15,6 @@ import listaInstituicoes from './json/instituicoes.json'
 import listaNiveis from './json/niveis.json'
 import listaCamisetas from './json/camisetas.json'
 
-import lottieErro from '../../assets/lottie/82559-error.json'
-import lottieSucesso from '../../assets/lottie/96237-success.json'
-
-const popupBase = { visivel: false, sucesso: false, mensagem: '' }
 function Inscricao() {
     const [qtdAlunos, setQtdAlunos] = useState([1])
     const [tipoInscricao, setTipoInscricao] = useState('1')
@@ -296,30 +292,6 @@ function Inscricao() {
         </div>
     )
 
-    const retorno = () => (
-        <Dialog
-            open={popup.visivel}
-            onClose={() => {
-                setPopup({ ...popupBase, sucesso: popup.sucesso })
-            }}
-        >
-            <div className='inscricaoRetorno'>
-                <Lottie
-                    options={{
-                        loop: !popup.sucesso,
-                        autoplay: true,
-                        animationData: popup.sucesso ? lottieSucesso : lottieErro,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice'
-                        }
-                    }}
-                    width='100%'
-                />
-                <p>{popup.mensagem}</p>
-            </div>
-        </Dialog>
-    )
-
     const enviar = async () => {
         setEnviando(true)
         const valorId = (id) => (document.getElementById(id).value)
@@ -377,7 +349,7 @@ function Inscricao() {
 
     return (
         <div id='inscricao'>
-            {retorno()}
+            <Retorno popup={popup} estado={setPopup} />
 
             <Titulo descricao='Preencha todos campos atentamente e envie seu projeto' texto='Formulário de Inscrição' />
 

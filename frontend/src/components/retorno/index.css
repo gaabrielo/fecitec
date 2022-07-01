@@ -1,0 +1,12 @@
+#retorno {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#retorno p {
+    margin: 10px;
+    max-width: 300px;
+}

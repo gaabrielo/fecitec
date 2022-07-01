@@ -4,12 +4,16 @@
         "link": "/"
     },
     {
-        "descricao": "Fotos",
-        "link": "/galeria"
+        "descricao": "Inscrição",
+        "link": "/inscricao"
     },
     {
         "descricao": "Manual",
         "link": "/manual "
+    },
+    {
+        "descricao": "Fotos",
+        "link": "/galeria"
     },
     {
         "descricao": "Anais",
