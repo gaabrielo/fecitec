@@ -18,6 +18,7 @@ function Contato() {
     const enviarEmail = async () => {
         setCarregando(true)
         const valorId = (id) => (document.getElementById(id).value)
+        const limpa = (id) => (document.getElementById(id).value = '')
 
         const contato = {
             nome: valorId('nomeCompleto'),
@@ -26,27 +27,29 @@ function Contato() {
             titulo: valorId('tituloMensagem'),
             mensagem: valorId('mensagem')
         }
-
-        alert(JSON.stringify(contato))
-
         
-        // await fetch('https://fecitec.herokuapp.com/api/contato', post)
-        //     .then(async resposta => {
-        //         try {
-        //             const retorno = await resposta.json()
-
-        //             if (retorno?.erro) {
-        //                 setAlerta({ tipo: 'error', mensagem: retorno.erro })
-        //             }
-        //         } catch {
-        //             setAlerta({ tipo: 'success', mensagem: 'Mensagem encaminhada com sucesso!' })
-        //         }
-        //     })
-        //     .catch(erro => {
-        //         setAlerta({ tipo: 'error', mensagem: 'Ocorreu um erro, tente novamente mais tarde.' })
-        //     })
-
+        const retorno = await api('email/contato', contato)
         setCarregando(false)
+
+        if (retorno?.sucesso) {
+            setAlerta({ 
+                visivel: true, 
+                sucesso: true, 
+                mensagem: retorno.sucesso
+            })
+
+            limpa('nomeCompleto')
+            limpa('email')
+            limpa('telefone')
+            limpa('tituloMensagem')
+            limpa('mensagem')
+        } else {
+            setAlerta({ 
+                visivel: true, 
+                sucesso: false, 
+                mensagem: retorno?.erro || 'Não foi possível enviar seu contato, favor entrar em contato com a comissão pelo e-mail fecitec.ufpr@gmail.com!' 
+            })
+        }
     }
 
     return (

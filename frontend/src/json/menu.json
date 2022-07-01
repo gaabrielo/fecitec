@@ -19,5 +19,9 @@
         "descricao": "Anais",
         "submenu": "{anais}",
         "id": "anais"
+    },
+    {
+        "descricao": "Contato",
+        "link": "/contato"
     }
 ]
