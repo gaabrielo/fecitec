@@ -329,7 +329,6 @@ function Inscricao() {
             }
         })
         
-        console.log(projeto)
         const retorno = await api('email/projeto', projeto)
         setEnviando(false)
 
