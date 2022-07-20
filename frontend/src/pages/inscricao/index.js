@@ -294,9 +294,9 @@ function Inscricao() {
 
     const enviar = async () => {
         setEnviando(true)
-        const valorId = (id) => (document.getElementById(id).value)
-        const dropId = (id) => (document.getElementById(id).innerHTML)
-        const checkId = (id) => (document.getElementById(id).checked)
+        const valorId = (id) => (document.getElementById(id)?.value)
+        const dropId = (id) => (document.getElementById(id)?.innerHTML)
+        const checkId = (id) => (document.getElementById(id)?.checked)
 
         const projeto = {
             titulo: valorId('inscricaoTitulo'),
@@ -329,6 +329,7 @@ function Inscricao() {
             }
         })
         
+        console.log(projeto)
         const retorno = await api('email/projeto', projeto)
         setEnviando(false)
 
