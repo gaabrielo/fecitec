@@ -351,7 +351,7 @@ function Inscricao() {
         <div id='inscricao'>
             <Retorno popup={popup} estado={setPopup} />
 
-            <Titulo descricao='Preencha todos campos atentamente e envie seu projeto' texto='Formulário de Inscrição' />
+            <Titulo descricao='Preencha todos campos atentamente e envie seu projeto' texto='Inscrições até 28/08' />
 
             <div className='formulario'>
                 {informacoesDoProjeto()}
