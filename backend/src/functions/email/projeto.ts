@@ -155,6 +155,10 @@ function construirEmail(projeto: IProjeto) {
 async function projeto(request: Request, response: Response) {
     const projeto = request.body as IProjeto
 
+    return response.status(403).send({
+        erro: 'Inscrições encerradas!'
+    })
+
     // Validar campos
     const retornoValidacao = validacaoCampos(projeto)
     if (retornoValidacao !== '') {

@@ -28,7 +28,7 @@ function Inicio() {
             <div className='descricao'>
                 <h2>17 a 24 de outubro - Virtual</h2>
                 <h2>24 de outubro - Presencial</h2>
-                <a href='/inscricao' className='btnInscricao'>INSCREVA-SE ATÉ 28/08</a>
+                {/* <a href='/inscricao' className='btnInscricao'>INSCREVA-SE ATÉ 28/08</a> */}
             </div>
 
             <div className='apresentacao'>
