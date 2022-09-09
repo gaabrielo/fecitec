@@ -15,7 +15,6 @@
 #trabalhosAprovados .projetos {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
@@ -27,10 +26,17 @@
     max-width: 45%;
     width: 100%;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #trabalhosAprovados .projeto iframe {
     border-radius: 5px;
+}
+
+#trabalhosAprovados .projeto p {
+    text-transform: uppercase;
 }
 
 #trabalhosAprovados .projeto p {
@@ -40,6 +46,16 @@
 
 #trabalhosAprovados .projeto span {
     font-size: 0.8rem;
+}
+
+#trabalhosAprovados .orientacoes {
+    background: #fff1e6;
+    color: #f35900;
+    border: 2px solid #f35900;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    white-space: pre-line;
 }
 
 @media (max-width: 600px) {

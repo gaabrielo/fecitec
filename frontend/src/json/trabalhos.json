@@ -1,547 +1,561 @@
-[{
-        "modulo": "Ensino Infantil",
-        "projetos": [{
-                "nome": "Onde o sol vai quando está a noite?",
-                "colegio": "CMEI Girassol, Palotina/PR",
-                "video": "https://youtu.be/FmRLfAm9ON8"
+[
+    {
+        "modulo": "Feira virtual (por ordem alfabética) (37 projetos)",
+        "orientacoes": "Todos os projetos precisam enviar o link do vídeo no YouTube até o dia 05 de outubro no e-mail: fecitec.ufpr@gmail.com",
+        "projetos": [
+            {
+                "nome": "Acompanhamento psicológico no pré e pós-operatório de cirurgias plásticas",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
             },
             {
-                "nome": "Compostar: vamos transformar?",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://youtu.be/Uc5Lzys9aaU"
+                "nome": "A INFLUÊNCIA DAS REDES SOCIAIS NA INSATISFAÇÃO DA IMAGEM CORPORAL ADOLESCENTE E SUAS CONSEQUÊNCIAS",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "A Influência das Cores no Estudo e na Produtividade dos Alunos do Ensino Médio -",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "A influência dos desreguladores hormonais presentes no microplástico -",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Alternativas de substituição dos fertilizantes químicos visando reduzir a dificuldades da importação",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "A Produção de um Tijolo Ecológico A partir da Fibra do Coco Verde como Possibilidade para o Reaproveitamento de Máscaras Descartáveis",
+                "colegio": "Colégio e Curso Desafio, Recife – Pernambuco"
+            },
+            {
+                "nome": "A UTILIZAÇÃO DE INFUSÃO DE TIRIRICA PARA ACELERAÇÃO DA GERMINAÇÃO DE SEMENTES DE LEGUMINOSAS E GRAMÍNEAS",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Automatização Em Chocadeiras",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "Batalha Dos Alimentos",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "Colchão Sustentável para Moradores de Rua",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Como auxiliar pessoas com deficiência visual no aprendizado de programação",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Depressão, as drogas e o baixo desempenho escolar",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Ecotelhado sequestrador de carbono",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Evaluación en el crecimiento de la especie Epipremnum aureum en presencia de paracetamol y dexametasona",
+                "colegio": "Escuela: Benemérita Universidad Autónoma de Puebla, Puebla – México (da feira afiliada do Paraguai – CopaTec)"
+            },
+            {
+                "nome": "Fatores que influenciam a variação da temperatura da Terra",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "INTEGRANDO GERAÇÕES E PROMOVENDO A SAÚDE: GERONTOTECNOLOGIAS EDUCACIONAIS GAMIFICADAS",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "Jogo: Walking By Cell",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "Los insectos que pueden salvar al planeta",
+                "colegio": "Instituto Carlos Fuentes, Puebla – México"
+            },
+            {
+                "nome": "Matemática Inclusiva Para Portadores De Deficiência Visual: Sudoku Fase 2",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "MEDICAMENTO NÃO É LIXO: DESENVOLVIMENTO DE UM COLETOR PARA O DESCARTE CONSCIENTE DE REMÉDIOS",
+                "colegio": "Colégio e Curso Desafio – Recife, Pernambuco"
+            },
+            {
+                "nome": "Memória e Resistência Feminina: o Legado Científico de Zilda Arns diante da Masculinidade Hegemônica",
+                "colegio": "Escola Estadual Flávio de Carvalho, Valinhos – SP"
+            },
+            {
+                "nome": "Memory Buddy: uma tecnologia assistiva para a doença de Alzheimer",
+                "colegio": "Colégio Positivo Hauer, Curitiba – PR"
+            },
+            {
+                "nome": "O aquecimento global na mudança do agronegócio no Brasil",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "O SUPER ESTÍMULO E SUA RELAÇÃO COM O ESTIGMA DO AUMENTO DE CASOS DE TRANSTORNOS PSICOLÓGICOS EM ADOLESCENTES NO PERÍODO DA PÓSMODERNIDADE",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "O uso de probióticos como auxiliar no controle da intolerância ao glúten",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "O uso da seiva da planta coroa de cristo no controle da proliferação de larvas de mosquito",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "O Uso Excessivo da Tecnologia Pelas Crianças",
+                "colegio": "Colégio Bom Jesus Nossa Senhora de Lourdes, Curitiba – PR"
+            },
+            {
+                "nome": "PAPEL SEMENTE",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "PROJETO AMO TAMPINHAS: UTILIZAÇÃO DA ROBÓTICA PARA FINS SOCIAIS E AMBIENTAIS",
+                "colegio": "Colégio Sinodal Portão, Portão, Rio Grande do Sul"
+            },
+            {
+                "nome": "Projeto CIANOTIPIA: uma alternativa criativa para revelar a fotografia digital na escola básica",
+                "colegio": "Escola Notre Dame, Maringá – PR"
+            },
+            {
+                "nome": "Projeto Clube de Ciências da Escola Notre Dame de Maringá-PR: estimular a iniciação científica e contribuir na formação de futuros cientistas",
+                "colegio": "Clube de Ciências da Escola Notre Dame, Maringá – PR"
+            },
+            {
+                "nome": "Projeto de produção de tintas a partir de materiais orgânicos biodegradáveis, para a utilização nas aulas de Artes na Educação Básica",
+                "colegio": "Escola Notre Dame, Maringá – PR"
+            },
+            {
+                "nome": "Robô Afonso: Um Auxílio Para Pacientes Com Alzheimer",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "Sistema De Proteção Para A Criação De Galinhas",
+                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
+            },
+            {
+                "nome": "Uma proposta de criação de um Portal digital verificador da veracidade de informações por meio da autopoiese",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "UMA PROPOSTA PARA A UTILIZAÇÃO DA AGRICULTURA SINTRÓPICA EM PEQUENOS ESPAÇOS URBANOS E A CRIAÇÃO DA CESTA PRIMÁRIA- UMA ADAPTAÇÃO MAIS SAUDÁVEL E NUTRITIVA DAS CESTAS BÁSICAS",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+            },
+            {
+                "nome": "VIOLÊNCIA OBSTÉTRICA: VOCÊ SABERIA O QUE FAZER?",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
             }
         ]
     },
     {
-        "modulo": "Ensino Fundamental I",
-        "projetos": [{
-                "nome": "Abelhinhas da terra",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/KU3w3XCjnu8"
-            },
+        "modulo": "Feira presencial (por ordem alfabética) (100 projetos)",
+        "orientacoes": "- 4 projetos do ensino infantil, 27 do ensino fundamental I, 46 do ensino fundamental II e 23 projetos do ensino médio/técnico\n- Se algum projeto desistir ou não vai participar no formato presencial, favor avisar no e-mail: fecitec.ufpr@gmail.com\n- Caso algum projeto foi inscrito e não está na lista, favor entrar em contato no e-mail: fecitec.ufpr@gmail.com\n*Nomes científicos foram retirados do título, conforme manual de orientações",
+        "projetos": [
             {
-                "nome": "A importância da leitura para a formação social da criança: a arte de ler",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://youtu.be/yj6DbURwXoI"
+                "nome": "Abelhas e a polinização da pitaya: implicações no vingamento dos frutos",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "A importância do sol para os seres vivos",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://youtu.be/-dhsGyiWOP4"
+                "nome": "A ciência está no ar",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Análise comparativa do desenvolvimento e crescimento do tomate-cereja dentro e fora da estufa do colégio",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/WlK4Jglp6CU"
+                "nome": "A IMPORTÂNCIA DA REUTILIZAÇÃO DO ÓLEO PARA O MEIO-AMBIENTE E A OPÇÃO DE UMA RENDA EXTRA",
+                "colegio": "Colégio Diocesano Leão XIII, Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
             },
             {
-                "nome": "Animais em extinção e a necessária discussão em tempos de crise ambiental",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/LY5TvBsUFBQ"
+                "nome": "A IMPORTÂNCIA DE LAVAR AS MÃOS – UMA SENSIBILIZAÇÃO UTILIZANDO A MICROBIOLOGIA NA EDUCAÇÃO INFANTIL",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "A usina hidrelétrica de Itaipu",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=PQET73BsdeE&feature=youtu.be&ab_channel=Cec%C3%ADliaMeirelesPalotina"
+                "nome": "Alfabetização e suas diversas formas de aprender",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "CiênciArte: reconexão com a natureza",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/CUAdpnM2H_k"
+                "nome": "Análise do desenvolvimento de alface em diferentes concentrações de resíduos de ervamate em vasos",
+                "colegio": "Colégio Gabriela Mistral"
             },
             {
-                "nome": "Conscientização dos alunos com os gastos excessivos em tempos de pandemia",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/SjCM43fO530"
+                "nome": "Análise do potencial da planta mertiolate na regeneração foliar do boldo",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Conservação de fósseis de diferentes espécies de plantas e insetos em resina epóxi",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=C_nXHXGs7xM"
+                "nome": "ANALISE ESTATÍSTICA DA CLASSIFICAÇÃO SANGUÍNEA NO COLÉGIO TERRA DO SABER",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Desenvolvimento de um protótipo de rede para aquicultura",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/hLvgeOrj_5k"
+                "nome": "ANÁLISE SOBRE O USO DO CIGARRO E OS MALEFÍCIOS CAUSADOS AOS USUÁRIOS",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Do reciclável ao lúdico: a importância de destinar os resíduos corretamente",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/wEwD0Tlo-PA"
+                "nome": "Aprofundamento sobre dinossauros na educação básica",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Efeito estufa é realidade: experimento simples para demonstrar e discutir o impacto do aumento da temperatura na Terra",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/RMWxLrzFKgE"
+                "nome": "AQUAPONIA: FERTIRRIGAÇÃO COM SISTEMA DE GOTEJAMENTO VERTICAL",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Embalagens do bem",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://youtu.be/klyJpmcVsz4"
+                "nome": "A SENSIBILIDADE AUDITIVA NO AUTISMO",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Felizes quase para sempre",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://youtu.be/Wfl0F45v9JI"
+                "nome": "ATIVIDADE ANTIMICROBIANA DE DIFERENTES ÓLEOS ESSENCIAIS FRENTE À MICRORGANISMOS DE IMPORTÂNCIA CLÍNICA",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Incentivo à formação de leitores por meio dos vlogs",
-                "colegio": "Escola Global Learning by Dei Bambini, Cascavel/PR",
-                "video": "https://youtu.be/aJKP5BVPe5o"
+                "nome": "AVALIAÇÃO DA GERAÇÃO DE ENERGIA QUÍMICA A PARTIR DE DIFERENTES ALIMENTOS",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Mamíferos do Brasil: abordagem interdisciplinar para a valorização da fauna brasileira",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/b00LZOFl1bM"
+                "nome": "A visão dos alunos egressos sobre a trajetória escolar",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Poluição da água: discussão, experimento e proposta de um filtro utilizando diferentes materiais",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/N8iwS2JS-gY"
+                "nome": "Borboleta-azul-das-turfeiras: borboletas que terminam seu desenvolvimento (ciclo) sob os cuidados de formigas",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Produção de bioplástico com resíduo de cápsula de gelatina mole",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=zOeMgjMwyrM"
+                "nome": "BRASIC",
+                "colegio": "Escola Sesi Albino Marques Gomes, Gravataí – RS (favor confirmar se é presencial)"
             },
             {
-                "nome": "Produção de vinagre com reaproveitamento de cascas de maçã descartadas pela cantina da escola",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://youtu.be/o3vo871Eqq4"
+                "nome": "CARRINHO “TOBI”, SEGUIDOR DE LINHA",
+                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
             },
             {
-                "nome": "Que bicho é esse?",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://youtu.be/9J4bMiBdP3A"
+                "nome": "CELULAR: PESQUISA, ANÁLISE DOS MOTIVOS DA SUA CRIAÇÃO, E IMPACTOS QUE ELE VEM TRAZENDO PARA A VIDA DAS PESSOAS",
+                "colegio": "Colégio Diocesano Leão XIII, Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
             },
             {
-                "nome": "Reciclagem sustentável",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://youtu.be/YVH_Fe9BnB4"
+                "nome": "Chazinho, do tempo da vovó",
+                "colegio": "Centro de Excelência em Educação"
             },
             {
-                "nome": "Uso de laguinhos artificiais como ferramenta didática",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/F2O4nUko-8M"
+                "nome": "COGUMELOS E SUAS CURIOSIDADES",
+                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
             },
             {
-                "nome": "Produção de sabonete cicatrizante com óleo essencial de alecrim",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=9Jkrde0DsBI"
-            }
-        ]
-    },
-    {
-        "modulo": "Ensino Fundamental II",
-        "projetos": [{
-                "nome": "A construção de um foguete utilizando materiais alternativos",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/-CDQ7TaVmmk"
+                "nome": "Como facilitar a não contaminação dos mosquitos da dengue?",
+                "colegio": "Colégio Diocesano Leão XIII – Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
             },
             {
-                "nome": "Agrotrilha – Ecoturismo rural ",
-                "colegio": "Centro de Excelência em Educação, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=1C0lO3_8w34 "
+                "nome": "CONSTRUÇÃO DE UM JOGO DE XADREZ UTILIZANDO MATERIAL PET RECICLÁVEL",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "A horta na escola como estímulo para uma alimentação saudável e balanceada",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/a7LHksDT9eM"
+                "nome": "Construção de maquete de uma casa automatizada",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Análise do desenvolvimento e crescimento da alface sob influência do adubo orgânico, obtido pela composteira ",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=GBKZ34Kg1HI "
+                "nome": "Construção de maquete de uma estufa automatizada para cultivo de hortaliças",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Análise do potencial biofertilizante do boldo sobre a germinação e o desenvolvimento do rabanete ",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://youtu.be/s3RPtiBLNIo "
+                "nome": "Construção de um veículo de irrigação adaptativa sob demanda",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Catalogação de plantas medicinais do centro de pesquisa do Colégio Cecilia Meireles: Reconhecimento e utilizações",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://youtu.be/FF6o_k5i0GU"
+                "nome": "Consumo consciente de eletricidade",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Comprimido dispersível com extrato de penicilina para fins medicinais",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências (Biopark), Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=pWICmyNgwcQ"
+                "nome": "Controle alternativo de cascudinho em Avicultura de corte",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Cultivo de verduras em solo 100% orgânico semeados através de um robô autônomo dispersor de sementes",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências (Biopark), Toledo/PR",
-                "video": "https://youtu.be/N2HZ0X-dSaY"
+                "nome": "Crescimento e microestrutura óssea de frangos de corte selecionados geneticamente",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Desenvolvimento de mudas de plantas medicinais para o horto de Palotina- Pr",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://youtu.be/7QavQL_QmxM "
+                "nome": "CRIAÇÃO DE JOGOS DE TABULEIROS COMO MÉTODO DE ESTUDO PARA O DESENVOLVIMENTO DE ATITUDES EMPREENDEDORAS EM UM CLUBE DE CIÊNCIAS E ROBÓTICA",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Dispenser automático para álcool em gel 70°",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências (Biopark), Toledo/PR",
-                "video": "https://youtu.be/nsbX4vE9C_4"
+                "nome": "CRIAÇÃO DE UM JOGO ESTRATÉGICO PARA O ENSINO DE DIFERENTES OPERAÇÕES MATEMÁTICAS",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Eclipse solar: modelo representativo utilizando materiais caseiros",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/-5tdU6kWqg4"
+                "nome": "Criptografia de Chave Alternada",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Efeito de extratos de folhas de cravo-de-defunto sobre a germinação de alface",
-                "colegio": "Escola Dei Bambini, Cascavel/PR ",
-                "video": "https://youtu.be/kXnBQoQozp4 "
+                "nome": "DEMONSTRAÇÃO DIDATICA SOBRE A INTERAÇÃO DOS DIFERENTE TIPOS SANGUINEOS DURANTE UMA TRANSFUSÃO",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Efeito larvicida de extratos aquosos de folhas e flores de cravo-de-defunto sobre o mosquito da dengue ",
-                "colegio": "Escola Dei Bambini, Cascavel/PR ",
-                "video": "https://youtu.be/X3u6TvpnjYw"
+                "nome": "Desempenho zootécnico e bem-estar decorrente da inclusão de hidrolisado proteico de subprodutos de aves como fonte alternativa de proteína na dieta do camarão",
+                "colegio": "Colégio Gabriela Mistral"
             },
             {
-                "nome": "Extrato aquoso de babosa como protetor térmico em folhas de limão siciliano",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências (Biopark), Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=Cv9YgaUWC9M"
+                "nome": "Desenvolvimento de uma estufa automatizada de baixo custo para a produção de Orquídeas na Região Oeste do Paraná",
+                "colegio": "Unidade Conviver"
             },
             {
-                "nome": "Influência da farinha da casca de ovo no desenvolvimento do rabanete",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/x4_qPidE3TM"
+                "nome": "DESENVOLVIMENTO DE UM JOGO DE RACIOCÍNIO LÓGICO COMO FERRAMENTA DE APOIO A PORTADORES DO TRANSTORNO DE DÉFICIT DE ATENÇÃO E HIPERATIVIDADE (TDAH)",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Introdução às plantas medicinais: uma abordagem didática nos anos iniciais do ensino fundamental",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/qrlgBRCh2h8"
+                "nome": "Despertando os 4 R´s",
+                "colegio": "Centro de Excelência em Educação"
             },
             {
-                "nome": "Modelo didático para discussão acerca da importância dos satélites em um mundo globalizado",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/3o4_ecxfNVg"
+                "nome": "E agora? Tartarugas, Jabutis e Cágados... Saberia diferenciá-los?",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "O cotidiano de quem sofre fibromialgia",
-                "colegio": "Colégio Luterano Arthur Konrath, Estância Velha/RS",
-                "video": "https://youtu.be/rFlSF5E8Pa4"
+                "nome": "Encostando nas nuvens\"...: O que são paraquedas?",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "O desenvolvimento de hortaliças em diferentes tipos de recipientes",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=7KQNe3KbNn4 "
+                "nome": "Energias renováveis - um futuro sustentável",
+                "colegio": "Escola Municipal Luiz Moacir Percicoti"
             },
             {
-                "nome": "O mundo da química - Influência de diferentes variáveis em reações químicas",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=cVRU7inS_Ao"
+                "nome": "*Ensaio ecotoxicológico de dosagem de digestato suinícola na produção de mudas de alface",
+                "colegio": "Colégio Gabriela Mistral"
             },
             {
-                "nome": "Os efeitos da nicotina no organismo a partir de um experimento utilizando materiais alternativos",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/hUVf8dro7bY"
+                "nome": "Entendendo a \"Teoria da Relatividade",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "O uso de solução de permanganato de potássio para a conservação de frutas no ambiente escolar",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/HqPF_0qUkBc "
+                "nome": "Estudo do potencial alelopático do extrato aquoso da folha e flor da mangueira sobre a germinação das sementes de picão preto e alface",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Perfil de divulgação científica em uma rede social como forma de tornar o conhecimento científico acessível",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/GuY8Qmrpb7M"
+                "nome": "EXTRAÇÃO E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE DE CORANTES NATURAIS",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Plantio de mudas de espécies nativas e ameaçadas de extinção em fragmentos de Floresta Estacional Semidecidual",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=mBVQJ7Lg3BU&t=17s"
+                "nome": "Extratos de folhas de sete copas como alternativa ao controle de pulgões",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Potencial inseticida dos extratos aquosos de ora-pro-nóbis e penicilina frente a larvas de cascudinhos ",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico em Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=bDzplDF7KPs"
+                "nome": "Feijões mágicos - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+                "colegio": "Campus Natal Zona Norte – Natal - RN (favor confirmar se é presencial)"
             },
             {
-                "nome": "Potencial biotecnológico da jujuba enriquecida com spirulina",
-                "colegio": "Colégio Odilon Braveza, Farias Brito, Fortaleza/CE",
-                "video": "https://www.youtube.com/watch?v=Uql8CaaRA4M"
+                "nome": "Fontes renováveis de energia na região Oeste do Paraná: fatores relacionados a sua eficácia",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Produção de creme natural com óleo essencial de plantas com ação repelente",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=Vd8oqo2Y_Tc"
+                "nome": "FORMULAÇÃO DE PÓ DENTAL COMO ALTERNATIVA ECONÔMICA, SUSTENTÁVEL E BENÉFICA PARA A HIGIENE BUCAL",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Produção de hidrogéis a base de colágeno como alternativa na captura de corantes de efluentes",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=l_TuVzCpBfk "
+                "nome": "Garra Mecânica",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Robô Guia para Auxílio de Deficientes Visuais",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://youtu.be/kvAyNLxbsmc"
+                "nome": "Geração de energia de forma renovável: visando a sustentabilidade",
+                "colegio": "Escola Municipal Leonardo da Vinci"
             },
             {
-                "nome": "Simulação de abalos sísmicos utilizando um modelo simples inspirado na Golden Gate Bridge",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/j8qVq9whliE"
+                "nome": "HIDRATANTE LABIAL NATURAL COM EXTRATO ALCOÓLICO DE GUACO COMO AUXÍLIO NO TRATAMENTO DA HERPES",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
             },
             {
-                "nome": "Sonífero natural com óleo essencial do cravo como alternativa ao uso da fumaça para espécies de abelhas",
-                "colegio": "Clube de Ciências - Parque Científico e Tecnológico de Biociências – Biopark, Toledo/PR",
-                "video": "https://www.youtube.com/watch?v=1aHUim-jHh8"
+                "nome": "HORUS",
+                "colegio": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte, Natal – RN (favor confirmar se é presencial)"
             },
             {
-                "nome": "Sistema Solar: a construção de um planetário para o ensino de astronomia ",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/GlQ543lXnVo"
+                "nome": "Investigando os microrganismos presentes em superfícies e mãos",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Terrário como recurso didático na mediação de conceitos de ecologia do ensino fundamental I",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/QfwE_geUP5Q"
+                "nome": "IRRIGADOR AUTOMÁTICO PARA HORTA ESCOLAR NO CULTIVO DE VERDURAS, LEGUMES E CHÁS TERAPÊUTICOS",
+                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
             },
             {
-                "nome": "Trio da ciência: a química por trás dos experimentos virais da internet",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/Lk8M08eQbUE"
+                "nome": "Isso é coisa de menina? Uma abordagem diferenciada sobre o ensino de programação para meninas no ensino fundamental",
+                "colegio": "Unidade conviver"
             },
             {
-                "nome": "Uso do resíduo orgânico oriundo do lodo de tanque escavado como substrato organomineral",
-                "colegio": "Escola Global Learning by Dei Bambini, Cascavel/PR",
-                "video": "https://youtu.be/FxVTQmjzCfc"
+                "nome": "JOGO DA MEMÓRIA TRILÍNGUE PARA O ENSINO DE MATEMÁTICA ",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Vaso sustentfibras: produção de vasos sustentáveis com fibras vegetais acrescidas de adubo NPK ",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR",
-                "video": "https://youtu.be/4-zJYxLJkZY"
+                "nome": "JOGO DE TABULEIRO EM INGLÊS SOBRE OS REINOS DOS SERES VIVOS ",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Vulcões de “gelo”?",
-                "colegio": "Escola Terra do Saber; Palotina/PR",
-                "video": "https://youtu.be/WlNFaTCLGp0"
+                "nome": "Melhoramento na distribuição de energia em áreas rurais",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Produção de material ecológico a partir de folhas secas de árvores coletadas no pátio da escola",
-                "colegio": "Escola Notre Dame, Maringá/PR",
-                "video": "https://youtu.be/sHpwqnpI2Us"
+                "nome": "Modelos didáticos anatômicos: utilização de materiais recicláveis e alternativos",
+                "colegio": "Escola Municipal Leonardo da Vinci"
             },
-            {
-                "nome": "Projeto sabão ecológico na escola: sustentabilidade e educação ambiental",
-                "colegio": "Escola Notre Dame, Maringá/PR",
-                "video": "https://youtu.be/WGW2lTg8ATk"
-            }
-            ,
             {
-                "nome": "Cultivo de alfaces na escola utilizando a hidroponia em tubos de PVC",
-                "colegio": "Colégio de Aplicação Pedagógica da Universidade Estadual de Maringá, Maringá/PR",
-                "video": "https://youtu.be/rMNwyoz-OtQ"
-            }
-        ]
-    },
-    {
-        "modulo": "Ensino Médio",
-        "projetos": [{
-                "nome": "Adolescentes e redes sociais na pandemia: usos, significados e sentimentos",
-                "colegio": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - IFRN, Campus Zona Norte; Natal/RN",
-                "video": "https://youtu.be/dySKsU0xpmM"
+                "nome": "*Obtenção de colágeno a partir de resíduos de tilápia",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Agroconhecicmento Tec: Desenvolvimento de um quiz e podcast para educação ambiental e conscientização sobre agrotóxicos",
-                "colegio": "Escola Estadual Newton Ferreira de Paiva, Santo Antônio do Amparo/MG ",
-                "video": "https://youtu.be/AjrPJF2biV8"
+                "nome": "Olhando para um mesmo “lugar” sob diferentes “óticas”",
+                "colegio": "Escola Terra do Saber "
             },
             {
-                "nome": "Ajudee: um aplicativo como ferramenta para redução de problemas sociais no Brasil",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR",
-                "video": "https://youtu.be/ed9_G6lD258"
+                "nome": "O universo da cor amarelo",
+                "colegio": "Escola Municipal Leonardo da Vinci"
             },
             {
-                "nome": "Análise da contaminação e recuperação de pacientes de COVID-19 no Piauí para identificação de padrão de sequelas",
-                "colegio": "Instituto Federal do Piauí (IFPI) Campus Piripiri, Piripiri/PI",
-                "video": "https://youtu.be/E6hNg1wrN5g"
+                "nome": "O uso da raiz de tiririca para o desenvolvimento radicular e foliar do feijão",
+                "colegio": "Escola Municipal Leonardo da Vinci "
             },
             {
-                "nome": "Análise de parâmetros físico-químicos das águas da represa capivara da cidade de Primeiro de Maio ",
-                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio/PR",
-                "video": "https://www.youtube.com/watch?v=Nfb7Eqkdd6M&t=17s"
+                "nome": "O uso dos produtos da compostagem no desenvolvimento das plantas",
+                "colegio": "Escola Municipal Leonardo da Vinci"
             },
             {
-                "nome": "A sociedade e seu reflexo na literatura: “Olhar para trás para avançar ao futuro”",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=J99kQHnR8AM"
+                "nome": "OS DESAFIOS ENFRENTADOS PELOS PROFISSIONAIS DA EDUCAÇÃO NO PERÍODO PÓS-PANDEMIA",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Avaliação da utilização do extrato dos frutos do Noni aplicado a embalagens alimentícias, como forma de inibição da ação dos carunchos",
-                "colegio": "Escola do SESI, Aparecida do Taboado/MS ",
-                "video": "https://youtu.be/ekaBvyNsjws"
+                "nome": "Os planetas e as luas do sistema solar",
+                "colegio": "Centro de Excelência em Educação"
             },
             {
-                "nome": "Bicicleta aquática sustentável ecológica (B.A.S.E)",
-                "colegio": "Escola SESI de Ensino Médio Albino Marques Gomes, Gravataí/RS",
-                "video": "https://www.youtube.com/watch?v=XH4b-lHFR4I&t=5s"
+                "nome": "Personalização e estilo: empreendedorismo com miçangas",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Caféciclou: a nova forma de reciclar ",
-                "colegio": "Escola SESI de Ensino Médio Albino Marques Gomes, Gravataí/RS",
-                "video": "https://youtu.be/kZmvdotjBiE"
+                "nome": "PESTICIDAS NATURAIS COMO ALTERNATIVA PARA ELIMINAÇÃO DE PRAGAS EM CEBOLINHA VERDE",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Cargador solar",
-                "colegio": "Escuela Educacion Secundaria Tecnica N1, La Union, Buenos Aires, Argentina",
-                "video": "https://youtu.be/KBm4mfi1gEs"
+                "nome": "Pirâmide alimentar: a importância de uma alimentação saudável e equilibrada",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Casa sustentável e moderna",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR",
-                "video": "https://www.youtube.com/watch?v=xDs2NIqtN-Y"
+                "nome": "PIRULITO TERAPÊUTICO COM EXTRATO DA PRÓPOLIS VERDE",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Controle alternativo para formigas cortadeiras",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo, Palotina/PR",
-                "video": "https://youtu.be/pLvkEp-Q63M"
+                "nome": "Plataforma Semafórica Inteligente",
+                "colegio": "Colégio Estadual Vicente Tomazini, Francisco Alves – PR"
             },
             {
-                "nome": "Diferentes tipos de substratos para orquídeas",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo, Palotina/PR",
-                "video": "https://youtu.be/CxB0oBLt3xw"
+                "nome": "Pomada de farinha de tilápia e calêndula para cicatrização em humanos",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Drinker for Bee ",
-                "colegio": "Colegio de Estudios Científicos Y Tecnológicos del Estado de Michoacán de Irapeo, Charo, Michoacán - México ",
-                "video": "https://www.youtube.com/watch?v=VujtbvXupN0"
+                "nome": "POMADA MEDICINAL NATURAL COM PROPRIEDADES ANTI-INFLAMATÓRIAS, CICATRIZANTES E ANTIMICROBIANAS",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Ecofilme: desenvolvimento de polímero biodegradável a partir de resíduos agroindustriais ",
-                "colegio": "Colégio Frederico Jorge Logemann, Horizontina/RS",
-                "video": "https://youtu.be/SvpvhfISIeU"
+                "nome": "Priorização das pedras grandes como estratégia de gestão do tempo",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Ecokit de limpeza: criação e desenvolvimento de um kit de limpeza sustentável reutilizando e tratando diversos tipos de águas",
-                "colegio": "Escola Estadual Newton Ferreira de Paiva, Santo Antônio do Amparo/MG",
-                "video": " https://youtu.be/n6J2jl_gaR0"
+                "nome": "Produção, criação e comparação de Gongocompostagem e vermicompostagem",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Ecomak 2: Criação de maquiagens naturais e embalagens ecológicas",
-                "colegio": "Escola Estadual Newton Ferreira de Paiva, Santo Antônio do Amparo/MG",
-                "video": "https://youtu.be/b-GCK4K4IiI"
+                "nome": "PRODUÇÃO DE FILMES BIODEGRADÁVEIS COM APLICAÇÃO MEDICINAL",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Ecotelhado: Criação de um plano didático para conscientização de jovens sobre o uso do plástico",
-                "colegio": "Escola Estadual Newton Ferreira de Paiva, Santo Antônio do Amparo/MG ",
-                "video": "https://youtu.be/PmwSD15cjk8"
+                "nome": "PRODUÇÃO DE JOGO DIDÁTICO INCLUSIVO EM LÍNGUA PORTUGUESA E BRAILE SOBRE AS PARTES DO CORPO HUMANO",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Efeito antifúngico de extratos vegetais frente às cepas de Candida in vitro",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://youtu.be/I7d4ZTAc-EU"
+                "nome": "Produção de hortaliças em vaso com o uso de adubação orgânica",
+                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
             },
             {
-                "nome": "Efeito da aplicação de diferentes concentrações de biofertilizante oriundo de compostagem na cultura do rabanete",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=6dAMaC55QM0"
+                "nome": "Reaproveitamento de embalagens de extrato de tomate",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Efectos genotóxicos de las concentraciones de extracto de Schinus molle L. en comparación a las concentraciones de extracto de Eucalyptus globulus em el crecimiento radicular del Allium cepa",
-                "colegio": "Colegio de Alto Rendimiento Coar Lambayeque, Peru ",
-                "video": "https://www.youtube.com/watch?v=txjEFlhJYhY"
+                "nome": "RECICLAGEM DO BEM, UMA QUESTÃO AMBIENTAL E SOCIAL",
+                "colegio": "Colégio Gabriela Mistral"
             },
             {
-                "nome": "Estímulos no Brasil à formação de jovens pesquisadores",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR ",
-                "video": "https://youtu.be/UhBLJX33sC0"
+                "nome": "Reciclando na Astronomia",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Franz Kafka: trauma existencialista expressionista",
-                "colegio": "Escola Bom Jesus Centro, Curitiba/PR",
-                "video": "https://www.youtube.com/watch?v=jL-xwTjlK8U"
+                "nome": "Recuperando vegetais que iriam para o lixo",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Geração de energia elétrica através de fótons e ventos solares",
-                "colegio": "Claretiano Colégio de São Paulo, São Paulo/SP ",
-                "video": "https://www.youtube.com/watch?v=EG34VcbDqbA"
+                "nome": "Redes sociais: uma análise sobre sua influência na vida das pessoas no “antes” e “pós” pandemia",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Gongocompostogem",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo, Palotina/PR",
-                "video": "https://youtu.be/er22XSfhgtI"
+                "nome": "REUSO DA ÁGUA DA CHUVA E DA ÁGUA DESCARTADA NOS BEBEDOUROS DO COLÉGIO TERRA DO SABER",
+                "colegio": "PALOTINA – PARANÁ - Escola Terra do Saber"
             },
             {
-                "nome": "Helply",
-                "colegio": "Colégio Técnico de Campinas - Unicamp, Campinas/SP ",
-                "video": "https://www.youtube.com/watch?v=xBaQx32rBQs"
+                "nome": "Reutilização de materiais como recurso de conscientização sobre o Braille",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Horus: Software colaborativo para divulgação de casos de violência",
-                "colegio": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte Campus Natal - Zona Norte. Natal/RN ",
-                "video": "https://youtu.be/nTNTAztuWns"
+                "nome": "RODA GIGANTE",
+                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
             },
             {
-                "nome": "Impactos da pandemia do novo coronavírus na saúde mental de profissionais da educação",
-                "colegio": "Colégio Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/6SWAcv43kXg"
+                "nome": "Rumo ao espaço: um contexto histórico sobre foguetes",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Impulse Hand",
-                "colegio": "Instituto Tecnológico Superior de Pátzcuaro Origen, Pátzcuaro, Michoacán, México ",
-                "video": "https://youtu.be/Ub0LdUYvLKY"
+                "nome": "Rotação de cultura e plantio consorciado: Uma busca de alternativas para o aumento da produtividade",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Isolamento Social e Sétima Arte: Uma Análise do Toque Humano no Filme “A Cinco Passos de Você” (2019)",
-                "colegio": "Escola Estadual Adoniran Barbosa, Valinhos/SP ",
-                "video": "https://youtu.be/c6l2jWCOQjY"
+                "nome": "SEMÁFARO 4 TEMPOS",
+                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
             },
             {
-                "nome": "Microcrédito e o empoderamento das mulheres - um estudo de caso no Nordeste do Brasil",
-                "colegio": "Colégio Etapa, São Paulo/SP",
-                "video": "https://www.youtube.com/watch?v=3rqKqVOHUFs&t=4s"
+                "nome": "*SHAMPOO E CONDICIONADOR EM BARRA COM A INCORPORAÇÃO DE RESÍDUO DA ERVA MATE",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Modelagem matemática através do Sudoku como mediador no processo de ensino-aprendizagem ",
-                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio/PR",
-                "video": "https://www.youtube.com/watch?v=pGQ32aeU4w4"
+                "nome": "SISTEMA DIGESTÓRIO FUNCIONAL",
+                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
             },
             {
-                "nome": "Oxigenação do ambiente urbano a partir de microalgas",
-                "colegio": "Colégio Bom Jesus Centro, Campo Largo/PR",
-                "video": "https://youtu.be/OtbZcKvxtZs"
+                "nome": "Sistema de filtragem de água com carvão e areia: mecanismo de purificação de águas com sedimentos",
+                "colegio": "Escola Municipal Leonardo da Vinci"
             },
             {
-                "nome": "Reflexos da pandemia de COVID-19: Produção de álcool em gel para assepsia de mãos e superfícies",
-                "colegio": "Colégio Gabriela Mistral, Palotina/PR",
-                "video": "https://youtu.be/pQMk7z-3Zbc"
+                "nome": "Sistema Respiratório - Escola Municipal Joaquim Monteiro Martins Franco Sombra: cada um tem a sua",
+                "colegio": "Colégio Cecília Meireles"
             },
             {
-                "nome": "Regarte",
-                "colegio": "Escola Estadual Newton Ferreira de Paiva, Santo Antônio do Amparo/MG",
-                "video": "https://www.youtube.com/watch?v=z_0n60E9Nps"
+                "nome": "SUPLEMENTO ALIMENTAR PARA BOVINOS FORMULADO COM INGREDIENTES DE ORIGEM NATURAL",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
             },
             {
-                "nome": "Solar heater ",
-                "colegio": "Colegio de Estudios Científicos Y Tecnológicos del Estado de Michoacán de Irapeo, Charo, Michoacán - México ",
-                "video": "https://www.youtube.com/watch?v=Mc5IDanv_k4&t=4s"
+                "nome": "Transformar para brincar",
+                "colegio": "Escola Municipal Terezinha Giron Agustini"
             },
             {
-                "nome": "Tecnologia redutora de acidentes em viadutos e passarelas",
-                "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio/PR",
-                "video": "https://www.youtube.com/watch?v=iKVcApXCT48"
+                "nome": "Um estudo sobre os baiacus",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Transformação de energia por meio de biodigestores",
-                "colegio": "Colégio Cecília Meireles, Palotina/PR",
-                "video": "https://www.youtube.com/watch?v=4klauGsHacU&ab_channel=IgorCenturi%C3%A3o"
+                "nome": "USO DA FIBRA DE PAINA (CEIBA PENTANDRA) COMO SUBSTRATO DE ILHAS FLUTUANTES FILTRANTES",
+                "colegio": "Colégio Militar Do Recife, Recife – PE (favor confirmar se é presencial)"
             },
             {
-                "nome": "Uma verificação das informações dos rótulos e utilização de amido em laticínios ",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR",
-                "video": "https://youtu.be/C9mwAL68oKE"
+                "nome": "Você está preparado para lidar com os possíveis perigos da internet?",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Uso de cristais piezoelétricos para geração de energia nos corredores do Colégio Bom Jesus Centro",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba/PR",
-                "video": "https://www.youtube.com/watch?v=g6WZ53Cd294"
+                "nome": "Você sabe o que pode ocasionar um deslizamento?",
+                "colegio": "Escola Terra do Saber"
             },
             {
-                "nome": "Utilização de materiais alternativos para a produção de caminhas destinadas a uma associação de proteção aos animais localizada no município de Palotina",
-                "colegio": "Escola Terra do Saber, Palotina/PR",
-                "video": "https://youtu.be/ReM0Q-RIFtU"
+                "nome": "Você sabe o que são asteroides?",
+                "colegio": "Escola Terra do Saber"
             }
         ]
     }

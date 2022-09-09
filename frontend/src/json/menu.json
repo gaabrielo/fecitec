@@ -4,6 +4,10 @@
         "link": "/"
     },
     {
+        "descricao": "Trabalhos Aprovados",
+        "link": "aprovados"
+    },
+    {
         "descricao": "Manual",
         "link": "/manual "
     },

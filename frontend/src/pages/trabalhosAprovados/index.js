@@ -31,20 +31,23 @@ function TrabalhosAprovados() {
 
     const Projeto = ({ nome, colegio, video }) => (
         <div key={nome} className='projeto'>
-            <iframe 
-                allowFullScreen
-                width='100%' 
-                height='300'
-                src={'https://www.youtube.com/embed/'+getCodigoYoutube(video)}
-                frameBorder='0'
-                title={`${nome} - ${colegio}`}
-            ></iframe>
+            {
+                video &&
+                <iframe
+                    allowFullScreen
+                    width='100%'
+                    height='300'
+                    src={'https://www.youtube.com/embed/' + getCodigoYoutube(video)}
+                    frameBorder='0'
+                    title={`${nome} - ${colegio}`}
+                ></iframe>
+            }
             <p>{nome}</p>
             <span>{colegio}</span>
         </div>
     )
 
-    const Modulo = ({ modulo, projetos }) => (
+    const Modulo = ({ modulo, orientacoes, projetos }) => (
         <Accordion key={modulo} expanded={expandido === modulo} onChange={expandir(modulo)} style={{ boxShadow: 'none', border: 'none' }}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -54,6 +57,12 @@ function TrabalhosAprovados() {
                 <p>{modulo}</p>
             </AccordionSummary>
             <AccordionDetails className='projetos'>
+                {
+                    !!orientacoes &&
+                    <div className='orientacoes'>
+                        <p>{orientacoes}</p>
+                    </div>
+                }
                 {
                     expandido === modulo && projetos.map(Projeto)
                 }
