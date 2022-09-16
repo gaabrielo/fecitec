@@ -4,7 +4,7 @@ async function api(rota, corpo) {
     const headers = {'Content-Type': 'application/json'}
 
     return new Promise(sucesso => {
-        axios.post('http://felipesobral.com:3303/'+rota, corpo, {headers})
+        axios.post('https://fecitec.felipesobral.com/'+rota, corpo, {headers})
             .then(res => {
                 if (!res?.data) sucesso(undefined)
                 sucesso(res?.data)
