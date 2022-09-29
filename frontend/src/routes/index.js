@@ -8,6 +8,7 @@ import Contato from '../pages/contato'
 import Anais from '../pages/anais'
 import Aprovados from '../pages/trabalhosAprovados'
 import Inscricao from '../pages/inscricao'
+import Virtual from '../pages/feiraVirtual'
 
 import config from '../json/config.json'
 
@@ -25,6 +26,7 @@ function Routes() {
                 <Route path='/aprovados'  component={Aprovados} />
                 <Route path='/anais/:ano'  component={Anais} />
                 <Route path='/inscricao' component={Inscricao} />
+                <Route path='/virtual' component={Virtual} />
             </Switch>
         </BrowserRouter>
     )

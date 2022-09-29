@@ -1,0 +1,22 @@
+#feiraVirtual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#feiraVirtual ul {
+    max-width: 1000px;
+    margin-right: 20px;
+}
+
+#feiraVirtual ul li {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+#feiraVirtual ul li a {
+    color: #000000;
+    text-decoration: underline;
+}

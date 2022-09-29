@@ -1,0 +1,57 @@
+[
+    {
+        "horario": "7:30 – 8:30",
+        "atividade": "Montagem dos projetos",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "8:30",
+        "atividade": "Abertura da feira",
+        "ensalamento": "Em frente ao bloco 1"
+    },
+    {
+        "horario": "8:30",
+        "atividade": "Início da apresentação dos projetos e visitas das escolas",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "8:30 – 11:45",
+        "atividade": "Avaliações dos projetos",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "10:00",
+        "atividade": "Distribuição de lanche aos expositores",
+        "ensalamento": "Cada projeto vai receber o lanche na sala"
+    },
+    {
+        "horario": "11:45",
+        "atividade": "Término das apresentações e pausa para almoço",
+        "ensalamento": "-"
+    },
+    {
+        "horario": "13:30",
+        "atividade": "Retorno das apresentações e visitas das escolas",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "13:30 – 16:00",
+        "atividade": "Avaliações dos projetos",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "16:00",
+        "atividade": "Distribuição de lanche aos expositores",
+        "ensalamento": "Cada projeto vai receber o lanche na sala"
+    },
+    {
+        "horario": "17:00",
+        "atividade": "Término das apresentações e desmontar os projetos",
+        "ensalamento": "Blocos LACOMA, II, III, IV, V, centro de convivência"
+    },
+    {
+        "horario": "17:15",
+        "atividade": "Cerimônia de premiação",
+        "ensalamento": "Em frente ao bloco 1"
+    }
+]

@@ -14,6 +14,8 @@ import imgEmpreendedorismo from '../../assets/imagens/areas/target.svg'
 import imgCienciasHumanas from '../../assets/imagens/areas/think.svg'
 import imgInovacao from '../../assets/imagens/areas/rocket.png'
 
+import Cronograma from './cronograma'
+
 const Conteudo = ({ imagem, descricao }) => (
     <div className='materiasItem'>
         <img src={imagem} alt={descricao} />
@@ -26,9 +28,18 @@ function Inicio() {
     return (
         <div id='inicio'>
             <div className='descricao'>
-                <h2>17 a 24 de outubro - Virtual</h2>
-                <h2>24 de outubro - Presencial</h2>
-                <a href='/aprovados' className='btnInscricao'>TRABALHOS APROVADOS</a>
+                <div>
+                    <img src='imagens/fecitec/mascote.png' alt='Fecitequinha' />
+                </div>
+                <div>
+                    <h2>17 a 24 de outubro - Virtual</h2>
+                    <h2>24 de outubro - Presencial</h2>
+                    <div className='links'>
+                        <a href='/aprovados'>Trabalhos aprovados</a>
+                        <a href='#cronograma'>Cronograma feira presencial</a>
+                        <a href='/virtual'>Sobre a feira virtual</a>
+                    </div>
+                </div>
             </div>
 
             <div className='apresentacao'>
@@ -63,6 +74,10 @@ function Inicio() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div id='cronograma'>
+                <Cronograma />
             </div>
 
             <div className='materias'>
