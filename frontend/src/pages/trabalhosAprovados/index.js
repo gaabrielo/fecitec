@@ -47,7 +47,16 @@ function TrabalhosAprovados() {
         </div>
     )
 
-    const Modulo = ({ modulo, orientacoes, projetos }) => (
+    const Ensalamento = ({ descricao, projetos }) => (
+        <div key={descricao} className='ensalamento'>
+            <p>{descricao}</p>
+            <ul>
+                {projetos.map(projeto => <li key={projeto}>• {projeto}</li>)}
+            </ul>
+        </div>
+    )
+
+    const Modulo = ({ modulo, orientacoes, projetos, ensalamentos }) => (
         <Accordion key={modulo} expanded={expandido === modulo} onChange={expandir(modulo)} style={{ boxShadow: 'none', border: 'none' }}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
@@ -64,7 +73,7 @@ function TrabalhosAprovados() {
                     </div>
                 }
                 {
-                    expandido === modulo && projetos.map(Projeto)
+                    expandido === modulo && ensalamentos.length > 0 ? ensalamentos.map(Ensalamento) : projetos.map(Projeto)
                 }
             </AccordionDetails>
         </Accordion>
@@ -82,11 +91,20 @@ function TrabalhosAprovados() {
                 }
             </div>
 
-            <a href={config.aprovados} download='FECITEC-APROVADOS' style={{ marginBottom: '20px' }}>
-                <Button variant='contained' color='success' startIcon={<CloudDownloadIcon />} size='large'>
-                    Baixar documento
-                </Button>
-            </a>
+            <div style={{ display: 'flex', marginBottom: '20px' }}>
+                <a href={config.aprovados} download='FECITEC-APROVADOS'>
+                    <Button variant='contained' color='success' startIcon={<CloudDownloadIcon />} size='large'>
+                        projetos aprovados
+                    </Button>
+                </a>
+                <a href={config.ensalamento} download='FECITEC-ENSALAMENTO'>
+                    <Button variant='contained' color='success' startIcon={<CloudDownloadIcon />} size='large' style={{ marginLeft: '10px' }}>
+                        ensalamento
+                    </Button>
+                </a>
+            </div>
+
+
         </div>
     )
 }

@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-#trabalhosAprovados .projeto {
+#trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
     padding: 10px;
     border: 1px solid #00000020;
     margin: 5px;
@@ -48,6 +48,29 @@
     font-size: 0.8rem;
 }
 
+#trabalhosAprovados .ensalamento {
+    padding: 0;
+    justify-content: flex-start;
+}
+
+#trabalhosAprovados .ensalamento p {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #00000020;
+}
+
+#trabalhosAprovados .ensalamento ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+#trabalhosAprovados .ensalamento li {
+    margin: 5px 0;
+}
+
 #trabalhosAprovados .orientacoes {
     background: #fff1e6;
     color: #f35900;
@@ -59,7 +82,7 @@
 }
 
 @media (max-width: 600px) {
-    #trabalhosAprovados .projeto {
+    #trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
         max-width: 100%;
     }
 }

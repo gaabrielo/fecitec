@@ -1,7 +1,8 @@
 [
     {
-        "modulo": "Feira virtual (por ordem alfabética)",
+        "modulo": "Feira virtual",
         "orientacoes": "Todos os projetos precisam enviar o link do vídeo no YouTube até o dia 05 de outubro no e-mail: fecitec.ufpr@gmail.com",
+        "ensalamentos": [],
         "projetos": [
             {
                 "nome": "Acompanhamento psicológico no pré e pós-operatório de cirurgias plásticas",
@@ -154,409 +155,220 @@
         ]
     },
     {
-        "modulo": "Feira presencial (por ordem alfabética)",
+        "modulo": "Feira presencial e ensalamento",
         "orientacoes": "- 4 projetos do ensino infantil, 27 do ensino fundamental I, 46 do ensino fundamental II e 23 projetos do ensino médio/técnico\n- Se algum projeto desistir ou não vai participar no formato presencial, favor avisar no e-mail: fecitec.ufpr@gmail.com\n- Caso algum projeto foi inscrito e não está na lista, favor entrar em contato no e-mail: fecitec.ufpr@gmail.com\n*Nomes científicos foram retirados do título, conforme manual de orientações",
-        "projetos": [
-            {
-                "nome": "Abelhas e a polinização da pitaya: implicações no vingamento dos frutos",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "A ciência está no ar",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "A IMPORTÂNCIA DA REUTILIZAÇÃO DO ÓLEO PARA O MEIO-AMBIENTE E A OPÇÃO DE UMA RENDA EXTRA",
-                "colegio": "Colégio Diocesano Leão XIII, Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
-            },
-            {
-                "nome": "A IMPORTÂNCIA DE LAVAR AS MÃOS – UMA SENSIBILIZAÇÃO UTILIZANDO A MICROBIOLOGIA NA EDUCAÇÃO INFANTIL",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Alfabetização e suas diversas formas de aprender",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Análise do desenvolvimento de alface em diferentes concentrações de resíduos de ervamate em vasos",
-                "colegio": "Colégio Gabriela Mistral"
-            },
-            {
-                "nome": "Análise do potencial da planta mertiolate na regeneração foliar do boldo",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "ANALISE ESTATÍSTICA DA CLASSIFICAÇÃO SANGUÍNEA NO COLÉGIO TERRA DO SABER",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "ANÁLISE SOBRE O USO DO CIGARRO E OS MALEFÍCIOS CAUSADOS AOS USUÁRIOS",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Aprofundamento sobre dinossauros na educação básica",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "AQUAPONIA: FERTIRRIGAÇÃO COM SISTEMA DE GOTEJAMENTO VERTICAL",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "A SENSIBILIDADE AUDITIVA NO AUTISMO",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "ATIVIDADE ANTIMICROBIANA DE DIFERENTES ÓLEOS ESSENCIAIS FRENTE À MICRORGANISMOS DE IMPORTÂNCIA CLÍNICA",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "AVALIAÇÃO DA GERAÇÃO DE ENERGIA QUÍMICA A PARTIR DE DIFERENTES ALIMENTOS",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "A visão dos alunos egressos sobre a trajetória escolar",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Borboleta-azul-das-turfeiras: borboletas que terminam seu desenvolvimento (ciclo) sob os cuidados de formigas",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "BRASIC",
-                "colegio": "Escola Sesi Albino Marques Gomes, Gravataí – RS (favor confirmar se é presencial)"
-            },
-            {
-                "nome": "CARRINHO “TOBI”, SEGUIDOR DE LINHA",
-                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
-            },
-            {
-                "nome": "CELULAR: PESQUISA, ANÁLISE DOS MOTIVOS DA SUA CRIAÇÃO, E IMPACTOS QUE ELE VEM TRAZENDO PARA A VIDA DAS PESSOAS",
-                "colegio": "Colégio Diocesano Leão XIII, Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
-            },
-            {
-                "nome": "Chazinho, do tempo da vovó",
-                "colegio": "Centro de Excelência em Educação"
-            },
-            {
-                "nome": "COGUMELOS E SUAS CURIOSIDADES",
-                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
-            },
-            {
-                "nome": "Como facilitar a não contaminação dos mosquitos da dengue?",
-                "colegio": "Colégio Diocesano Leão XIII – Paranaguá – PR (da feira afiliada Feira do Litoral Paranaense)"
-            },
-            {
-                "nome": "CONSTRUÇÃO DE UM JOGO DE XADREZ UTILIZANDO MATERIAL PET RECICLÁVEL",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Construção de maquete de uma casa automatizada",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Construção de maquete de uma estufa automatizada para cultivo de hortaliças",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Construção de um veículo de irrigação adaptativa sob demanda",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Consumo consciente de eletricidade",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Controle alternativo de cascudinho em Avicultura de corte",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "Crescimento e microestrutura óssea de frangos de corte selecionados geneticamente",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "CRIAÇÃO DE JOGOS DE TABULEIROS COMO MÉTODO DE ESTUDO PARA O DESENVOLVIMENTO DE ATITUDES EMPREENDEDORAS EM UM CLUBE DE CIÊNCIAS E ROBÓTICA",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "CRIAÇÃO DE UM JOGO ESTRATÉGICO PARA O ENSINO DE DIFERENTES OPERAÇÕES MATEMÁTICAS",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "Criptografia de Chave Alternada",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "DEMONSTRAÇÃO DIDATICA SOBRE A INTERAÇÃO DOS DIFERENTE TIPOS SANGUINEOS DURANTE UMA TRANSFUSÃO",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Desempenho zootécnico e bem-estar decorrente da inclusão de hidrolisado proteico de subprodutos de aves como fonte alternativa de proteína na dieta do camarão",
-                "colegio": "Colégio Gabriela Mistral"
-            },
-            {
-                "nome": "Desenvolvimento de uma estufa automatizada de baixo custo para a produção de Orquídeas na Região Oeste do Paraná",
-                "colegio": "Unidade Conviver"
-            },
-            {
-                "nome": "DESENVOLVIMENTO DE UM JOGO DE RACIOCÍNIO LÓGICO COMO FERRAMENTA DE APOIO A PORTADORES DO TRANSTORNO DE DÉFICIT DE ATENÇÃO E HIPERATIVIDADE (TDAH)",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "Despertando os 4 R´s",
-                "colegio": "Centro de Excelência em Educação"
-            },
-            {
-                "nome": "E agora? Tartarugas, Jabutis e Cágados... Saberia diferenciá-los?",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Encostando nas nuvens\"...: O que são paraquedas?",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Energias renováveis - um futuro sustentável",
-                "colegio": "Escola Municipal Luiz Moacir Percicoti"
-            },
-            {
-                "nome": "*Ensaio ecotoxicológico de dosagem de digestato suinícola na produção de mudas de alface",
-                "colegio": "Colégio Gabriela Mistral"
-            },
-            {
-                "nome": "Entendendo a \"Teoria da Relatividade",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Estudo do potencial alelopático do extrato aquoso da folha e flor da mangueira sobre a germinação das sementes de picão preto e alface",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "EXTRAÇÃO E AVALIAÇÃO DA ATIVIDADE ANTIOXIDANTE DE CORANTES NATURAIS",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "Extratos de folhas de sete copas como alternativa ao controle de pulgões",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Feijões mágicos - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
-                "colegio": "Campus Natal Zona Norte – Natal - RN (favor confirmar se é presencial)"
-            },
-            {
-                "nome": "Fontes renováveis de energia na região Oeste do Paraná: fatores relacionados a sua eficácia",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "FORMULAÇÃO DE PÓ DENTAL COMO ALTERNATIVA ECONÔMICA, SUSTENTÁVEL E BENÉFICA PARA A HIGIENE BUCAL",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Garra Mecânica",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Geração de energia de forma renovável: visando a sustentabilidade",
-                "colegio": "Escola Municipal Leonardo da Vinci"
-            },
-            {
-                "nome": "HIDRATANTE LABIAL NATURAL COM EXTRATO ALCOÓLICO DE GUACO COMO AUXÍLIO NO TRATAMENTO DA HERPES",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK"
-            },
-            {
-                "nome": "HORUS",
-                "colegio": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte, Natal – RN (favor confirmar se é presencial)"
-            },
-            {
-                "nome": "Investigando os microrganismos presentes em superfícies e mãos",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "IRRIGADOR AUTOMÁTICO PARA HORTA ESCOLAR NO CULTIVO DE VERDURAS, LEGUMES E CHÁS TERAPÊUTICOS",
-                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
-            },
-            {
-                "nome": "Isso é coisa de menina? Uma abordagem diferenciada sobre o ensino de programação para meninas no ensino fundamental",
-                "colegio": "Unidade conviver"
-            },
-            {
-                "nome": "JOGO DA MEMÓRIA TRILÍNGUE PARA O ENSINO DE MATEMÁTICA ",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "JOGO DE TABULEIRO EM INGLÊS SOBRE OS REINOS DOS SERES VIVOS ",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Melhoramento na distribuição de energia em áreas rurais",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Modelos didáticos anatômicos: utilização de materiais recicláveis e alternativos",
-                "colegio": "Escola Municipal Leonardo da Vinci"
-            },
-            {
-                "nome": "*Obtenção de colágeno a partir de resíduos de tilápia",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Olhando para um mesmo “lugar” sob diferentes “óticas”",
-                "colegio": "Escola Terra do Saber "
-            },
-            {
-                "nome": "O universo da cor amarelo",
-                "colegio": "Escola Municipal Leonardo da Vinci"
-            },
-            {
-                "nome": "O uso da raiz de tiririca para o desenvolvimento radicular e foliar do feijão",
-                "colegio": "Escola Municipal Leonardo da Vinci "
-            },
-            {
-                "nome": "O uso dos produtos da compostagem no desenvolvimento das plantas",
-                "colegio": "Escola Municipal Leonardo da Vinci"
-            },
-            {
-                "nome": "OS DESAFIOS ENFRENTADOS PELOS PROFISSIONAIS DA EDUCAÇÃO NO PERÍODO PÓS-PANDEMIA",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Os planetas e as luas do sistema solar",
-                "colegio": "Centro de Excelência em Educação"
-            },
-            {
-                "nome": "Personalização e estilo: empreendedorismo com miçangas",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "PESTICIDAS NATURAIS COMO ALTERNATIVA PARA ELIMINAÇÃO DE PRAGAS EM CEBOLINHA VERDE",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Pirâmide alimentar: a importância de uma alimentação saudável e equilibrada",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "PIRULITO TERAPÊUTICO COM EXTRATO DA PRÓPOLIS VERDE",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Plataforma Semafórica Inteligente",
-                "colegio": "Colégio Estadual Vicente Tomazini, Francisco Alves – PR"
-            },
-            {
-                "nome": "Pomada de farinha de tilápia e calêndula para cicatrização em humanos",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "POMADA MEDICINAL NATURAL COM PROPRIEDADES ANTI-INFLAMATÓRIAS, CICATRIZANTES E ANTIMICROBIANAS",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Priorização das pedras grandes como estratégia de gestão do tempo",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Produção, criação e comparação de Gongocompostagem e vermicompostagem",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "PRODUÇÃO DE FILMES BIODEGRADÁVEIS COM APLICAÇÃO MEDICINAL",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "PRODUÇÃO DE JOGO DIDÁTICO INCLUSIVO EM LÍNGUA PORTUGUESA E BRAILE SOBRE AS PARTES DO CORPO HUMANO",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Produção de hortaliças em vaso com o uso de adubação orgânica",
-                "colegio": "Colégio Estadual Agrícola Adroaldo Augusto Colombo"
-            },
-            {
-                "nome": "Reaproveitamento de embalagens de extrato de tomate",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "RECICLAGEM DO BEM, UMA QUESTÃO AMBIENTAL E SOCIAL",
-                "colegio": "Colégio Gabriela Mistral"
-            },
-            {
-                "nome": "Reciclando na Astronomia",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Recuperando vegetais que iriam para o lixo",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "Redes sociais: uma análise sobre sua influência na vida das pessoas no “antes” e “pós” pandemia",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "REUSO DA ÁGUA DA CHUVA E DA ÁGUA DESCARTADA NOS BEBEDOUROS DO COLÉGIO TERRA DO SABER",
-                "colegio": "PALOTINA – PARANÁ - Escola Terra do Saber"
-            },
-            {
-                "nome": "Reutilização de materiais como recurso de conscientização sobre o Braille",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "RODA GIGANTE",
-                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
-            },
-            {
-                "nome": "Rumo ao espaço: um contexto histórico sobre foguetes",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Rotação de cultura e plantio consorciado: Uma busca de alternativas para o aumento da produtividade",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "SEMÁFARO 4 TEMPOS",
-                "colegio": "Colégio Estadual Pio XII, Maripá – PR"
-            },
-            {
-                "nome": "*SHAMPOO E CONDICIONADOR EM BARRA COM A INCORPORAÇÃO DE RESÍDUO DA ERVA MATE",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "SISTEMA DIGESTÓRIO FUNCIONAL",
-                "colegio": "Escola Municipal Joaquim Monteiro Martins Franco"
-            },
-            {
-                "nome": "Sistema de filtragem de água com carvão e areia: mecanismo de purificação de águas com sedimentos",
-                "colegio": "Escola Municipal Leonardo da Vinci"
-            },
-            {
-                "nome": "Sistema Respiratório - Escola Municipal Joaquim Monteiro Martins Franco Sombra: cada um tem a sua",
-                "colegio": "Colégio Cecília Meireles"
-            },
-            {
-                "nome": "SUPLEMENTO ALIMENTAR PARA BOVINOS FORMULADO COM INGREDIENTES DE ORIGEM NATURAL",
-                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK"
-            },
-            {
-                "nome": "Transformar para brincar",
-                "colegio": "Escola Municipal Terezinha Giron Agustini"
-            },
-            {
-                "nome": "Um estudo sobre os baiacus",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "USO DA FIBRA DE PAINA (CEIBA PENTANDRA) COMO SUBSTRATO DE ILHAS FLUTUANTES FILTRANTES",
-                "colegio": "Colégio Militar Do Recife, Recife – PE (favor confirmar se é presencial)"
-            },
-            {
-                "nome": "Você está preparado para lidar com os possíveis perigos da internet?",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Você sabe o que pode ocasionar um deslizamento?",
-                "colegio": "Escola Terra do Saber"
-            },
-            {
-                "nome": "Você sabe o que são asteroides?",
-                "colegio": "Escola Terra do Saber"
+        "ensalamentos": [
+            {
+                "descricao": "AO LADO DA CANTINA",
+                "projetos": [
+                    "My robot school"
+                ]
+            },
+            {
+                "descricao": "PRÉDIO LACOMA – SALA 02 (ENSINO INFATIL)",
+                "projetos": [
+                    "A ciência está no ar - Colégio Cecília Meireles",
+                    "Despertando os 4 R's - Centro de Excelência em Educação",
+                    "Sombra: cada um tem a sua - Colégio Cecília Meireles (PRECISA DE TOMADA)"
+                ]
+            },
+            {
+                "descricao": "PRÉDIO LACOMA – SALA 03 (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Alfabetização e suas diversas formas de aprender - Colégio Cecília Meireles",
+                    "Chazinho do tempo da vovó - Centro de Excelência em Educação",
+                    "Cogumelos e suas curiosidades - Escola Municipal Joaquim M. M. Franco"
+                ]
+            },
+            {
+                "descricao": "PRÉDIO LACOMA – HALL DE ENTRADA (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Análise estatística da classificação sanguínea no Colégio Terra do Saber - Colégio Terra do Saber",
+                    "Criação de um jogo estratégico para o ensino de diferentes operações matemáticas - Clube de Ciências do Biopark"
+                ]
+            },
+            {
+                "descricao": "BLOCO II – HALL DE ENTRADA (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Demonstração didática sobre a interação dos diferentes tipos sanguíneos durante uma transfusão – Colégio Terra do Saber"
+                ]
+            },
+            {
+                "descricao": "BLOCO II – SALA 06 (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Investigando os microrganismos presentes em superfícies e mãos - Colégio Cecília Meireles",
+                    "Energias renováveis - um futuro sustentável - Escola Municipal Luiz Moacir Percicoti",
+                    "Geração de energia de forma renovável: visando a sustentabilidade - Escola Municipal Leonardo da Vinci",
+                    "Isso é coisa de menina? Uma abordagem diferenciada sobre o ensino de programação para meninas no ensino fundamental - Unidade Conviver",
+                    "Modelos didáticos anatômicos: utilização de materiais recicláveis e alternativos - Escola Municipal Leonardo da Vinci",
+                    "Crescimento e microestrutura óssea de frangos de corte selecionados geneticamente - Colégio Cecília Meireles (PRECISA DE TOMADA)"
+                ]
+            },
+            {
+                "descricao": "BLOCO II – SALA 08 (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Os planetas e as luas do sistema solar - Centro de Excelência em Educação",
+                    "O universo da cor amarelo - Escola Municipal Leonardo da Vinci",
+                    "Personalização e estilo: empreendedorismo com miçangas - Colégio Cecília Meireles",
+                    "Pirulito terapêutico com extrato da própolis verde – Clube de Ciências do Biopark",
+                    "Produção de jogo didático inclusivo em língua portuguesa e braile sobre as partes do corpo humano - Clube de Ciências do Biopark",
+                    "Reciclagem do bem, uma questão ambiental e social – Colégio Gabriela Mistral"
+                ]
+            },
+            {
+                "descricao": "BLOCO II – SALA 09 (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "O uso da raiz de tiririca para o desenvolvimento radicular e foliar do feijão - Escola Municipal Leonardo da Vinci",
+                    "Reaproveitamento de embalagens de extrato de tomate - Colégio Cecília Meireles",
+                    "Roda gigante - Escola Municipal Joaquim M. M. Franco",
+                    "Shampoo e condicionador em barra com a incorporação de resíduo da erva mate – Clube de ciências do Biopark",
+                    "Transformar para brincar - Escola Municipal Terezinha Giron Agustini (PRECISA DE TOMADA)",
+                    "O uso dos produtos da compostagem no desenvolvimento das plantas - Escola Municipal Leonardo da Vinci"
+                ]
+            },
+            {
+                "descricao": "BLOCO III – HALL/MESA DE MADEIRA NA ENTRADA (ENSINO FUNDAMENTAL I)",
+                "projetos": [
+                    "Sistema de filtragem de água com carvão e areia: mecanismo de purificação de águas com sedimentos - Escola Municipal Leonardo da Vinci"
+                ]
+            },
+            {
+                "descricao": "BLOCO III – SALA 10 (ENSINO FUNDAMENTAL I e II)",
+                "projetos": [
+                    "Recuperando vegetais que iriam para o lixo - Colégio Cecília Meireles",
+                    "Sistema digestório funcional - Escola Municipal Joaquim M. M. Franco",
+                    "A importância da reutilização do óleo para o meio ambiente e a opção de uma renda extra - Colégio Diocesano Leão XIII, Paranaguá",
+                    "Análise do desenvolvimento de alface em diferentes concentrações de resíduos de erva-mate em vasos - Colégio Gabriela Mistral",
+                    "Avaliação da geração de energia química a partir de diferentes alimentos – Colégio Terra do Saber (PRECISA DE TOMADA)",
+                    "Construção de um veículo de irrigação adaptativa sob demanda – Clube de ciências do Biopark"
+                ]
+            },
+            {
+                "descricao": "BLOCO III – SALA 11 (ENSINO FUNDAMENTAL I e II)",
+                "projetos": [
+                    "Sistema Respiratório - Escola Municipal Joaquim M. M. Franco",
+                    "A visão dos alunos egressos sobre a trajetória escolar - Colégio Cecília Meireles",
+                    "Borboleta-azul-das-turfeiras: borboletas que terminam seu desenvolvimento (ciclo) sob os cuidados de formigas – Colégio Terra do Saber",
+                    "Carrinho “Tobi”, seguidor de linha – Colégio Estadual Pio XII",
+                    "Celular: pesquisa, análise dos motivos da sua criação, e impactos que ele vem trazendo para a vida das pessoas - Colégio Diocesano Leão XIII, Paranaguá",
+                    "Construção de maquete de uma estufa automatizada para cultivo de hortaliças – Clube de ciências do Biopark (PRECISA DE TOMADA)"
+                ]
+            },
+            {
+                "descricao": "BLOCO III - SALA 12 (ENSINO FUNDAMENTAL II)",
+                "projetos": [
+                    "Como facilitar a não contaminação dos mosquitos da dengue? - Colégio Diocesano Leão XIII, Paranaguá",
+                    "Consumo consciente de eletricidade - Colégio Cecília Meireles",
+                    "Criação de jogos de tabuleiros como método de estudo para o desenvolvimento de atitudes empreendedoras em um clube de ciências e robótica - Clube de ciências do Biopark",
+                    "Desenvolvimento de uma estufa automatizada de baixo custo para a produção de Orquídeas na Região Oeste do Paraná – Unidade Conviver",
+                    "Desenvolvimento de um jogo de raciocínio lógico como ferramenta de apoio a portares do transtorno de déficit de atenção e hiperatividade (TDAH) – Clube de ciências do Biopark",
+                    "Análise do potencial da planta mertiolate na regeneração foliar do boldo - Colégio Cecília Meireles"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – Hall de entrada",
+                "projetos": [
+                    "Um estudo sobre os baiacus – Colégio Terra do Saber"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – MESA DE MADEIRA / CORREDOR DO PRIMEIRO ANDAR (ENSINO FUNDAMENTAL II)",
+                "projetos": [
+                    "E agora? Tartarugas, Jabutis e Cágados... Saberia diferenciá-los? – Colégio Terra do Saber"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – DEPOIS DA SALA 17 / CORREDOR (ENSINO FUNDAMENTAL II)",
+                "projetos": [
+                    "Extração e avaliação da atividade antioxidante de corantes naturais – Clube de ciências do Biopark"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 17 / PRIMEIRO ANDAR (ENSINO FUNDAMENTAL II)",
+                "projetos": [
+                    "Fontes renováveis de energia na região Oeste do Paraná: fatores relacionados a sua eficácia - Colégio Terra do Saber (PRECISA DE TOMADA)",
+                    "Estudo do potencial alelopático do extrato aquoso da folha e flor da mangueira sobre a germinação das sementes de picão preto e alface - Colégio Cecília Meireles",
+                    "Hidratante labial natural com extrato alcoólico de guaco no auxílio no tratamento da herpes – Clube de ciências do Biopark",
+                    "Jogo da memória triglíngue para o ensino de matemática – Clube de ciências do Biopark",
+                    "Melhoramento na distribuição de energia em áreas rurais - Colégio Cecília Meireles (PRECISA DE TOMADA)",
+                    "Entendendo a \"Teoria da Relatividade\" - Colégio Terra do Saber"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 18 / PRIMEIRO ANDAR (ENSINO FUNDAMENTAL II e MÉDIO )",
+                "projetos": [
+                    "Jogo de tabuleiro em inglês sobre os reinos dos seres vivos - Clube de ciências do Biopark",
+                    "\"Encostando nas nuvens\"...: O que são paraquedas? - Colégio Terra do Saber",
+                    "Garra Mecânica – Colégio Terra do Saber (PRECISA DE TOMADA)",
+                    "Obtenção de colágeno a partir de resíduos de tilápia – Clube de ciências do Biopark",
+                    "Priorização das pedras grandes como estratégia de gestão do tempo – Colégio Cecília Meireles",
+                    "Semáforo 4 tempos – Colégio Estadual Pio XII"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 19 / PRIMEIRO ANDAR (ENSINO FUNDAMENTAL II e MÉDIO)",
+                "projetos": [
+                    "Redes sociais: uma análise sobre sua influência na vida das pessoas no “antes” e “pós” pandemia – Colégio Terra do Saber",
+                    "Reutilização de materiais como recurso de conscientização sobre o Braille – Colégio Cecília Meireles",
+                    "Rotação de cultura e plantio consorciado: Uma busca de alternativas para o aumento da produtividade – Colégio Cecília Meireles",
+                    "Rumo ao espaço: um contexto histórico sobre foguetes - Colégio Terra do Saber",
+                    "Suplemento alimentar para bovinos formulado com ingredientes de origem natural – Clube de ciências do Biopark",
+                    "Abelhas e a polinização da pitaya: implicações no vingamento dos frutos – Colégio Estadual Agrícola Adroaldo Augusto Colombo"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 20 / SEGUNDO ANDAR (ENSINO FUNDAMENTAL II E MÉDIO)",
+                "projetos": [
+                    "Olhando para um mesmo “lugar” sob diferentes “óticas” - Colégio Terra do Saber (PRECISA DE TOMADA)",
+                    "Pirâmide alimentar: a importância de uma alimentação saudável e equilibrada – Colégio Terra do Saber",
+                    "Pomada medicinal natural com propriedades anti-inflamatórias, cicatrizantes e antimicrobianas - Clube de ciências do Biopark",
+                    "Aprofundamento sobre dinossauros na educação básica –Colégio Cecília Meireles",
+                    "Aquaponia: fertirrigação com sistema de gotejamento vertical - Colégio Estadual Agrícola Adroaldo Augusto Colombo"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 21 / SEGUNDO ANDAR (ENSINO FUNDAMENTAL II E MÉDIO)",
+                "projetos": [
+                    "A importância de lavar as mãos – uma sensibilização utilizando a microbiologia na educação infantil – Colégio Terra do Saber",
+                    "Feijões mágicos - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal Zona Norte, Natal / RN – CONFIRMAR ??",
+                    "Análise sobre o uso do cigarro e os malefícios causados aos usuários - Colégio Terra do Saber",
+                    "Você está preparado para lidar com os possíveis perigos da internet? - Colégio Terra do Saber",
+                    "Controle alternativo de cascudinho em avicultura de corte - Colégio Estadual Agrícola Adroaldo Augusto Colombo",
+                    "Desempenho zootécnico e bem-estar decorrente da inclusão de hidrolisado proteico de subprodutos de aves como fonte alternativa de proteína na dieta do camarão – Colégio Gabriela Mistral"
+                ]
+            },
+            {
+                "descricao": "BLOCO IV – SALA 22 / SEGUNDO ANDAR (ENSINO MÉDIO)",
+                "projetos": [
+                    "Criptografia de chave alternada - Colégio Estadual Agrícola Adroaldo Augusto Colombo",
+                    "Extratos de folhas de sete copas como alternativa ao controle de pulgões – Colégio Cecília Meireles",
+                    "Pesticidas naturais como alternativa para eliminação de pragas em cebolinha verde – Colégio Terra do Saber",
+                    "Você sabe o que pode ocasionar um deslizamento? Colégio Terra do Saber",
+                    "Produção, criação e comparação de gongocompostagem e vermicompostagem - Colégio Estadual Agrícola Adroaldo Augusto Colombo",
+                    "Ensaio ecotoxicológico de dosagem de digestato suinícola na produção de mudas de alface – Colégio Gabriela Mistral"
+                ]
+            },
+            {
+                "descricao": "CENTRO DE CONVIVÊNCIA (ENSINO FUNDAMENTAL II E MÉDIO)",
+                "projetos": [
+                    "Você sabe o que são asteroides? – Colégio Terra do Saber",
+                    "Os desafios enfrentados pelos profissionais da educação no período pós-pandemia – Colégio Terra do Saber",
+                    "Pomada de farinha de tilápia e calêndula para cicatrização em humanos - Colégio Estadual Agrícola Adroaldo Augusto Colombo",
+                    "A sensibilidade auditiva no autismo – Colégio Terra do Saber"
+                ]
+            },
+            {
+                "descricao": "BLOCO V – SALA 24 / SEGUNDO ANDAR (FUNDAMENTAL II E MÉDIO)",
+                "projetos": [
+                    "Produção de hortaliças em vaso com o uso de adubação orgânica - Colégio Estadual Agrícola Adroaldo Augusto Colombo",
+                    "Reuso da água da chuva e da água descartada nos bebebouros do Colégio Terra do Saber – Palotina – Paraná – Colégio Terra do Saber ",
+                    "Construção de um jogo de xadrez utilizando material pet reciclável – Colégio Terra do Saber",
+                    "Reciclando na Astronomia – Colégio Terra do Saber",
+                    "Plataforma semafórica inteligente - Colégio Estadual Vicente Tomazini, Francisco Alves",
+                    "Irrigador automático para horta escolar no cultivo de verduras, legumes e chás terapêuticos – Colégio Estadual Pio XII"
+                ]
             }
-        ]
+        ],
+        "projetos": []
     }
 ]

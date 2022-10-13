@@ -35,7 +35,7 @@ function Inicio() {
                     <h2>17 a 24 de outubro - Virtual</h2>
                     <h2>24 de outubro - Presencial</h2>
                     <div className='links'>
-                        <a href='/aprovados'>Trabalhos aprovados</a>
+                        <a href='/aprovados'>Trabalhos aprovados & ensalamento</a>
                         <a href='#cronograma'>Cronograma feira presencial</a>
                         <a href='/virtual'>Sobre a feira virtual</a>
                     </div>
