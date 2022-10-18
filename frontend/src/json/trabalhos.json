@@ -5,32 +5,48 @@
         "ensalamentos": [],
         "projetos": [
             {
+                "nome": "A adoção precisa ser tão complicada",
+                "colegio": "Escola Luterana de Ensino Médio São Mateus, Sapiranga, Rio Grande do Sul",
+                "video": "https://youtu.be/CS1rRN_ymfc"
+            },
+            {
                 "nome": "Acompanhamento psicológico no pré e pós-operatório de cirurgias plásticas",
                 "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
             },
             {
                 "nome": "A INFLUÊNCIA DAS REDES SOCIAIS NA INSATISFAÇÃO DA IMAGEM CORPORAL ADOLESCENTE E SUAS CONSEQUÊNCIAS",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/W5JqoNQ2BZQ"
             },
             {
-                "nome": "A Influência das Cores no Estudo e na Produtividade dos Alunos do Ensino Médio -",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "nome": "A Influência das Cores no Estudo e na Produtividade dos Alunos do Ensino Médio",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/zdmQhqgL3Os"
             },
             {
-                "nome": "A influência dos desreguladores hormonais presentes no microplástico -",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "nome": "A influência dos desreguladores hormonais presentes no microplástico",
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/EYEUpPjF67U"
             },
             {
                 "nome": "Alternativas de substituição dos fertilizantes químicos visando reduzir a dificuldades da importação",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/EY-o2SlpNOo"
             },
             {
                 "nome": "A Produção de um Tijolo Ecológico A partir da Fibra do Coco Verde como Possibilidade para o Reaproveitamento de Máscaras Descartáveis",
-                "colegio": "Colégio e Curso Desafio, Recife – Pernambuco"
+                "colegio": "Colégio e Curso Desafio, Recife – Pernambuco",
+                "video": "https://youtu.be/l6vU3R-jtZ8"
+            },
+            {
+                "nome": "ATIVIDADE ANTIMICROBIANA DE DIFERENTES ÓLEOS ESSENCIAIS FRENTE À MICRORGANISMOS DE IMPORTÂNCIA CLÍNICA",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – Biopark",
+                "video": "https://www.youtube.com/watch?v=l6PwgL3NVqk"
             },
             {
                 "nome": "A UTILIZAÇÃO DE INFUSÃO DE TIRIRICA PARA ACELERAÇÃO DA GERMINAÇÃO DE SEMENTES DE LEGUMINOSAS E GRAMÍNEAS",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://www.youtube.com/watch?v=4s2YgELzWLU"
             },
             {
                 "nome": "Automatização Em Chocadeiras",
@@ -41,28 +57,57 @@
                 "colegio": "Colégio Estadual Marechal Castelo Branco, Primeiro de Maio – PR"
             },
             {
+                "nome": "BRASIC",
+                "colegio": "Escola Sesi Albino Marques Gomes, Gravataí, Rio Grande do Sul",
+                "video": " https://www.youtube.com/watch?v=8myT6KISvvg"
+            },
+            {
                 "nome": "Colchão Sustentável para Moradores de Rua",
                 "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
             },
             {
                 "nome": "Como auxiliar pessoas com deficiência visual no aprendizado de programação",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/HmIevgDpM5I"
             },
             {
                 "nome": "Depressão, as drogas e o baixo desempenho escolar",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/UBAe76kpr9Y"
             },
             {
                 "nome": "Ecotelhado sequestrador de carbono",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/68suzqVzUHI"
+            },
+            {
+                "nome": "EXCESSO DE BUROCRACIA NO PROCESSO DE ADOÇÃO DE MENORES",
+                "colegio": "Escola Luterana de Ensino Médio São Mateus, Sapiranga, Rio Grande do Sul "
             },
             {
                 "nome": "Evaluación en el crecimiento de la especie Epipremnum aureum en presencia de paracetamol y dexametasona",
-                "colegio": "Escuela: Benemérita Universidad Autónoma de Puebla, Puebla – México (da feira afiliada do Paraguai – CopaTec)"
+                "colegio": "Escuela: Benemérita Universidad Autónoma de Puebla, Puebla – México (da feira afiliada do Paraguai – CopaTec)",
+                "video": "https://www.youtube.com/watch?v=Gnotg7VQxME"
             },
             {
                 "nome": "Fatores que influenciam a variação da temperatura da Terra",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/M-Y8J1GDEFI"
+            },
+            {
+                "nome": "FORMULAÇÃO DE PÓ DENTAL COMO ALTERNATIVA ECONÔMICA, SUSTENTÁVEL E BENÉFICA PARA A HIGIENE BUCAL",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências - BIOPARK",
+                "video": "https://www.youtube.com/watch?v=-FY5P8S_I-s"
+            },
+            {
+                "nome": "HORUS",
+                "colegio": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte, Natal, Rio Grande do Norte",
+                "video": "https://youtu.be/xRexj6qAwQo"
+            },
+            {
+                "nome": "INTEGRANDO GERAÇÕES E PROMOVENDO A SAÚDE: GERONTOTECNOLOGIAS EDUCACIONAIS GAMIFICADAS",
+                "colegio": "Colégio Bom Jesus Centro- Curitiba/PR",
+                "video": "https://youtu.be/xWtvA6GC1Jc"
             },
             {
                 "nome": "INTEGRANDO GERAÇÕES E PROMOVENDO A SAÚDE: GERONTOTECNOLOGIAS EDUCACIONAIS GAMIFICADAS",
@@ -74,7 +119,13 @@
             },
             {
                 "nome": "Los insectos que pueden salvar al planeta",
-                "colegio": "Instituto Carlos Fuentes, Puebla – México"
+                "colegio": "Instituto Carlos Fuentes, Puebla – México",
+                "video": "https://www.youtube.com/watch?v=A2I47ILpEEw"
+            },
+            {
+                "nome": "MALE GAZE",
+                "colegio": "Instituto IVOTI",
+                "video": "https://youtu.be/lkJoHOgrlR8"
             },
             {
                 "nome": "Matemática Inclusiva Para Portadores De Deficiência Visual: Sudoku Fase 2",
@@ -82,11 +133,13 @@
             },
             {
                 "nome": "MEDICAMENTO NÃO É LIXO: DESENVOLVIMENTO DE UM COLETOR PARA O DESCARTE CONSCIENTE DE REMÉDIOS",
-                "colegio": "Colégio e Curso Desafio – Recife, Pernambuco"
+                "colegio": "Colégio e Curso Desafio – Recife, Pernambuco",
+                "video": "https://youtu.be/ftrBHqRWnl4"
             },
             {
                 "nome": "Memória e Resistência Feminina: o Legado Científico de Zilda Arns diante da Masculinidade Hegemônica",
-                "colegio": "Escola Estadual Flávio de Carvalho, Valinhos – SP"
+                "colegio": "Escola Estadual Flávio de Carvalho, Valinhos – SP",
+                "video": "https://youtu.be/1XZhF1qelR8"
             },
             {
                 "nome": "Memory Buddy: uma tecnologia assistiva para a doença de Alzheimer",
@@ -94,15 +147,18 @@
             },
             {
                 "nome": "O aquecimento global na mudança do agronegócio no Brasil",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://www.youtube.com/watch?v=bKDJxEpZMls"
             },
             {
                 "nome": "O SUPER ESTÍMULO E SUA RELAÇÃO COM O ESTIGMA DO AUMENTO DE CASOS DE TRANSTORNOS PSICOLÓGICOS EM ADOLESCENTES NO PERÍODO DA PÓSMODERNIDADE",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/uknvwJ9SX5k"
             },
             {
                 "nome": "O uso de probióticos como auxiliar no controle da intolerância ao glúten",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/NddEFf88oNM"
             },
             {
                 "nome": "O uso da seiva da planta coroa de cristo no controle da proliferação de larvas de mosquito",
@@ -110,27 +166,38 @@
             },
             {
                 "nome": "O Uso Excessivo da Tecnologia Pelas Crianças",
-                "colegio": "Colégio Bom Jesus Nossa Senhora de Lourdes, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Nossa Senhora de Lourdes, Curitiba – PR",
+                "video": "https://youtu.be/Dkg-ESEqPPM"
             },
             {
                 "nome": "PAPEL SEMENTE",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/RWi7pmmaHRM"
+            },
+            {
+                "nome": "PRODUÇÃO DE FILMES BIODEGRADÁVEIS COM APLICAÇÃO MEDICINAL",
+                "colegio": "Clube de Ciências do Parque Científico e Tecnológico de Biociências – BIOPARK, Toledo - PR",
+                "video": "https://www.youtube.com/watch?v=Zd0Jwkt0BuU"
             },
             {
                 "nome": "PROJETO AMO TAMPINHAS: UTILIZAÇÃO DA ROBÓTICA PARA FINS SOCIAIS E AMBIENTAIS",
-                "colegio": "Colégio Sinodal Portão, Portão, Rio Grande do Sul"
+                "colegio": "Colégio Sinodal Portão, Portão, Rio Grande do Sul",
+                "video": "https://youtu.be/cVxoUIuYu6o"
             },
             {
                 "nome": "Projeto CIANOTIPIA: uma alternativa criativa para revelar a fotografia digital na escola básica",
-                "colegio": "Escola Notre Dame, Maringá – PR"
+                "colegio": "Escola Notre Dame, Maringá – PR",
+                "video": "https://youtu.be/5IZmacK3PBM"
             },
             {
                 "nome": "Projeto Clube de Ciências da Escola Notre Dame de Maringá-PR: estimular a iniciação científica e contribuir na formação de futuros cientistas",
-                "colegio": "Clube de Ciências da Escola Notre Dame, Maringá – PR"
+                "colegio": "Clube de Ciências da Escola Notre Dame, Maringá – PR",
+                "video": "https://youtu.be/DAN8dww4xxM"
             },
             {
                 "nome": "Projeto de produção de tintas a partir de materiais orgânicos biodegradáveis, para a utilização nas aulas de Artes na Educação Básica",
-                "colegio": "Escola Notre Dame, Maringá – PR"
+                "colegio": "Escola Notre Dame, Maringá – PR",
+                "video": "https://youtu.be/i41L_SQc-vY"
             },
             {
                 "nome": "Robô Afonso: Um Auxílio Para Pacientes Com Alzheimer",
@@ -142,11 +209,13 @@
             },
             {
                 "nome": "Uma proposta de criação de um Portal digital verificador da veracidade de informações por meio da autopoiese",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/XuJlFhpYopY"
             },
             {
                 "nome": "UMA PROPOSTA PARA A UTILIZAÇÃO DA AGRICULTURA SINTRÓPICA EM PEQUENOS ESPAÇOS URBANOS E A CRIAÇÃO DA CESTA PRIMÁRIA- UMA ADAPTAÇÃO MAIS SAUDÁVEL E NUTRITIVA DAS CESTAS BÁSICAS",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/r2rGAQFbSAg"
             },
             {
                 "nome": "VIOLÊNCIA OBSTÉTRICA: VOCÊ SABERIA O QUE FAZER?",

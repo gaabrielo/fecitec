@@ -19,7 +19,7 @@ function TrabalhosAprovados() {
         setExpandido(expandido ? modulo : false);
     }
 
-    const getCodigoYoutube = (link) => {
+    const getCodigoYoutube = (link = '') => {
         // https://youtu.be/{id}
         // https://www.youtube.com/watch?v={id}&feature=youtu.be&ab_channel=
         // https://www.youtube.com/watch?v={id}
@@ -31,17 +31,9 @@ function TrabalhosAprovados() {
 
     const Projeto = ({ nome, colegio, video }) => (
         <div key={nome} className='projeto'>
-            {
-                video &&
-                <iframe
-                    allowFullScreen
-                    width='100%'
-                    height='300'
-                    src={'https://www.youtube.com/embed/' + getCodigoYoutube(video)}
-                    frameBorder='0'
-                    title={`${nome} - ${colegio}`}
-                ></iframe>
-            }
+            <a href={video} target='_BLANK' className='projetoVideo'>
+                <img src={`https://img.youtube.com/vi/${getCodigoYoutube(video)}/hqdefault.jpg`} width='100%' height='360' alt={nome} />
+            </a>
             <p>{nome}</p>
             <span>{colegio}</span>
         </div>

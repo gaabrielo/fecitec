@@ -31,8 +31,14 @@
     justify-content: center;
 }
 
-#trabalhosAprovados .projeto iframe {
+#trabalhosAprovados .projeto .projetoVideo {
     border-radius: 5px;
+    filter: grayscale(0);
+    transition: all 1s;
+}
+
+#trabalhosAprovados .projeto .projetoVideo:hover {
+    filter: grayscale(1);
 }
 
 #trabalhosAprovados .projeto p {
