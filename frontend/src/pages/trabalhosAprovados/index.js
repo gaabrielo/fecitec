@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
-import Accordion from '@mui/material/Accordion'
-import AccordionSummary from '@mui/material/AccordionSummary'
-import AccordionDetails from '@mui/material/AccordionDetails'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import Button from '@mui/material/Button'
-import CloudDownloadIcon from '@mui/icons-material/CloudDownload'
+
+import {
+    Accordion,
+    AccordionSummary,
+    AccordionDetails,
+    Button
+} from '@mui/material'
+
+import {
+    CloudDownload as CloudDownloadIcon,
+    YouTube as YouTubeIcon,
+    ExpandMore as ExpandMoreIcon
+} from '@mui/icons-material'
 
 import Titulo from '../../components/titulo'
 import projetos from '../../json/trabalhos.json'
@@ -31,11 +38,15 @@ function TrabalhosAprovados() {
 
     const Projeto = ({ nome, colegio, video }) => (
         <div key={nome} className='projeto'>
-            <a href={video} target='_BLANK' className='projetoVideo'>
-                <img src={`https://img.youtube.com/vi/${getCodigoYoutube(video)}/hqdefault.jpg`} width='100%' height='360' alt={nome} />
-            </a>
-            <p>{nome}</p>
-            <span>{colegio}</span>
+            <div className='projetoVideo'>
+                <a href={video} target='_BLANK'>
+                    <img src={`https://img.youtube.com/vi/${getCodigoYoutube(video)}/hqdefault.jpg`} alt={nome} />
+                </a>
+            </div>
+            <div className='projetoDescricao'>
+                <p>{nome}</p>
+                <span>{colegio}</span>
+            </div>
         </div>
     )
 
@@ -49,7 +60,7 @@ function TrabalhosAprovados() {
     )
 
     const Modulo = ({ modulo, orientacoes, projetos, ensalamentos }) => (
-        <Accordion key={modulo} expanded={expandido === modulo} onChange={expandir(modulo)} style={{ boxShadow: 'none', border: 'none' }}>
+        <Accordion key={modulo} expanded={expandido === modulo} onChange={expandir(modulo)} className='projetosAccordion'>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls={modulo + '-content'}
@@ -65,7 +76,7 @@ function TrabalhosAprovados() {
                     </div>
                 }
                 {
-                    expandido === modulo && ensalamentos.length > 0 ? ensalamentos.map(Ensalamento) : projetos.map(Projeto)
+                    expandido === modulo && ensalamentos.length > 0 ? ensalamentos.map(Ensalamento) : projetos.filter(({ video }) => !!video).map(Projeto)
                 }
             </AccordionDetails>
         </Accordion>
@@ -83,7 +94,7 @@ function TrabalhosAprovados() {
                 }
             </div>
 
-            <div style={{ display: 'flex', marginBottom: '20px' }}>
+            <div className='trabalhosBotoes'>
                 <a href={config.aprovados} download='FECITEC-APROVADOS'>
                     <Button variant='contained' color='success' startIcon={<CloudDownloadIcon />} size='large'>
                         projetos aprovados

@@ -12,10 +12,27 @@
     width: 100%;
 }
 
+#trabalhosAprovados .trabalhosBotoes {
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 #trabalhosAprovados .projetos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#trabalhosAprovados .projetosAccordion {
+    box-shadow: none;
+    border: 1px solid #00000020;
+    border-radius: 5px;
+    margin: 5px 15px;
 }
 
 #trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
@@ -28,25 +45,42 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+#trabalhosAprovados .projeto .projetoDescricao {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 #trabalhosAprovados .projeto .projetoVideo {
+    width: 100%;
+}
+
+#trabalhosAprovados .projetoYoutube svg {
+    position: absolute;
+}
+
+#trabalhosAprovados .projeto .projetoVideo img {
+    width: 100%;
     border-radius: 5px;
-    filter: grayscale(0);
-    transition: all 1s;
 }
 
 #trabalhosAprovados .projeto .projetoVideo:hover {
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
 }
 
 #trabalhosAprovados .projeto p {
     text-transform: uppercase;
-}
-
-#trabalhosAprovados .projeto p {
-    margin: 10px 0 0 0;
+    margin: 0;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -87,7 +121,7 @@
     white-space: pre-line;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     #trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
         max-width: 100%;
     }
