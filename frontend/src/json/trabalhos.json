@@ -1,13 +1,13 @@
 [
     {
         "modulo": "Feira virtual",
-        "orientacoes": "Todos os projetos precisam enviar o link do vídeo no YouTube até o dia 05 de outubro no e-mail: fecitec.ufpr@gmail.com",
+        "orientacoes": "",
         "ensalamentos": [],
         "projetos": [
             {
                 "nome": "A adoção precisa ser tão complicada",
                 "colegio": "Escola Luterana de Ensino Médio São Mateus, Sapiranga, Rio Grande do Sul",
-                "video": "https://youtu.be/CS1rRN_ymfc"
+                "video": ""
             },
             {
                 "nome": "Acompanhamento psicológico no pré e pós-operatório de cirurgias plásticas",
@@ -59,7 +59,7 @@
             {
                 "nome": "BRASIC",
                 "colegio": "Escola Sesi Albino Marques Gomes, Gravataí, Rio Grande do Sul",
-                "video": " https://www.youtube.com/watch?v=8myT6KISvvg"
+                "video": "https://www.youtube.com/watch?v=8myT6KISvvg"
             },
             {
                 "nome": "Colchão Sustentável para Moradores de Rua",
@@ -82,7 +82,8 @@
             },
             {
                 "nome": "EXCESSO DE BUROCRACIA NO PROCESSO DE ADOÇÃO DE MENORES",
-                "colegio": "Escola Luterana de Ensino Médio São Mateus, Sapiranga, Rio Grande do Sul "
+                "colegio": "Escola Luterana de Ensino Médio São Mateus, Sapiranga, Rio Grande do Sul",
+                "video": "https://youtu.be/CS1rRN_ymfc"
             },
             {
                 "nome": "Evaluación en el crecimiento de la especie Epipremnum aureum en presencia de paracetamol y dexametasona",
@@ -219,7 +220,8 @@
             },
             {
                 "nome": "VIOLÊNCIA OBSTÉTRICA: VOCÊ SABERIA O QUE FAZER?",
-                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR"
+                "colegio": "Colégio Bom Jesus Centro, Curitiba – PR",
+                "video": "https://youtu.be/IC_OAPlYKyE"
             }
         ]
     },
