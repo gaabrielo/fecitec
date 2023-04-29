@@ -33,6 +33,7 @@ function TrabalhosAprovados() {
         <div key={nome} className='projeto'>
             <a href={video} target='_BLANK' className='projetoVideo'>
                 <img src={`https://img.youtube.com/vi/${getCodigoYoutube(video)}/hqdefault.jpg`} width='100%' height='360' alt={nome} />
+                
             </a>
             <p>{nome}</p>
             <span>{colegio}</span>

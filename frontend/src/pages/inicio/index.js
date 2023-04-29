@@ -4,7 +4,7 @@ import Chip from '@mui/material/Chip'
 
 import './style.css'
 
-import cartaz from '../../assets/imagens/cartaz/2022.svg'
+import cartaz from '../../assets/imagens/cartaz/2023.svg'
 
 import imgBiologia from '../../assets/imagens/areas/dna.svg'
 import imgFisica from '../../assets/imagens/areas/physics.svg'
@@ -27,31 +27,17 @@ function Inicio() {
 
     return (
         <div id='inicio'>
-            <div className='descricao'>
+            {/* <div className='descricao'>
                 <div>
                     <img src='imagens/fecitec/mascote.png' alt='Fecitequinha' />
                 </div>
                 <div>
-                    <h2>17 a 24 de outubro - Virtual</h2>
-                    <h2>24 de outubro - Presencial</h2>
-                    <div className='links'>
-                        <a href='/aprovados'>Trabalhos aprovados & ensalamento</a>
-                        <a href='#cronograma'>Cronograma feira presencial</a>
-                        <a href='/virtual'>Sobre a feira virtual</a>
-                    </div>
+                    <h2>Te esperamos em <br></br>25 de setembro</h2>
                 </div>
-            </div>
+            </div> */}
 
             <div className='apresentacao'>
                 <div className='conteudo'>
-                    {/* <div>
-                        <div className='g-ytsubscribe' data-channelid='UCedhLDlFf5lJ4aRUu_4fKGw' data-layout='full'
-                            data-count='hidden'></div>
-                        <iframe width='100%' height='600px' src='https://www.youtube.com/embed/u5CNOD34DvY' frameBorder='0'
-                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                            allowFullScreen title='Canal do YouTube'></iframe>
-                    </div> */}
-
                     <div className='info'>
                         <div className='cartaz'>
                             <img src={cartaz} alt='Cartaz de apresentação Fecitec' />
@@ -74,10 +60,6 @@ function Inicio() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div id='cronograma'>
-                <Cronograma />
             </div>
 
             <div className='materias'>

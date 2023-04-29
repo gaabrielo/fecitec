@@ -23,10 +23,10 @@ function Routes() {
                 <Route path='/manual'  component={Manual} />
                 <Route path='/contato'  component={Contato} />
                 <Route path='/galeria'  component={Galeria} />
-                <Route path='/aprovados'  component={Aprovados} />
+                {/* <Route path='/aprovados'  component={Aprovados} /> */}
                 <Route path='/anais/:ano'  component={Anais} />
-                <Route path='/inscricao' component={Inscricao} />
-                <Route path='/virtual' component={Virtual} />
+                {/* <Route path='/inscricao' component={Inscricao} /> */}
+                {/* <Route path='/virtual' component={Virtual} /> */}
             </Switch>
         </BrowserRouter>
     )

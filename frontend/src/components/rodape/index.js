@@ -53,7 +53,7 @@ function Rodape() {
                 { patrocinadores.map(Patrocinador) }
             </div>
             <div className='creditos'>
-                <a href='https://github.com/xfelipesobral/fecitec' target='_blank' rel='noreferrer'>FECITEC © 2022</a>
+                <a href='https://github.com/xfelipesobral/fecitec' target='_blank' rel='noreferrer'>FECITEC © { new Date().getFullYear() }</a>
             </div>
         </footer>
     )
