@@ -13,6 +13,7 @@ import imgMatematica from '../../assets/imagens/areas/geometry.svg'
 import imgEmpreendedorismo from '../../assets/imagens/areas/target.svg'
 import imgCienciasHumanas from '../../assets/imagens/areas/think.svg'
 import imgInovacao from '../../assets/imagens/areas/rocket.png'
+import imgSustentabilidade from '../../assets/imagens/areas/sustentabilidade.png'
 
 import Cronograma from './cronograma'
 
@@ -27,14 +28,14 @@ function Inicio() {
 
     return (
         <div id='inicio'>
-            {/* <div className='descricao'>
+            <div className='descricao'>
                 <div>
                     <img src='imagens/fecitec/mascote.png' alt='Fecitequinha' />
                 </div>
                 <div>
-                    <h2>Te esperamos em <br></br>25 de setembro</h2>
+                    <h2>Inscrições de<br></br><span>19/06 à 04/08</span></h2>
                 </div>
-            </div> */}
+            </div>
 
             <div className='apresentacao'>
                 <div className='conteudo'>
@@ -76,6 +77,7 @@ function Inicio() {
                     <Conteudo descricao='Empreendedorismo' imagem={imgEmpreendedorismo} />
                     <Conteudo descricao='Ciências humanas' imagem={imgCienciasHumanas} />
                     <Conteudo descricao='Inovação' imagem={imgInovacao} />
+                    <Conteudo descricao='Sustentabilidade' imagem={imgSustentabilidade} />
                 </div>
             </div>
         </div>

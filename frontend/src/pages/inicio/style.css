@@ -11,14 +11,19 @@
 }
 
 #inicio .descricao img {
-    width: 150px;
+    width: 94px;
     margin-right: 50px;
+}
+
+#inicio .descricao span {
+    font-weight: bold;
 }
 
 #inicio .descricao h2 {
     margin: 0;
     font-weight: 300;
     font-size: 2.5rem;
+    line-height: 3.5rem;
 }
 
 #inicio .descricao a {
