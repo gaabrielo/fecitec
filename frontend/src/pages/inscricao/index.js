@@ -16,8 +16,6 @@ import listaNiveis from './json/niveis.json'
 import listaCamisetas from './json/camisetas.json'
 
 function Inscricao() {
-    return window.location.href = '/'
-
     const [qtdAlunos, setQtdAlunos] = useState([1])
     const [tipoInscricao, setTipoInscricao] = useState('1')
     const [instituicaoNivel, setInstituicaoNivel] = useState('')

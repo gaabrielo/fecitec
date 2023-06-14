@@ -25,7 +25,7 @@ function Routes() {
                 <Route path='/galeria'  component={Galeria} />
                 {/* <Route path='/aprovados'  component={Aprovados} /> */}
                 <Route path='/anais/:ano'  component={Anais} />
-                {/* <Route path='/inscricao' component={Inscricao} /> */}
+                <Route path='/inscricao' component={Inscricao} />
                 {/* <Route path='/virtual' component={Virtual} /> */}
             </Switch>
         </BrowserRouter>
