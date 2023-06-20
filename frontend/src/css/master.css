@@ -23,16 +23,16 @@ html, body, #App {
 }
 
 .btnInscricao {
-    color: #292929;
+    color: #ffffff;
     padding: 10px 20px;
-    background-color: #fff;
-    font-weight: bold;
+    background-color: #5cac25;
     cursor: pointer;
     transition: 0.5s all;
+    border-radius: 5px;
 }
 
 .btnInscricao:hover {
-    background-color: #5cac25;
+    background-color: #346514;
     color: #fff;
 }
 

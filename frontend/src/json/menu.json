@@ -8,6 +8,10 @@
         "link": "/manual "
     },
     {
+        "descricao": "Inscrição",
+        "link": "/inscricao"
+    },
+    {
         "descricao": "Fotos",
         "link": "/galeria"
     },

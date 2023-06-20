@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { TextField, MenuItem, Autocomplete, Switch, FormControl, FormGroup, FormControlLabel, Alert, Button } from '@mui/material'
 import { LoadingButton } from '@mui/lab'
 import { Add as AddIcon, Send as SendIcon } from '@mui/icons-material'
@@ -16,6 +16,9 @@ import listaNiveis from './json/niveis.json'
 import listaCamisetas from './json/camisetas.json'
 
 function Inscricao() {
+    window.location.href = 'https://forms.gle/wt8pJYvVN6wvraFE7'
+    return false
+
     const [qtdAlunos, setQtdAlunos] = useState([1])
     const [tipoInscricao, setTipoInscricao] = useState('1')
     const [instituicaoNivel, setInstituicaoNivel] = useState('')

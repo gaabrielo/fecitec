@@ -34,6 +34,7 @@ function Inicio() {
                 </div>
                 <div>
                     <h2>Inscrições de<br></br><span>19/06 à 04/08</span></h2>
+                    <a href='/inscricao' className='btnInscricao'>Inscrever-se</a>
                 </div>
             </div>
 
