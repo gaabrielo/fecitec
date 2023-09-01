@@ -1,27 +1,32 @@
 [
-    {
-        "descricao": "Início",
-        "link": "/"
-    },
-    {
-        "descricao": "Manual",
-        "link": "/manual "
-    },
-    {
-        "descricao": "Inscrição",
-        "link": "/inscricao"
-    },
-    {
-        "descricao": "Fotos",
-        "link": "/galeria"
-    },
-    {
-        "descricao": "Anais",
-        "submenu": "{anais}",
-        "id": "anais"
-    },
-    {
-        "descricao": "Contato",
-        "link": "/contato"
-    }
+  {
+    "descricao": "Início",
+    "link": "/"
+  },
+  {
+    "descricao": "Manual",
+    "link": "/manual "
+  },
+  {
+    "descricao": "Inscrição",
+    "link": "/inscricao"
+  },
+
+  {
+    "descricao": "Fotos",
+    "link": "/galeria"
+  },
+  {
+    "descricao": "Anais",
+    "submenu": "{anais}",
+    "id": "anais"
+  },
+  {
+    "descricao": "Contato",
+    "link": "/contato"
+  },
+  {
+    "descricao": "Ensalamento 2023",
+    "link": "/ensalamento"
+  }
 ]

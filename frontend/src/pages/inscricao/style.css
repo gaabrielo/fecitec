@@ -1,29 +1,30 @@
 #inscricao {
-    padding: 10px;
-    align-items: center;
+  padding: 10px;
+  align-items: center;
 }
 
-#inscricao, .formulario > div {
-    display: flex;
-    flex-direction: column;
-    margin: 15px 0;
+#inscricao,
+.formulario > div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
 }
 
 #inscricao .formulario {
-    width: 100%;
-    max-width: 1000px;
-    margin: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px;
 }
 
 #inscricao .formulario h2 {
-    margin: 0;
+  margin: 0;
 }
 
 #inscricao .formulario p {
-    margin: 0;
+  margin: 0;
 }
 
 #inscricao .formularioProfessor a {
-    text-decoration: none;
-    color: #c6701b;
+  text-decoration: none;
+  color: #c6701b;
 }
