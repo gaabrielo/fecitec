@@ -4,7 +4,7 @@ import Chip from '@mui/material/Chip';
 
 import './style.css';
 
-import cartaz from '../../assets/imagens/cartaz/2023.svg';
+import cartaz from '../../assets/imagens/cartaz/2024.svg';
 
 import imgBiologia from '../../assets/imagens/areas/dna.svg';
 import imgFisica from '../../assets/imagens/areas/physics.svg';
@@ -38,16 +38,13 @@ function Inicio() {
         </div>
         <div>
           <h2>
-            Inscrições<br></br>
-            <span>encerradas</span>
+            Mais informações<br></br>
+            <span>em breve</span>
           </h2>
-          <a href="/aprovados" className="btnInscricao">
-            Conferir projetos aprovados
-          </a>
         </div>
       </div>
 
-      <div id="manual">
+      {/* <div id="manual">
         <Titulo texto="Ensalamento" descricao="Edição 2023" />
 
         <div className="documento">
@@ -60,7 +57,7 @@ function Inicio() {
           </object>
         </div>
 
-        <a href={config.manual} download="FECITEC-ORIENTACOES">
+        <a href={config.ensalamento} download="FECITEC-ENSALAMENTO">
           <Button
             variant="contained"
             color="success"
@@ -70,7 +67,7 @@ function Inicio() {
             Baixar documento
           </Button>
         </a>
-      </div>
+      </div> */}
 
       <div className="apresentacao">
         <div className="conteudo">
@@ -109,7 +106,7 @@ function Inicio() {
           <Divider>
             <Chip
               label="Conteúdos da feira"
-              sx={{ fontSize: '1.2rem', padding: '25px 25px' }}
+              sx={{ fontSize: '1.2rem', padding: '32px 32px' }}
             />
           </Divider>
         </div>

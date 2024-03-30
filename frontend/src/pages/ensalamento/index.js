@@ -21,7 +21,7 @@ function Ensalamento() {
         </object>
       </div>
 
-      <a href={config.manual} download="FECITEC-ORIENTACOES">
+      <a href={config.ensalamento} download="FECITEC-ENSALAMENTO">
         <Button
           variant="contained"
           color="success"
