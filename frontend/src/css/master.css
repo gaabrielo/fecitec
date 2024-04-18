@@ -1,43 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-html, body, #App {
-    margin: 0;
-    font-family: 'Nunito', sans-serif;
+html,
+body,
+#App {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 .btnBranco {
-    color: #fff;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    cursor: pointer;
-    transition: 0.5s all;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: 0.5s all;
 }
 
 .btnBranco:hover {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 .btnInscricao {
-    color: #ffffff;
-    padding: 10px 20px;
-    background-color: #5cac25;
-    cursor: pointer;
-    transition: 0.5s all;
-    border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #5cac25;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 5px;
 }
 
 .btnInscricao:hover {
-    background-color: #346514;
-    color: #fff;
+  background-color: #346514;
+  color: #fff;
 }
 
 .linha {
-    background-color: #00000010;
-    height: 1px;
-    width: 100%;
+  background-color: #00000010;
+  height: 1px;
+  width: 100%;
 }

@@ -14,6 +14,7 @@ import imgEmpreendedorismo from '../../assets/imagens/areas/target.svg';
 import imgCienciasHumanas from '../../assets/imagens/areas/think.svg';
 import imgInovacao from '../../assets/imagens/areas/rocket.png';
 import imgSustentabilidade from '../../assets/imagens/areas/sustentabilidade.png';
+import imgFoodSafety from '../../assets/imagens/areas/food-safety.svg';
 
 import Cronograma from './cronograma';
 
@@ -22,10 +23,14 @@ import Titulo from '../../components/titulo';
 import { Button } from '@mui/material';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
+import { ArrowRight, ArrowRightAlt } from '@mui/icons-material';
+
 const Conteudo = ({ imagem, descricao }) => (
   <div className="materiasItem">
     <img src={imagem} alt={descricao} />
-    <p>{descricao}</p>
+    {!!descricao && (
+      <p className="max-sm:text-sm text-center pt-2">{descricao}</p>
+    )}
   </div>
 );
 
@@ -33,14 +38,67 @@ function Inicio() {
   return (
     <div id="inicio">
       <div className="descricao">
-        <div>
-          <img src="imagens/fecitec/mascote.png" alt="Fecitequinha" />
+        <div className="relative w-full xl:max-w-[40%] sm:max-w-[70%] max-w-[100%] flex max-sm:flex-col items-center justify-center md:gap-[8%] sm:gap-[10%]">
+          <img
+            src="imagens/fecitec/mascote.png"
+            alt="Fecitequinha"
+            className="z-10 w-full md:max-w-[30%] max-w-[25%]"
+          />
+
+          <div className="flex flex-col sm:gap-7 gap-2 mb-2 z-10">
+            <h2 className="text-3xl font-normal text-gray-50 max-md:text-base">
+              Inscrições de<br></br>
+              <strong>16/07 a 16/08</strong>
+            </h2>
+
+            <button
+              onClick={() => {
+                window.location.href = '/manual';
+              }}
+              className="w-full rounded-full bg-gray-50 text-slate-700 hover:text-slate-950 py-2 px-4 flex items-center gap-4 cursor-pointer transition-all"
+            >
+              Acessar manual <ArrowRightAlt />
+            </button>
+          </div>
+
+          <img
+            src="/imagens/fecitec/fundo.svg"
+            alt="Fecitec fundo"
+            className="w-full h-auto absolute sm:top-1/2 left-0 right-0 z-0 bottom-0 sm:-translate-y-1/2 max-sm:hidden"
+          />
+
+          <img
+            src="/imagens/fecitec/fundo2.svg"
+            alt="Fecitec fundo"
+            className="w-full h-auto absolute sm:hidden left-0 right-0 z-0 bottom-0"
+          />
         </div>
-        <div>
-          <h2>
-            Mais informações<br></br>
-            <span>em breve</span>
-          </h2>
+      </div>
+
+      <div className="novoConteudo">
+        <section className="novaTematica">
+          <Conteudo
+            // descricao="Alimentos e segurança alimentar"
+            imagem={imgFoodSafety}
+          />
+
+          <div className="novaTematicaTexto">
+            <h3>Nova linha temática:</h3>
+            <h1 className="font-bold">Alimentos e segurança alimentar</h1>
+          </div>
+        </section>
+
+        <div className="apoio">
+          <div className="borda"></div>
+
+          <section>
+            <span>Apoio:</span>
+            <img
+              src="/imagens/patrocinadores/brafp2.svg"
+              alt="BRAFP"
+              className="novoPatrocinadorImg"
+            />
+          </section>
         </div>
       </div>
 
@@ -106,19 +164,35 @@ function Inicio() {
           <Divider>
             <Chip
               label="Conteúdos da feira"
-              sx={{ fontSize: '1.2rem', padding: '32px 32px' }}
+              sx={{
+                fontSize: '1rem',
+                padding: 4,
+                borderRadius: '9999px',
+                backgroundColor: '#09090b',
+                color: 'white',
+              }}
             />
           </Divider>
         </div>
-        <div className="lista">
+        <div
+          // className="lista"
+          className="grid-container"
+        >
           <Conteudo descricao="Biologia" imagem={imgBiologia} />
           <Conteudo descricao="Física" imagem={imgFisica} />
           <Conteudo descricao="Química" imagem={imgQuimica} />
           <Conteudo descricao="Matemática" imagem={imgMatematica} />
-          <Conteudo descricao="Empreendedorismo" imagem={imgEmpreendedorismo} />
+          <Conteudo
+            descricao="Empreendendorismo"
+            imagem={imgEmpreendedorismo}
+          />
           <Conteudo descricao="Ciências humanas" imagem={imgCienciasHumanas} />
           <Conteudo descricao="Inovação" imagem={imgInovacao} />
           <Conteudo descricao="Sustentabilidade" imagem={imgSustentabilidade} />
+          <Conteudo
+            descricao="Alimentos e segurança alimentar"
+            imagem={imgFoodSafety}
+          />
         </div>
       </div>
     </div>
