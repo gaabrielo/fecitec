@@ -47,8 +47,8 @@ function Inicio() {
 
           <div className="flex flex-col sm:gap-7 gap-2 mb-2 z-10">
             <h2 className="text-3xl font-normal text-gray-50 max-md:text-base">
-              Inscrições de<br></br>
-              <strong>16/07 a 16/08</strong>
+              Inscrições<br></br>
+              <strong>encerradas</strong>
             </h2>
 
             <button
