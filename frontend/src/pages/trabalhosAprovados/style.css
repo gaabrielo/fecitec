@@ -1,128 +1,142 @@
 #trabalhosAprovados {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafafa;
 }
 
 #trabalhosAprovados .conteudo {
-    margin: 25px;
-    max-width: 1200px;
-    width: 100%;
+  margin: 25px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#trabalhosAprovados .documento {
+  margin: 25px;
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+}
+
+#trabalhosAprovados object {
+  width: 100%;
+  height: 100%;
 }
 
 #trabalhosAprovados .trabalhosBotoes {
-    display: flex;
-    padding: 0 20px;
-    margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 #trabalhosAprovados .projetos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 #trabalhosAprovados .projetosAccordion {
-    box-shadow: none;
-    border: 1px solid #00000020;
-    border-radius: 5px;
-    margin: 5px 15px;
+  box-shadow: none;
+  border: 1px solid #00000020;
+  border-radius: 5px;
+  margin: 5px 15px;
 }
 
-#trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
-    padding: 10px;
-    border: 1px solid #00000020;
-    margin: 5px;
-    border-radius: 5px;
-    max-width: 45%;
-    width: 100%;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+#trabalhosAprovados .projeto,
+#trabalhosAprovados .ensalamento {
+  padding: 10px;
+  border: 1px solid #00000020;
+  margin: 5px;
+  border-radius: 5px;
+  max-width: 45%;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 #trabalhosAprovados .projeto .projetoDescricao {
-    background-color: #eeeeee;
-    border-radius: 5px;
-    flex-grow:1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 5px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 #trabalhosAprovados .projeto .projetoVideo {
-    width: 100%;
+  width: 100%;
 }
 
 #trabalhosAprovados .projetoYoutube svg {
-    position: absolute;
+  position: absolute;
 }
 
 #trabalhosAprovados .projeto .projetoVideo img {
-    width: 100%;
-    border-radius: 5px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 #trabalhosAprovados .projeto .projetoVideo:hover {
-    /* filter: grayscale(1); */
+  /* filter: grayscale(1); */
 }
 
 #trabalhosAprovados .projeto p {
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 10px;
-    font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 #trabalhosAprovados .projeto span {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 #trabalhosAprovados .ensalamento {
-    padding: 0;
-    justify-content: flex-start;
+  padding: 0;
+  justify-content: flex-start;
 }
 
 #trabalhosAprovados .ensalamento p {
-    font-weight: bold;
-    margin: 0;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #00000020;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #00000020;
 }
 
 #trabalhosAprovados .ensalamento ul {
-    margin: 0;
-    padding: 10px;
-    list-style: none;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
 }
 
 #trabalhosAprovados .ensalamento li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 #trabalhosAprovados .orientacoes {
-    background: #fff1e6;
-    color: #f35900;
-    border: 2px solid #f35900;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    white-space: pre-line;
+  background: #fff1e6;
+  color: #f35900;
+  border: 2px solid #f35900;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  white-space: pre-line;
 }
 
 @media (max-width: 700px) {
-    #trabalhosAprovados .projeto, #trabalhosAprovados .ensalamento {
-        max-width: 100%;
-    }
+  #trabalhosAprovados .projeto,
+  #trabalhosAprovados .ensalamento {
+    max-width: 100%;
+  }
 }

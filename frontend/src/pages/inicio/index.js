@@ -16,8 +16,6 @@ import imgInovacao from '../../assets/imagens/areas/rocket.png';
 import imgSustentabilidade from '../../assets/imagens/areas/sustentabilidade.png';
 import imgFoodSafety from '../../assets/imagens/areas/food-safety.svg';
 
-import Cronograma from './cronograma';
-
 import config from '../../json/config.json';
 import Titulo from '../../components/titulo';
 import { Button } from '@mui/material';
@@ -45,21 +43,24 @@ function Inicio() {
             className="z-10 w-full md:max-w-[30%] max-w-[25%]"
           />
 
-          <div className="flex flex-col sm:gap-7 gap-2 mb-2 z-10">
+          {/* <div className="flex flex-col sm:gap-7 gap-1 mb-2 z-10">
             <h2 className="text-3xl font-normal text-gray-50 max-md:text-base">
-              Inscrições<br></br>
-              <strong>encerradas</strong>
+              Local dos
+              <br></br>
+              <strong>projetos</strong>
             </h2>
 
-            <button
-              onClick={() => {
-                window.location.href = '/manual';
-              }}
-              className="w-full rounded-full bg-gray-50 text-slate-700 hover:text-slate-950 py-2 px-4 flex items-center gap-4 cursor-pointer transition-all"
-            >
-              Acessar manual <ArrowRightAlt />
-            </button>
-          </div>
+            <div className="flex flex-col gap-3">
+              <button
+                onClick={() => {
+                  window.location.href = '/ensalamento';
+                }}
+                className="w-full rounded-full bg-gray-50 text-slate-700 hover:text-slate-950 py-2 px-4 flex items-center justify-center gap-4 cursor-pointer transition-all"
+              >
+                Ver ensalamento <ArrowRightAlt />
+              </button>
+            </div>
+          </div> */}
 
           <img
             src="/imagens/fecitec/fundo.svg"
