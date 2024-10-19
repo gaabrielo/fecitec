@@ -43,14 +43,12 @@ function Inicio() {
             className="z-10 w-full md:max-w-[30%] max-w-[25%]"
           />
 
-          {/* <div className="flex flex-col sm:gap-7 gap-1 mb-2 z-10">
-            <h2 className="text-3xl font-normal text-gray-50 max-md:text-base">
-              Local dos
-              <br></br>
-              <strong>projetos</strong>
+          <div className="flex flex-col sm:gap-7 gap-1 mb-2 z-10">
+            <h2 className="text-2xl max-w-40 font-normal text-gray-50 max-md:text-base">
+              Mais informações sobre a 15ª FECITEC (edição 2025): aguarde!
             </h2>
 
-            <div className="flex flex-col gap-3">
+            {/* <div className="flex flex-col gap-3">
               <button
                 onClick={() => {
                   window.location.href = '/ensalamento';
@@ -59,8 +57,8 @@ function Inicio() {
               >
                 Ver ensalamento <ArrowRightAlt />
               </button>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
 
           <img
             src="/imagens/fecitec/fundo.svg"

@@ -1,60 +1,50 @@
 [
   {
-    "nome": "Acipa",
-    "imagem": "/imagens/patrocinadores/acipa.png"
-  },
-  {
-    "nome": "Biopark",
-    "imagem": "/imagens/patrocinadores/biopark.jpg"
-  },
-  {
     "nome": "CNPq",
     "imagem": "/imagens/patrocinadores/cnpq.jpg"
   },
   {
-    "nome": "UFPR Palotina",
-    "imagem": "/imagens/patrocinadores/ufprpalotina.png"
+    "nome": "Ministério da Ciência, Tecnologia e Inovação",
+    "imagem": "/imagens/patrocinadores/mcti.png"
   },
+  { "nome": "SEMEC", "imagem": "/imagens/patrocinadores/semec.png" },
   {
-    "nome": "Abric",
-    "imagem": "/imagens/patrocinadores/abric.png"
-  },
-  {
-    "nome": "UFPR",
-    "imagem": "/imagens/patrocinadores/ufpr.jpg"
+    "nome": "Itaipu Parquetec",
+    "imagem": "/imagens/patrocinadores/itaipu_parquetec.png"
   },
   {
     "nome": "CVale",
-    "imagem": "/imagens/patrocinadores/cvale.jpg"
+    "imagem": "/imagens/patrocinadores/cvale.png"
+  },
+  {
+    "nome": "BRAFP",
+    "imagem": "/imagens/patrocinadores/brafp.svg"
+  },
+  {
+    "nome": "PREVEC",
+    "imagem": "/imagens/patrocinadores/prevec.jpg"
   },
   {
     "nome": "PROEC",
     "imagem": "/imagens/patrocinadores/proec.png"
   },
   {
-    "nome": "Sicredi",
-    "imagem": "/imagens/patrocinadores/sicredi.png"
+    "nome": "NAPI",
+    "imagem": "/imagens/patrocinadores/napi.png"
   },
   {
-    "nome": "Aderfa",
-    "imagem": "/imagens/patrocinadores/ardefa.png"
+    "nome": "Fundação Araucaria",
+    "imagem": "/imagens/patrocinadores/fundacao_araucaria.png"
   },
   {
-    "nome": "Cora Carolina",
-    "imagem": "/imagens/patrocinadores/coracarolina.jpg"
+    "nome": "Palotina",
+    "imagem": "/imagens/patrocinadores/prefeitura.png"
   },
   {
-    "nome": "Imprevale",
-    "imagem": "/imagens/patrocinadores/imprevale.jpg"
+    "nome": "Receita Federal",
+    "imagem": "/imagens/patrocinadores/receita_federal.png"
   },
-  {
-    "nome": "Inviolável",
-    "imagem": "/imagens/patrocinadores/inviolavel.jpg"
-  },
-  {
-    "nome": "Pibid",
-    "imagem": "/imagens/patrocinadores/pibid.jpeg"
-  },
+
   {
     "nome": "Plantas Medicinais",
     "imagem": "/imagens/patrocinadores/plantasmedicinais.png"
@@ -64,23 +54,15 @@
     "imagem": "/imagens/patrocinadores/rocketgirls.jpg"
   },
   {
-    "nome": "SEMEC",
-    "imagem": "/imagens/patrocinadores/semec.jpg"
+    "nome": "Integra",
+    "imagem": "/imagens/patrocinadores/integra.jpg"
   },
   {
-    "nome": "Terra",
-    "imagem": "/imagens/patrocinadores/terra.png"
+    "nome": "UFPR Palotina",
+    "imagem": "/imagens/patrocinadores/ufprpalotina.png"
   },
   {
-    "nome": "Trevisan",
-    "imagem": "/imagens/patrocinadores/trevisan.png"
-  },
-  {
-    "nome": "Palotina",
-    "imagem": "/imagens/patrocinadores/prefeitura.png"
-  },
-  {
-    "nome": "BRAFP",
-    "imagem": "/imagens/patrocinadores/brafp.svg"
+    "nome": "UFPR",
+    "imagem": "/imagens/patrocinadores/ufpr.jpg"
   }
 ]
